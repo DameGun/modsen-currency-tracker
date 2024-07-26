@@ -1,0 +1,46 @@
+$font-size-3xs: 16px;
+$font-size-2xs: 18px;
+$font-size-xs: 20px;
+$font-size-m: 24px;
+$font-size-2m: 25px;
+$font-size-3m: 26px;
+$font-size-4m: 28px;
+$font-size-lg: 30px;
+$font-size-2lg: 32px;
+$font-size-3lg: 33px;
+$font-size-4lg: 35px;
+$font-size-5lg: 38px;
+$font-size-xl: 90px;
+
+$font-weight-light: 300;
+$font-weight-regular: 400;
+$font-weight-semibold: 600;
+
+$font-family-primary-light: 'Poppins-Light';
+$font-family-primary-regular: 'Poppins-Regular';
+$font-family-primary-semibold: 'Poppins-SemiBold';
+$font-family-secondary-regular: 'Inter-Regular';
+
+@font-face {
+  font-family: $font-family-primary-light;
+  font-weight: $font-weight-light;
+  src: url('@/assets/fonts/Poppins-Light.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: $font-family-primary-regular;
+  font-weight: $font-weight-regular;
+  src: url('@/assets/fonts/Poppins-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: $font-family-primary-semibold;
+  font-weight: $font-weight-semibold;
+  src: url('@/assets/fonts/Poppins-SemiBold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: $font-family-secondary-regular;
+  font-weight: $font-weight-regular;
+  src: url('@/assets/fonts/Inter-Regular.ttf') format('truetype');
+}
