@@ -1,0 +1,30 @@
+$colors-dark: (
+  background-color: #030304,
+  primary-color: #ffffff,
+  color-gray-100: #d9d9d9,
+  color-gray-200: #a7b2c3,
+  color-gray-300: #898989,
+  color-gray-400: #474747,
+  color-gray-500: #202025,
+  color-gray-600: #1b2028,
+);
+
+$colors-light: (
+  background-color: #f3f3f3,
+  primary-color: #030304,
+  color-gray-100: #5e5e5e,
+  color-gray-200: #6f757e,
+  color-gray-300: #898989,
+  color-gray-400: #aa9a9a,
+  color-gray-500: #ffffff,
+  color-gray-600: #d1d1d1,
+);
+
+$colors-common: (
+  color-green: #00bc4f,
+  color-green-gradient: (
+    #00ce2c,
+    #aedf23,
+    #a3dc00,
+  ),
+);

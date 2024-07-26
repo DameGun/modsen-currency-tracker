@@ -1,0 +1,29 @@
+@use '../abstracts/colors' as *;
+@use 'sass:map';
+
+html[data-theme='dark'] {
+  --background-color: #{map.get($colors-dark, background-color)};
+
+  --color-gray-100: #{map.get($colors-dark, color-gray-100)};
+  --color-gray-200: #{map.get($colors-dark, color-gray-200)};
+  --color-gray-300: #{map.get($colors-dark, color-gray-300)};
+  --color-gray-400: #{map.get($colors-dark, color-gray-400)};
+  --color-gray-500: #{map.get($colors-dark, color-gray-500)};
+  --color-gray-500: #{map.get($colors-dark, color-gray-600)};
+}
+
+html[data-theme='light'] {
+  --background-color: #{map.get($colors-light, background-color)};
+
+  --color-gray-100: #{map.get($colors-light, color-gray-100)};
+  --color-gray-200: #{map.get($colors-light, color-gray-200)};
+  --color-gray-300: #{map.get($colors-light, color-gray-300)};
+  --color-gray-400: #{map.get($colors-light, color-gray-400)};
+  --color-gray-500: #{map.get($colors-light, color-gray-500)};
+  --color-gray-500: #{map.get($colors-light, color-gray-600)};
+}
+
+html {
+  --color-green-gradient: #{map.get($colors-common, color-green-gradient)};
+  --color-green: #{map.get($colors-common, color-green)};
+}
