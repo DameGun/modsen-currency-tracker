@@ -1,4 +1,5 @@
 import MiniCssExtractPlugin from 'mini-css-extract-plugin';
+import TerserPlugin from 'terser-webpack-plugin';
 import { merge } from 'webpack-merge';
 import commonConfig from './webpack.common.js';
 
@@ -14,4 +15,18 @@ export default merge(commonConfig, {
     ],
   },
   plugins: [new MiniCssExtractPlugin()],
+  optimization: {
+    minimize: true,
+    minimizer: [new TerserPlugin()],
+    runtimeChunk: 'single',
+    splitChunks: {
+      cacheGroups: {
+        vendor: {
+          test: /[\\/]node_modules[\\/]/,
+          name: 'vendors',
+          chunks: 'all',
+        },
+      },
+    },
+  },
 });
