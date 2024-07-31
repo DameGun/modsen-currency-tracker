@@ -1,10 +1,20 @@
+$mobile-trigger: 600px;
+$tablet-trigger: 900px;
+
 $container-main-width: 1456px;
 $container-inner-width: 105px;
-$continaer-inner-mobile-width: 28px;
+$container-inner-padding: 0 28px 0 28px;
 
 $border-radius-sm: 6px;
 $border-radius-md: 8px;
 $border-radius-lg: 10px;
+$border-radius-xl: 28px;
+
+$size-xl: 8px;
+$size-sm: 16px;
+$size-md: 20px;
+$size-lg: 30px;
+$size-xl: 40px;
 
 $spacing-xs: 23px;
 $spacing-sm: 30px;
@@ -29,3 +39,9 @@ $padding-xl-mobile: 28px;
 $margin-xs: 21px;
 $margin-sm: 25px;
 $margin-md: 56px;
+
+$z-index-xs: 10;
+$z-index-sm: 50;
+$z-index-md: 100;
+$z-index-lg: 200;
+$z-index-xl: 500;

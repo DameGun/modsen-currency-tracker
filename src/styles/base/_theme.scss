@@ -2,25 +2,33 @@
 @use 'sass:map';
 
 html[data-theme='dark'] {
+  --color-scheme: 'dark';
+
   --background-color: #{map.get($colors-dark, background-color)};
+
+  --primary-color: #{map.get($colors-dark, primary-color)};
 
   --color-gray-100: #{map.get($colors-dark, color-gray-100)};
   --color-gray-200: #{map.get($colors-dark, color-gray-200)};
   --color-gray-300: #{map.get($colors-dark, color-gray-300)};
   --color-gray-400: #{map.get($colors-dark, color-gray-400)};
   --color-gray-500: #{map.get($colors-dark, color-gray-500)};
-  --color-gray-500: #{map.get($colors-dark, color-gray-600)};
+  --color-gray-600: #{map.get($colors-dark, color-gray-600)};
 }
 
 html[data-theme='light'] {
+  --color-scheme: 'light';
+
   --background-color: #{map.get($colors-light, background-color)};
+
+  --primary-color: #{map.get($colors-light, primary-color)};
 
   --color-gray-100: #{map.get($colors-light, color-gray-100)};
   --color-gray-200: #{map.get($colors-light, color-gray-200)};
   --color-gray-300: #{map.get($colors-light, color-gray-300)};
   --color-gray-400: #{map.get($colors-light, color-gray-400)};
   --color-gray-500: #{map.get($colors-light, color-gray-500)};
-  --color-gray-500: #{map.get($colors-light, color-gray-600)};
+  --color-gray-600: #{map.get($colors-light, color-gray-600)};
 }
 
 html {

@@ -1,6 +1,19 @@
 @use './abstracts/typography' as *;
 @use './base/theme' as *;
+@use './abstracts/variables' as *;
+@use './abstracts/mixins' as *;
 
 :root {
   background-color: var(--background-color);
+}
+
+body {
+  margin: auto;
+  font-family: $font-family-primary-regular;
+  max-width: $container-main-width;
+  padding: $container-inner-padding;
+}
+
+a {
+  text-decoration: none;
 }
