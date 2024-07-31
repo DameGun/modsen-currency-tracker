@@ -1,0 +1,6 @@
+@use './abstracts/typography' as *;
+@use './base/theme' as *;
+
+:root {
+  background-color: var(--background-color);
+}
