@@ -9,6 +9,8 @@
 
   padding: $padding-lg $padding-2md $padding-lg $padding-2md;
 
+  margin-bottom: $spacing-md;
+
   &__logo {
     flex: 1;
     height: 300px;
@@ -33,7 +35,6 @@
 
     &__title {
       font-size: $font-size-xl;
-      margin: 0;
       @extend %green-gradient-text;
 
       @include tablet-mobile-breakpoint {

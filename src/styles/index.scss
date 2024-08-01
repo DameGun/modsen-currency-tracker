@@ -3,6 +3,11 @@
 @use './abstracts/variables' as *;
 @use './abstracts/mixins' as *;
 
+* {
+  margin: 0;
+  padding: 0;
+}
+
 :root {
   position: relative;
   background-color: var(--background-color);
