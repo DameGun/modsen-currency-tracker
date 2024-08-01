@@ -1,6 +1,7 @@
 %backdrop {
   -webkit-backdrop-filter: blur(4px);
   backdrop-filter: blur(4px);
+  background-color: var(--color-black-alpha);
 }
 
 %green-gradient-text {

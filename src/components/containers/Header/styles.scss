@@ -89,7 +89,13 @@ header {
       }
 
       @include tablet-mobile-breakpoint {
-        font-size: $font-size-3xs;
+        font-size: $font-size-2xs;
+      }
+
+      @include mobile-breakpoint {
+        background-color: var(--background-color);
+        padding: $padding-xs-mobile;
+        border-radius: $border-radius-md;
       }
     }
   }
