@@ -1,0 +1,54 @@
+@use '@/styles/abstracts/mixins' as *;
+@use '@/styles/abstracts/variables' as *;
+@use '@/styles/abstracts/typography' as *;
+@use '@/styles/abstracts/extends' as *;
+
+.banner {
+  @include flex-with-options(row, center, null, center);
+  background: linear-gradient(15deg, black -5%, var(--color-green), black 150%);
+
+  padding: $padding-lg $padding-2md $padding-lg $padding-2md;
+
+  &__logo {
+    flex: 1;
+    height: 300px;
+    width: 300px;
+
+    @include tablet-mobile-breakpoint {
+      display: none;
+    }
+  }
+
+  &__info {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    text-align: end;
+    flex: 2;
+
+    @include tablet-mobile-breakpoint {
+      align-items: center;
+      text-align: center;
+    }
+
+    &__title {
+      font-size: $font-size-xl;
+      margin: 0;
+      @extend %green-gradient-text;
+
+      @include tablet-mobile-breakpoint {
+        font-size: $font-size-5lg;
+      }
+    }
+
+    &__quote {
+      font-size: $font-size-2m;
+      color: var(--color-gray-100);
+      max-width: 500px;
+
+      @include tablet-mobile-breakpoint {
+        font-size: $font-size-2xs;
+      }
+    }
+  }
+}

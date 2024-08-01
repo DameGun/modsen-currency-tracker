@@ -1,0 +1,26 @@
+@use '@/styles/abstracts/mixins' as *;
+@use '@/styles/abstracts/extends' as *;
+
+.arrow-down {
+  fill: var(--primary-color);
+  display: none;
+
+  @include tablet-mobile-breakpoint {
+    display: inline-block;
+  }
+
+  &.rotate {
+    transform: rotate(180deg);
+  }
+}
+
+.collapsed {
+  @include tablet-mobile-breakpoint {
+    display: none;
+    overflow: hidden;
+  }
+}
+
+.collapsible {
+  align-items: center;
+}
