@@ -17,6 +17,8 @@ export default function ThemeProvider({ children }: ThemeProviderProps) {
       if (currThemeAttrValue !== mode) {
         document.documentElement.setAttribute('data-theme', mode);
       }
+    } else {
+      document.documentElement.setAttribute('data-theme', mode);
     }
   }, [mode]);
 
