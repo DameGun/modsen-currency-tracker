@@ -1,4 +1,4 @@
-import Dropdown from '../Dropdown';
+import Collapsible from '../Collapsible';
 
 import './styles.scss';
 import LogoIcon from '@/assets/icons/logo.svg';
@@ -19,7 +19,7 @@ export default function Footer() {
           </p>
         </div>
         <div className='footer-container__nav'>
-          <Dropdown
+          <Collapsible
             className='footer-container__nav__section'
             headerClassName='footer-container__nav__section__header'
             listClassName='footer-container__nav__section__list'
@@ -27,8 +27,8 @@ export default function Footer() {
           >
             <li>Market</li>
             <li>Service</li>
-          </Dropdown>
-          <Dropdown
+          </Collapsible>
+          <Collapsible
             className='footer-container__nav__section'
             headerClassName='footer-container__nav__section__header'
             listClassName='footer-container__nav__section__list'
@@ -36,8 +36,8 @@ export default function Footer() {
           >
             <li>Sparks</li>
             <li>Snaps</li>
-          </Dropdown>
-          <Dropdown
+          </Collapsible>
+          <Collapsible
             className='footer-container__nav__section'
             headerClassName='footer-container__nav__section__header'
             listClassName='footer-container__nav__section__list'
@@ -45,7 +45,7 @@ export default function Footer() {
           >
             <li>Ideas</li>
             <li>Streams</li>
-          </Dropdown>
+          </Collapsible>
         </div>
         <h4 className='footer-container__copyright'>Modsen © 2023-2024, All Rights Reserved</h4>
       </div>

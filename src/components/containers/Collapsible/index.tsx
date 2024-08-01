@@ -25,7 +25,7 @@ export default function Dropdown({
   }
 
   return (
-    <div className={className}>
+    <div className={`collapsible-container ${className}`}>
       <div className={`${headerClassName} collapsible`} onClick={handleCollapse}>
         <h2>{title}</h2>
         <ArrowDown className={`arrow-down ${!isCollapsed ? 'rotate' : ''}`} />

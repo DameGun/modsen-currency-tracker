@@ -1,3 +1,10 @@
+import CurrencyCardList from '@/components/containers/CurrencyCardList';
+
 export default function HomePage() {
-  return <h1>Home Page</h1>;
+  return (
+    <>
+      <CurrencyCardList label='Quotes' />
+      <CurrencyCardList label='Another' />
+    </>
+  );
 }
