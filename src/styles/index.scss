@@ -11,7 +11,7 @@
 :root {
   position: relative;
   background-color: var(--background-color);
-  min-height: 100%vh;
+  min-height: 100vh;
   margin: auto;
   max-width: $container-main-width;
   padding: $container-inner-padding;
@@ -24,6 +24,10 @@
 body {
   font-family: $font-family-primary-regular;
   color: var(--primary-color);
+}
+
+body:has(.prevent-overflow) {
+  overflow-y: hidden;
 }
 
 a {

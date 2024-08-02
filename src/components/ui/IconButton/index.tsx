@@ -1,4 +1,5 @@
 import { MouseEventHandler, ReactNode } from 'react';
+import cn from 'classnames';
 
 import './styles.scss';
 
@@ -10,7 +11,7 @@ interface IconButtonProps {
 
 export default function IconButton({ IconComponent, className, onClick }: IconButtonProps) {
   return (
-    <button className={`icon-button ${className ? className : ''}`} onClick={onClick}>
+    <button className={cn('icon-button', className)} onClick={onClick}>
       {IconComponent}
     </button>
   );

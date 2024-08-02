@@ -1,5 +1,5 @@
 import './styles.scss';
-import LogoIcon from '@/assets/icons/logo.svg';
+import { LogoIcon } from '@/assets/icons';
 
 export default function Banner() {
   return (
