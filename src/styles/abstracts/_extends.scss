@@ -1,0 +1,17 @@
+%backdrop {
+  -webkit-backdrop-filter: blur(4px);
+  backdrop-filter: blur(4px);
+  background-color: var(--color-black-alpha);
+}
+
+%green-gradient-text {
+  background: linear-gradient(var(--color-green-gradient));
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+%reset-button-styles {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}

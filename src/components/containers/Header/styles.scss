@@ -1,0 +1,102 @@
+@use '@/styles/abstracts/variables' as *;
+@use '@/styles/abstracts/typography' as *;
+@use '@/styles/abstracts/mixins' as *;
+@use '@/styles/abstracts/extends' as *;
+
+header {
+  @include flex-with-options(row, space-between, center);
+
+  margin-top: $margin-md;
+  margin-bottom: $margin-md;
+
+  @include tablet-mobile-breakpoint {
+    margin-top: $margin-xs;
+    margin-bottom: $margin-xs;
+  }
+
+  .logo-icon {
+    order: 0;
+    height: $size-xl;
+    z-index: $z-index-xs;
+
+    @include mobile-breakpoint {
+      height: $size-lg;
+      order: 2;
+    }
+  }
+
+  .navbar {
+    order: 1;
+
+    @include mobile-breakpoint {
+      top: 0px;
+      left: 0px;
+      position: fixed;
+    }
+
+    &.isMenu {
+      height: 100%;
+      width: 100%;
+      z-index: $z-index-sm;
+
+      @extend %backdrop;
+    }
+
+    &__links-list {
+      @include flex-with-options(row);
+
+      gap: $spacing-lg;
+
+      @include tablet-mobile-breakpoint {
+        gap: $spacing-xs;
+      }
+
+      @include mobile-breakpoint {
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        gap: $spacing-sm;
+        transform: translateY(100%);
+      }
+
+      &.isMenu {
+        display: flex;
+      }
+    }
+
+    &__burger-menu-button {
+      display: none;
+      z-index: $z-index-sm;
+      order: 3;
+
+      &__icon {
+        height: $size-lg;
+        fill: var(--primary-color);
+      }
+
+      @include mobile-breakpoint {
+        display: block;
+      }
+    }
+
+    &__link {
+      font-family: $font-family-primary-light;
+      color: var(--primary-color);
+      font-size: $font-size-xs;
+
+      &:hover {
+        color: var(--color-gray-100);
+      }
+
+      @include tablet-mobile-breakpoint {
+        font-size: $font-size-2xs;
+      }
+
+      @include mobile-breakpoint {
+        background-color: var(--background-color);
+        padding: $padding-xs-mobile;
+        border-radius: $border-radius-md;
+      }
+    }
+  }
+}

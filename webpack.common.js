@@ -13,6 +13,7 @@ export default {
     filename: '[name].[contenthash].js',
     path: path.resolve(__dirname, 'dist'),
     clean: true,
+    assetModuleFilename: 'assets/[name].[ext]',
   },
   plugins: [
     new HtmlWebpackPlugin({
@@ -37,12 +38,19 @@ export default {
       },
       {
         test: /\.(woff|woff2|eot|ttf|otf)$/,
-        type: 'asset/inline',
+        type: 'asset/resource',
+      },
+      {
+        test: /\.svg$/,
+        use: '@svgr/webpack',
       },
     ],
   },
   resolve: {
     extensions: ['.tsx', '.ts', '.jsx', '.js'],
     plugins: [new TsconfigPathsPlugin()],
+    alias: {
+      '@': path.resolve(__dirname, 'src'),
+    },
   },
 };

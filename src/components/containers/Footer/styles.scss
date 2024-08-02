@@ -1,0 +1,109 @@
+@use '@/styles/abstracts/variables' as *;
+@use '@/styles/abstracts/mixins' as *;
+@use '@/styles/abstracts/typography' as *;
+@use '@/styles/abstracts/extends' as *;
+
+.footer-container {
+  display: grid;
+  grid-template-columns: 30% 70%;
+  grid-template-rows: 80% 20%;
+
+  @include tablet-mobile-breakpoint {
+    grid-template-columns: 1fr;
+    grid-template-rows: 10% 80% 20%;
+  }
+
+  &__info {
+    @include flex-with-options(column);
+
+    @include tablet-mobile-breakpoint {
+      grid-row-start: 1;
+    }
+
+    &__logo {
+      height: $size-lg;
+      width: $size-lg;
+    }
+
+    &__header {
+      @include flex-with-options(row, null, center);
+      gap: $spacing-xs;
+
+      @extend %green-gradient-text;
+
+      font-size: $font-size-2m;
+      font-weight: $font-weight-semibold;
+      text-align: center;
+
+      @include tablet-mobile-breakpoint {
+        font-size: $font-size-xs;
+        justify-content: center;
+      }
+    }
+
+    & > p {
+      @include tablet-mobile-breakpoint {
+        display: none;
+      }
+    }
+  }
+
+  &__nav {
+    display: flex;
+    gap: $spacing-lg;
+    justify-self: center;
+
+    @include tablet-mobile-breakpoint {
+      grid-row: 2;
+      flex-direction: column;
+      align-self: center;
+      gap: 0;
+      width: 100%;
+    }
+
+    &__section {
+      &__list {
+        @include flex-with-options(column);
+        gap: $spacing-xs;
+
+        & > li {
+          color: var(--color-gray-300);
+          font-family: $font-family-secondary-regular;
+          font-size: $font-size-xs;
+        }
+      }
+
+      &__header {
+        @include flex-with-options(row, space-between);
+
+        @include tablet-mobile-breakpoint {
+          border-bottom: 1px solid var(--primary-color);
+        }
+
+        & > h2 {
+          font-family: $font-family-secondary-regular;
+          font-weight: $font-weight-regular;
+          font-size: $font-size-2m;
+
+          @include tablet-mobile-breakpoint {
+            font-size: $font-size-xs;
+          }
+        }
+      }
+    }
+  }
+
+  &__copyright {
+    grid-column: span 2;
+    justify-self: center;
+
+    font-family: $font-family-secondary-regular;
+    font-weight: $font-weight-regular;
+    color: var(--color-gray-300);
+
+    @include tablet-mobile-breakpoint {
+      grid-row: 3;
+      font-size: $font-size-3xs;
+    }
+  }
+}

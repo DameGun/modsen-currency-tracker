@@ -1,0 +1,47 @@
+@use '@/styles/abstracts/variables' as *;
+@use '@/styles/abstracts/mixins' as *;
+
+.theme-switch {
+  @include flex-with-options(null, null, center);
+  cursor: pointer;
+  z-index: $z-index-xs;
+  order: 2;
+
+  @include mobile-breakpoint {
+    order: 0;
+  }
+
+  &__button {
+    opacity: 0;
+    position: absolute;
+
+    &:checked + span {
+      &:before {
+        transform: translate(100%, -50%);
+      }
+    }
+  }
+
+  &__span {
+    position: relative;
+    width: 48px;
+    height: 24px;
+    border: 2px solid var(--primary-color);
+    border-radius: $border-radius-xl;
+    transition: all 0.5s;
+    padding: 2px;
+
+    &:before {
+      content: '';
+      position: absolute;
+      width: $size-md;
+      height: $size-md;
+      border-radius: $border-radius-xl;
+      top: 50%;
+
+      border: 2px solid var(--primary-color);
+      transform: translate(0, -50%);
+      transition: all 0.5s;
+    }
+  }
+}

@@ -14,7 +14,12 @@ export default merge(commonConfig, {
       },
     ],
   },
-  plugins: [new MiniCssExtractPlugin()],
+  plugins: [
+    new MiniCssExtractPlugin({
+      filename: '[name].css',
+      chunkFilename: '[id].css',
+    }),
+  ],
   optimization: {
     minimize: true,
     minimizer: [new TerserPlugin()],

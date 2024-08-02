@@ -1,0 +1,5 @@
+@use '@/styles/abstracts/extends' as *;
+
+.icon-button {
+  @extend %reset-button-styles;
+}

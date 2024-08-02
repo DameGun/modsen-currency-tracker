@@ -2,11 +2,6 @@ import { createBrowserRouter } from 'react-router-dom';
 
 import Layout from '@/components/common/Layout';
 import { ROUTES } from '@/constants/routes';
-import BanksMapPage from '@/pages/BanksMap';
-import ContactPage from '@/pages/Contact';
-import HomePage from '@/pages/Home';
-import NotFoundPage from '@/pages/NotFound';
-import TimelinePage from '@/pages/Timeline';
 
 export const router = createBrowserRouter([
   {
@@ -15,23 +10,23 @@ export const router = createBrowserRouter([
     children: [
       {
         index: true,
-        element: <HomePage />,
+        lazy: async () => ({ Component: (await import('@/pages/Home')).default }),
       },
       {
         path: ROUTES.timeline,
-        element: <TimelinePage />,
+        lazy: async () => ({ Component: (await import('@/pages/Timeline')).default }),
       },
       {
         path: ROUTES.banksMap,
-        element: <BanksMapPage />,
+        lazy: async () => ({ Component: (await import('@/pages/BanksMap')).default }),
       },
       {
         path: ROUTES.contact,
-        element: <ContactPage />,
+        lazy: async () => ({ Component: (await import('@/pages/Contact')).default }),
       },
       {
         path: ROUTES.notFound,
-        element: <NotFoundPage />,
+        lazy: async () => ({ Component: (await import('@/pages/NotFound')).default }),
       },
     ],
   },
