@@ -23,6 +23,11 @@
     padding: $padding-sm-mobile;
   }
 
+  &__icon {
+    height: 35px;
+    width: 35px;
+  }
+
   &__info {
     &__name,
     &__rate {

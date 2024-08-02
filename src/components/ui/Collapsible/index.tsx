@@ -11,7 +11,7 @@ interface DropdownProps {
   children: ReactNode;
 }
 
-export default function Dropdown({
+export default function Collapsible({
   className,
   headerClassName,
   listClassName,

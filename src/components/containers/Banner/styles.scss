@@ -44,7 +44,7 @@
 
     &__quote {
       font-size: $font-size-2m;
-      color: var(--color-gray-100);
+      color: var(--color-gray-200);
       max-width: 500px;
 
       @include tablet-mobile-breakpoint {

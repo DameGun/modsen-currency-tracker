@@ -34,5 +34,6 @@ html[data-theme='light'] {
 html {
   --color-green-gradient: #{map.get($colors-common, color-green-gradient)};
   --color-green: #{map.get($colors-common, color-green)};
+  --color-green-dark: #{map.get($colors-common, color-green-dark)};
   --color-black-alpha: #{map.get($colors-common, color-black-alpha)};
 }

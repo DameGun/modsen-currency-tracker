@@ -1,25 +1,23 @@
 import CurrencyCard from '../CurrencyCard';
 
 import './styles.scss';
+import { CurrencyData } from '@/types/currencies';
 
 interface CurrenctCardListProps {
   label: string;
+  items: CurrencyData[];
 }
 
-export default function CurrencyCardList({ label }: CurrenctCardListProps) {
+export default function CurrencyCardList({ label, items }: CurrenctCardListProps) {
   return (
     <div className='currency-card-list__container'>
       <div className='currency-card-list__label'>
         <h2>{label}</h2>
       </div>
       <div className='currency-card-list__items'>
-        <CurrencyCard key={1} />
-        <CurrencyCard key={2} />
-        <CurrencyCard key={3} />
-        <CurrencyCard key={4} />
-        <CurrencyCard key={5} />
-        <CurrencyCard key={6} />
-        <CurrencyCard key={7} />
+        {items.map((currency) => (
+          <CurrencyCard key={currency.code} {...currency} />
+        ))}
       </div>
     </div>
   );

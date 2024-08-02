@@ -1,4 +1,4 @@
-import Collapsible from '../Collapsible';
+import Collapsible from '../../ui/Collapsible';
 
 import './styles.scss';
 import LogoIcon from '@/assets/icons/logo.svg';

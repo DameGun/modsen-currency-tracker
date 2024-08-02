@@ -1,3 +1,4 @@
+import DotenvWebpackPlugin from 'dotenv-webpack';
 import HtmlWebpackPlugin from 'html-webpack-plugin';
 import path from 'path';
 import TsconfigPathsPlugin from 'tsconfig-paths-webpack-plugin';
@@ -20,6 +21,9 @@ export default {
       publicPath: '/',
       template: './public/index.html',
     }),
+    new DotenvWebpackPlugin({
+      systemvars: true,
+    }),
   ],
   module: {
     rules: [
@@ -31,6 +35,10 @@ export default {
       {
         test: /\.(s(a|c)ss)$/,
         use: ['style-loader', 'css-loader', 'sass-loader'],
+      },
+      {
+        test: /\.json$/,
+        type: 'asset/source',
       },
       {
         test: /\.(png|jpg|jpeg|gif)$/,
@@ -47,7 +55,7 @@ export default {
     ],
   },
   resolve: {
-    extensions: ['.tsx', '.ts', '.jsx', '.js'],
+    extensions: ['.tsx', '.ts', '.jsx', '.js', '.json'],
     plugins: [new TsconfigPathsPlugin()],
     alias: {
       '@': path.resolve(__dirname, 'src'),
