@@ -1,9 +1,9 @@
-import { createSlice, PayloadAction } from '@reduxjs/toolkit';
+import { createSelector, createSlice, PayloadAction } from '@reduxjs/toolkit';
 import { fetchCurrencies } from './thunks';
 
 import LocalStorageManager from '@/services/localStorageManager';
 import { RootState } from '@/store';
-import { CacheNames, CurrenciesCache } from '@/types/cache';
+import { CacheNames, CurrenciesCache, CurrenciesCacheFields } from '@/types/cache';
 import { CurrenciesState, ExchangeRatesResponse } from '@/types/currencies';
 import { mapCurrenciesResponse } from '@/utils/mappings';
 
@@ -59,6 +59,22 @@ const currenciesSlice = createSlice({
 export const { setCurrencies } = currenciesSlice.actions;
 
 export const selectCurrencies = (state: RootState) => state.currencies.data;
+export const selectCurrenciesCodes = createSelector(selectCurrencies, (currencies) => {
+  const res: { [key: string]: number } = {};
+
+  let key: keyof typeof CurrenciesCacheFields;
+
+  for (key in CurrenciesCacheFields) {
+    if (currencies[key].length > 0) {
+      currencies[key].map((curr) => {
+        res[curr.code] = curr.value;
+      });
+    }
+  }
+
+  return res;
+});
+
 export const selectLastUpdatedAt = (state: RootState) => state.currencies.data.lastUpdatedAt;
 
 export default currenciesSlice.reducer;

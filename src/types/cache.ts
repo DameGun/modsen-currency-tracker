@@ -9,13 +9,16 @@ enum CurrenciesCacheFields {
   crypto = 'crypto',
 }
 
+type CacheMeta = {
+  lastUpdatedAt?: string;
+};
+
 type CurrenciesCache = {
   [key in CurrenciesCacheFields]: CurrencyData[];
-} & {
-  lastUpdatedAt?: string;
-  isEmpty: boolean;
-};
+} & CacheMeta & {
+    isEmpty: boolean;
+  };
 
 export { CacheNames, CurrenciesCacheFields };
 
-export type { CurrenciesCache };
+export type { CacheMeta, CurrenciesCache };

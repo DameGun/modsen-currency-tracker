@@ -1,10 +1,11 @@
 import CurrencyCard from '../CurrencyCard';
 
 import './styles.scss';
+import { CurrenciesCacheFields } from '@/types/cache';
 import { CurrencyData } from '@/types/currencies';
 
 interface CurrenctCardListProps {
-  label: string;
+  label: CurrenciesCacheFields;
   items: CurrencyData[];
 }
 

@@ -2,7 +2,8 @@ import { ActionCreatorWithPayload, AsyncThunk } from '@reduxjs/toolkit';
 import { AsyncThunkConfig } from '@reduxjs/toolkit/dist/createAsyncThunk';
 
 import { AppDispatch } from '@/store';
-import { CacheNames } from '@/types/cache';
+import { CacheMeta, CacheNames } from '@/types/cache';
+import isOneDayPassed from '@/utils/isOneDayPassed';
 
 export interface LocalStorageManagerProps<TData, TResponse, Path extends string> {
   dispatch: AppDispatch;
@@ -14,7 +15,7 @@ interface ILocalStorageManager {
   retriveCache(cacheName: CacheNames): void;
 }
 
-export default class LocalStorageManager<TData, TResponse, Path extends string>
+export default class LocalStorageManager<TData extends CacheMeta, TResponse, Path extends string>
   implements ILocalStorageManager
 {
   constructor({
@@ -42,7 +43,15 @@ export default class LocalStorageManager<TData, TResponse, Path extends string>
       this.dispatch(this.fetchAction());
     } else {
       const mappedCache: TData = JSON.parse(cache);
-      this.dispatch(this.setStateAction(mappedCache));
+
+      if (
+        mappedCache.lastUpdatedAt &&
+        isOneDayPassed(new Date(), new Date(mappedCache.lastUpdatedAt))
+      ) {
+        this.dispatch(this.fetchAction());
+      } else {
+        this.dispatch(this.setStateAction(mappedCache));
+      }
     }
   }
 
