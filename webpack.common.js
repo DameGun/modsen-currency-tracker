@@ -20,6 +20,7 @@ export default {
     new HtmlWebpackPlugin({
       publicPath: '/',
       template: './public/index.html',
+      favicon: './src/assets/icons/logo.svg',
     }),
     new DotenvWebpackPlugin({
       systemvars: true,
