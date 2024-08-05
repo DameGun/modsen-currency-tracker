@@ -1,0 +1,35 @@
+@use '@/styles/abstracts/variables' as *;
+@use '@/styles/abstracts/typography' as *;
+@use '@/styles/abstracts/mixins' as *;
+
+.status {
+  @include flex-with-options(row, center, center);
+  gap: $spacing-xs;
+  margin-bottom: $spacing-md;
+
+  &__text {
+    font-family: $font-family-primary-light;
+    font-weight: 300;
+    font-size: $font-size-2lg;
+
+    @include tablet-mobile-breakpoint {
+      font-size: $font-size-3xs;
+    }
+  }
+
+  &__badge {
+    width: $size-md;
+    height: $size-md;
+    background-color: var(--color-green);
+    border-radius: 50%;
+    border-width: $border-radius-lg;
+    border-color: var(--color-green-dark);
+    border-style: solid;
+
+    @include tablet-mobile-breakpoint {
+      width: $size-sm;
+      height: $size-sm;
+      border-width: $border-radius-md;
+    }
+  }
+}

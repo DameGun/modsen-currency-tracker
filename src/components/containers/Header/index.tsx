@@ -1,10 +1,9 @@
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
+import cn from 'classnames';
 
 import './styles.scss';
-import CloseIcon from '@/assets/icons/close-icon.svg';
-import BurgerMenuIcon from '@/assets/icons/hamburger-menu.svg';
-import LogoIcon from '@/assets/icons/logo.svg';
+import { BurgerMenuIcon, CloseIcon, LogoIcon } from '@/assets/icons';
 import IconButton from '@/components/ui/IconButton';
 import ThemeSwitch from '@/components/ui/ThemeSwitch';
 import { ROUTES } from '@/constants/routes';
@@ -23,8 +22,8 @@ export default function Header() {
   return (
     <header>
       <LogoIcon className='logo-icon' />
-      <nav className={`navbar ${isOpen ? 'isMenu' : ''}`}>
-        <ul className={`navbar__links-list ${isOpen ? 'isMenu' : ''}`}>
+      <nav className={cn('navbar', { isMenu: isOpen }, { 'prevent-overflow': isOpen })}>
+        <ul className={cn('navbar__links-list', { isMenu: isOpen })}>
           <li>
             <Link className='navbar__link' to={ROUTES.home} onClick={handleClose}>
               Home

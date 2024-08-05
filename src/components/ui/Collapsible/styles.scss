@@ -1,6 +1,10 @@
 @use '@/styles/abstracts/mixins' as *;
 @use '@/styles/abstracts/extends' as *;
 
+.collapsible-container {
+  cursor: pointer;
+}
+
 .arrow-down {
   fill: var(--primary-color);
   display: none;

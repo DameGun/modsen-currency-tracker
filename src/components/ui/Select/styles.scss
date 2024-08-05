@@ -1,0 +1,105 @@
+@use '@/styles/abstracts/extends' as *;
+@use '@/styles/abstracts/variables' as *;
+@use '@/styles/abstracts/mixins' as *;
+@use '@/styles/abstracts/typography' as *;
+
+.select {
+  position: relative;
+  max-width: 200px;
+  min-width: 100px;
+
+  &__button,
+  &__dropdown {
+    background-color: var(--color-gray-600);
+    width: 100%;
+    border-radius: $border-radius-sm;
+    border: 1px solid var(--color-gray-400);
+  }
+
+  &__label {
+    font-size: $font-size-2xs;
+    font-family: $font-family-primary-regular;
+    font-weight: 400;
+    padding-bottom: $padding-xs-mobile;
+    flex-grow: 1;
+    flex-basis: 0;
+  }
+
+  &__button {
+    @extend %reset-button-styles;
+
+    color: var(--primary-color);
+    padding: $padding-sm-mobile $padding-md-mobile;
+    font-size: $font-size-3xs;
+
+    @include flex-with-options(row, space-between, center);
+  }
+
+  &.active &__selected__arrow {
+    transform: rotate(180deg);
+  }
+
+  &.active &__dropdown {
+    visibility: visible;
+  }
+
+  &__selected {
+    &__arrow {
+      transition: transform ease-in-out 0.3s;
+      height: 12px;
+
+      fill: var(--primary-color);
+    }
+  }
+
+  &__dropdown {
+    visibility: hidden;
+    position: absolute;
+
+    margin-top: 10px;
+    max-height: 200px;
+    overflow-y: auto;
+    z-index: $z-index-md;
+
+    &::-webkit-scrollbar {
+      width: 7px;
+    }
+
+    &::-webkit-scrollbar-track {
+      background: var(--color-gray-300);
+    }
+
+    &::-webkit-scrollbar-thumb {
+      background: var(--color-gray-200);
+    }
+
+    &__option {
+      position: relative;
+      cursor: pointer;
+      display: flex;
+      gap: $spacing-sm;
+      align-items: center;
+
+      label {
+        cursor: pointer;
+        width: 100%;
+        padding-left: $padding-md-mobile;
+      }
+
+      &:hover,
+      input:checked ~ label {
+        background-color: var(--color-gray-400);
+      }
+
+      input:focus {
+        background-color: var(--color-gray-400);
+      }
+
+      input[type='radio'] {
+        position: absolute;
+        left: 0;
+        opacity: 0;
+      }
+    }
+  }
+}
