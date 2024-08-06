@@ -1,0 +1,21 @@
+@use '@/styles/abstracts/typography' as *;
+@use '@/styles/abstracts/variables' as *;
+
+.form-field {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+
+  &__error-text {
+    visibility: hidden;
+    text-align: center;
+    font-size: $font-size-4xs;
+    color: red;
+    padding-top: $padding-xs-mobile;
+
+    &.invalid {
+      visibility: visible;
+    }
+  }
+}

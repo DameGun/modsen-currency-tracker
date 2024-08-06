@@ -1,0 +1,25 @@
+@use '@/styles/abstracts/mixins' as *;
+@use '@/styles/abstracts/variables' as *;
+@use '@/styles/abstracts/typography' as *;
+
+.point {
+  @include flex-with-options(row, space-between, center);
+  background-color: var(--color-gray-600);
+  border-radius: $border-radius-lg;
+  padding: 6px;
+
+  &__info {
+    &__values {
+      font-size: $font-size-3xs;
+    }
+  }
+
+  &__icon {
+    height: $size-lg;
+    fill: var(--primary-color);
+
+    @include tablet-mobile-breakpoint {
+      height: $size-md;
+    }
+  }
+}

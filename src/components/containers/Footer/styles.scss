@@ -78,22 +78,14 @@
       }
 
       &__header {
-        @include flex-with-options(row, space-between);
-
         padding: $spacing-xs 0 $spacing-xs 0;
+
+        font-family: $font-family-secondary-regular;
+        font-weight: $font-weight-regular;
 
         @include tablet-mobile-breakpoint {
           border-bottom: 1px solid var(--primary-color);
-        }
-
-        & > h2 {
-          font-family: $font-family-secondary-regular;
-          font-weight: $font-weight-regular;
-          font-size: $font-size-2m;
-
-          @include tablet-mobile-breakpoint {
-            font-size: $font-size-xs;
-          }
+          font-size: $font-size-3xs;
         }
       }
     }

@@ -1,0 +1,43 @@
+@use '@/styles/abstracts/variables' as *;
+@use '@/styles/abstracts/mixins' as *;
+@use '@/styles/abstracts/typography' as *;
+
+.chart-notification {
+  @include flex-with-options(row, space-between, center);
+  gap: $spacing-xs;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  margin: $margin-sm;
+  padding: $padding-md-mobile;
+  background-color: var(--color-gray-600);
+  border: 1px solid var(--color-gray-400);
+  border-radius: $border-radius-md;
+  max-width: 50%;
+
+  animation-name: alert;
+  animation-duration: $transition-md;
+  animation-fill-mode: forwards;
+
+  &__icon {
+    height: $size-lg;
+    fill: var(--primary-color);
+
+    @include tablet-mobile-breakpoint {
+      height: $size-md;
+    }
+  }
+
+  @include mobile-breakpoint {
+    font-size: $font-size-3xs;
+  }
+
+  @keyframes alert {
+    from {
+      transform: translate(100%, 0);
+    }
+    to {
+      transform: translate(0, 0);
+    }
+  }
+}

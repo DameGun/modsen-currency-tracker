@@ -27,6 +27,10 @@ type CurrenciesState = {
   isError: boolean;
 };
 
+type CurrencyCodes = {
+  [key: string]: number;
+};
+
 enum CryptoCurrencies {
   ADA = 'ADA',
   ARB = 'ARB',
@@ -41,4 +45,11 @@ enum CryptoCurrencies {
 
 export { CryptoCurrencies };
 
-export type { CurrenciesState, CurrencyData, CurrencyIcon, ExchangeRatesResponse, MetaData };
+export type {
+  CurrenciesState,
+  CurrencyCodes,
+  CurrencyData,
+  CurrencyIcon,
+  ExchangeRatesResponse,
+  MetaData,
+};

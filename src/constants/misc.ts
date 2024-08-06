@@ -1,1 +1,3 @@
 export const DEBOUNCE_BASE_DELAY = 100;
+export const NOTIFICATION_TIMEOUT = 10000;
+export const MAX_POINTS_PER_DATASET = 30;

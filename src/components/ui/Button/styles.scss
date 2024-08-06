@@ -1,0 +1,12 @@
+@use '@/styles/abstracts/extends' as *;
+@use '@/styles/abstracts/variables' as *;
+
+.custom-button {
+  @extend %interaction-element;
+  cursor: pointer;
+  transition: background-color $transition-sm;
+
+  &:hover {
+    background-color: var(--color-gray-600);
+  }
+}

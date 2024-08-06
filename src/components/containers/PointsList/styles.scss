@@ -1,0 +1,43 @@
+@use '@/styles/abstracts/variables' as *;
+@use '@/styles/abstracts/mixins' as *;
+@use '@/styles/abstracts/typography' as *;
+
+.points-list {
+  &__container {
+    display: grid;
+    grid-auto-columns: 1fr;
+    grid-auto-flow: column;
+    background-color: var(--color-gray-400);
+
+    @include tablet-mobile-breakpoint {
+      grid-auto-flow: row;
+    }
+  }
+
+  &__section {
+    &:not(:last-child) {
+      border-right: 1px solid var(--primary-color);
+
+      @include tablet-mobile-breakpoint {
+        border-right: none;
+      }
+    }
+
+    &__label {
+      background-color: var(--color-gray-500);
+      border-bottom: 1px solid var(--primary-color);
+      font-size: $font-size-4xs;
+    }
+
+    &__label,
+    &__points {
+      padding: $padding-sm-mobile $padding-xs-mobile;
+    }
+
+    &__points {
+      display: flex;
+      flex-direction: column;
+      gap: $spacing-xs;
+    }
+  }
+}

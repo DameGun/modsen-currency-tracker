@@ -62,29 +62,35 @@ export default function Converter({ targetCurrency }: ConverterProps) {
 
   return (
     <div className='converter'>
-      <div className='converter__row'>
-        <Select
-          label='From'
-          options={Object.keys(currenciesCodes)}
-          onChange={handleFromSelectChange}
-          selected={fromSelectValue}
-        />
-        <Input
-          id='from'
-          name='from'
-          type='number'
-          value={inputBaseValue}
-          onChange={handleBaseValueChange}
-        />
+      <div className='converter__section'>
+        <label className='converter__label'>From</label>
+        <div className='converter__row'>
+          <Select
+            id='from-select'
+            options={Object.keys(currenciesCodes)}
+            onChange={handleFromSelectChange}
+            selected={fromSelectValue}
+          />
+          <Input
+            id='from'
+            name='from'
+            type='number'
+            value={inputBaseValue}
+            onChange={handleBaseValueChange}
+          />
+        </div>
       </div>
-      <div className='converter__row'>
-        <Select
-          label='To'
-          options={Object.keys(currenciesCodes)}
-          onChange={handleToSelectChange}
-          selected={toSelectValue}
-        />
-        <Input id='from' name='from' readOnly type='number' value={inputConvertValue} />
+      <div className='converter__section'>
+        <label className='converter__label'>To</label>
+        <div className='converter__row'>
+          <Select
+            id='to-select'
+            options={Object.keys(currenciesCodes)}
+            onChange={handleToSelectChange}
+            selected={toSelectValue}
+          />
+          <Input id='from' name='from' readOnly type='number' value={inputConvertValue} />
+        </div>
       </div>
     </div>
   );
