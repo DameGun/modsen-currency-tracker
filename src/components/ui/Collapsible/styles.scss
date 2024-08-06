@@ -26,5 +26,5 @@
 }
 
 .collapsible {
-  align-items: center;
+  @include flex-with-options(row, space-between, center);
 }

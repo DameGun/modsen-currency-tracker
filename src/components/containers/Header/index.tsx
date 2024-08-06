@@ -4,8 +4,7 @@ import cn from 'classnames';
 
 import './styles.scss';
 import { BurgerMenuIcon, CloseIcon, LogoIcon } from '@/assets/icons';
-import IconButton from '@/components/ui/IconButton';
-import ThemeSwitch from '@/components/ui/ThemeSwitch';
+import { IconButton, ThemeSwitch } from '@/components/ui';
 import { ROUTES } from '@/constants/routes';
 
 export default function Header() {

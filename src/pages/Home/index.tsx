@@ -1,10 +1,11 @@
-import CurrencyCardList from '@/components/containers/CurrencyCardList';
+import { CurrencyCardList } from '@/components/containers';
 import { CURRENCIES_REQUEST_POLLING_TIME } from '@/constants/cache';
 import { useAppSelector } from '@/hooks/redux';
 import { selectCurrencies, setCurrencies } from '@/store/currencies';
 import { fetchCurrencies } from '@/store/currencies/thunks';
-import { CacheNames, CurrenciesCache, CurrenciesCacheFields } from '@/types/cache';
-import { ExchangeRatesResponse } from '@/types/currencies';
+import type { CurrenciesCache } from '@/types/cache';
+import { CacheNames, CurrenciesCacheFields } from '@/types/cache';
+import type { ExchangeRatesResponse } from '@/types/currencies';
 import withCache from '@/utils/withCache';
 
 function BaseHomePage() {

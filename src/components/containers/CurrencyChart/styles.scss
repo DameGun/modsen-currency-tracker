@@ -1,0 +1,8 @@
+@use '@/styles/abstracts/variables' as *;
+
+.chart-container {
+  position: relative;
+
+  height: 50vh;
+  padding-right: $padding-lg;
+}

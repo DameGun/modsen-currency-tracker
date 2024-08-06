@@ -1,13 +1,16 @@
 @use '@/styles/abstracts/variables' as *;
 @use '@/styles/abstracts/typography' as *;
+@use '@/styles/abstracts/extends' as *;
 
 .custom-input {
-  background-color: var(--color-gray-500);
-  border: 1px solid var(--color-gray-400);
-  border-radius: $border-radius-sm;
-  padding: $padding-sm-mobile $padding-md-mobile;
+  padding-left: $padding-xs-mobile;
+  padding-right: $padding-xs-mobile;
+  width: calc(100% - $padding-xs-mobile * 2);
 
   color: var(--primary-color);
-  width: 100%;
   font-size: $font-size-3xs;
+
+  @extend %interaction-element;
+
+  color-scheme: #{var(--color-scheme)};
 }

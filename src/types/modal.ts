@@ -5,7 +5,7 @@ interface ModalBodyProps {
 }
 
 interface ModalButtonProps {
-  children: (context: IModalContext) => ReactNode;
+  children(context: IModalContext): ReactNode;
 }
 
 interface ModalContentProps {
@@ -18,8 +18,8 @@ interface ModalHeaderProps {
 
 interface IModalContext {
   isOpen: boolean;
-  handleOpen: () => void;
-  handleClose: (event: React.MouseEvent<HTMLElement, MouseEvent>) => void;
+  handleOpen: VoidFunction;
+  handleClose(event: React.MouseEvent<HTMLElement, MouseEvent>): void;
 }
 
 type ModalChildren = [ReactElement<ModalButtonProps>, ReactElement<ModalContentProps>];

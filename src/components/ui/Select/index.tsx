@@ -5,13 +5,13 @@ import './styles.scss';
 import { ArrowDown } from '@/assets/icons';
 
 interface SelectProps {
-  label: string;
+  id: string;
   options: string[];
   selected: string;
   onChange: (selected: string) => void;
 }
 
-export default function Select({ label, options, onChange, selected }: SelectProps) {
+export default function Select({ id, options, onChange, selected }: SelectProps) {
   const [isOpen, setIsOpen] = useState<boolean>(false);
 
   function handleSelect() {
@@ -25,7 +25,6 @@ export default function Select({ label, options, onChange, selected }: SelectPro
 
   return (
     <div className={cn('select', { active: isOpen })}>
-      <h4 className='select__label'>{label}</h4>
       <button
         className='select__button'
         role='combobox'
@@ -33,6 +32,7 @@ export default function Select({ label, options, onChange, selected }: SelectPro
         aria-haspopup='listbox'
         aria-expanded='false'
         aria-controls='select__dropdown'
+        type='button'
         onClick={handleSelect}
       >
         <span className='select__selected'>{selected ? selected : 'Select'}</span>
@@ -40,16 +40,16 @@ export default function Select({ label, options, onChange, selected }: SelectPro
       </button>
       <ul className='select__dropdown' role='listbox' id='select__dropdown'>
         {options.map((option) => (
-          <li className='select__dropdown__option' key={label + option} role='option'>
+          <li className='select__dropdown__option' key={id + option} role='option'>
             <input
               type='radio'
-              id={label + option}
-              name={label + option}
+              id={id + option}
+              name={id + option}
               checked={option === selected}
               value={option}
               onChange={handleChange}
             />
-            <label htmlFor={label + option}>{option}</label>
+            <label htmlFor={id + option}>{option}</label>
           </li>
         ))}
       </ul>

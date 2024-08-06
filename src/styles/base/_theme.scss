@@ -2,7 +2,7 @@
 @use 'sass:map';
 
 html[data-theme='dark'] {
-  --color-scheme: 'dark';
+  --color-scheme: dark;
 
   --background-color: #{map.get($colors-dark, background-color)};
 
@@ -17,7 +17,7 @@ html[data-theme='dark'] {
 }
 
 html[data-theme='light'] {
-  --color-scheme: 'light';
+  --color-scheme: light;
 
   --background-color: #{map.get($colors-light, background-color)};
 

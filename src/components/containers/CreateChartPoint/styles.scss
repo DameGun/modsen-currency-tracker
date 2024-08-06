@@ -1,0 +1,49 @@
+@use '@/styles/abstracts/mixins' as *;
+@use '@/styles/abstracts/variables' as *;
+@use '@/styles/abstracts/typography' as *;
+
+.create-chart-point {
+  &__container {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    column-gap: $padding-md-mobile;
+    justify-content: center;
+    margin: $margin-md 0;
+
+    @include tablet-mobile-breakpoint {
+      grid-template-columns: repeat(4, 1fr);
+      grid-template-rows: 1fr 1fr 0.5fr;
+      column-gap: $padding-xs-mobile;
+      row-gap: $padding-md-mobile;
+
+      & > :nth-child(1),
+      & > :nth-child(2) {
+        grid-row-start: 1;
+        grid-column: span 2;
+      }
+    }
+  }
+
+  &__submit-button {
+    align-self: flex-start;
+
+    @include tablet-mobile-breakpoint {
+      grid-row-start: 3;
+      grid-column-start: span 4;
+    }
+  }
+
+  &__section {
+    @include flex-with-options(row, space-between, center);
+    gap: $padding-xs-mobile;
+
+    & > label {
+      font-size: 14px;
+    }
+
+    @include tablet-mobile-breakpoint {
+      flex-direction: column;
+      grid-row-start: 2;
+    }
+  }
+}
