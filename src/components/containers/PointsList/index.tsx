@@ -3,9 +3,9 @@ import { ChartDataset } from 'chart.js';
 import ListPoint from '../ListPoint';
 
 import './styles.scss';
-import Collapsible from '@/components/ui/Collapsible';
-import { INotifier, IObservable, IObserver } from '@/services/observable';
+import { Collapsible } from '@/components/ui';
 import type { FinancialDataPointToAdd, FinancialDataPointToRemove } from '@/types/chart';
+import type { INotifier, IObservable, IObserver } from '@/types/observable';
 import { ObserveableActionType } from '@/types/observable';
 import {
   createPointOrDataset,

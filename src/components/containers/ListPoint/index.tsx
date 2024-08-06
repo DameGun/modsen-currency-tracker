@@ -4,8 +4,8 @@ import { DateTime } from 'luxon';
 
 import './styles.scss';
 import { CloseIcon } from '@/assets/icons';
-import IconButton from '@/components/ui/IconButton';
-import { FinancialDataPointToRemove } from '@/types/chart';
+import { IconButton } from '@/components/ui';
+import type { FinancialDataPointToRemove } from '@/types/chart';
 
 interface ListPointProps {
   point: FinancialDataPoint;

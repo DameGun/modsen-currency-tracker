@@ -1,7 +1,12 @@
 import { ChartDataset, ChartOptions } from 'chart.js';
 
-import { MAX_POINTS_PER_DATASET } from '@/constants/misc';
 import {
+  CHART_GRID_LINES_COLOR,
+  CHART_TOOLTIP_BG_COLOR,
+  CHART_TOOLTIP_MAIN_COLOR,
+  MAX_POINTS_PER_DATASET,
+} from '@/constants/chart';
+import type {
   FinancialDataPointToAdd,
   FinancialDataPointToRemove,
   PointCreationResult,
@@ -14,12 +19,12 @@ export const chartOptions: ChartOptions<'candlestick'> = {
     tooltip: {
       enabled: true,
       displayColors: false,
-      backgroundColor: '#9cbba1',
-      titleColor: '#042a0b',
-      bodyColor: '#042a0b',
+      backgroundColor: CHART_TOOLTIP_BG_COLOR,
+      titleColor: CHART_TOOLTIP_MAIN_COLOR,
+      bodyColor: CHART_TOOLTIP_MAIN_COLOR,
       titleFont: { weight: 'bold' },
       padding: 10,
-      borderColor: '#042a0b',
+      borderColor: CHART_TOOLTIP_MAIN_COLOR,
       borderWidth: 1,
     },
   },
@@ -34,7 +39,7 @@ export const chartOptions: ChartOptions<'candlestick'> = {
         align: 'end',
       },
       grid: {
-        color: '#b6b6b651',
+        color: CHART_GRID_LINES_COLOR,
       },
       type: 'time',
       time: {
@@ -50,7 +55,7 @@ export const chartOptions: ChartOptions<'candlestick'> = {
         },
       },
       grid: {
-        color: '#b6b6b651',
+        color: CHART_GRID_LINES_COLOR,
       },
     },
   },

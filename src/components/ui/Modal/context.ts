@@ -1,6 +1,6 @@
 import { createContext } from 'react';
 
-import { IModalContext } from '@/types/modal';
+import type { IModalContext } from '@/types/modal';
 
 const initialValue: IModalContext = {
   isOpen: false,

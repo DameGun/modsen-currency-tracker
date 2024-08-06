@@ -1,5 +1,5 @@
 import iconsFile from '@/assets/mock/icons.json';
-import { CurrencyIcon } from '@/types/currencies';
+import type { CurrencyIcon } from '@/types/currencies';
 
 const icons: CurrencyIcon[] = JSON.parse(iconsFile);
 

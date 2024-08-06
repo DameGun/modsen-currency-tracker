@@ -1,19 +1,7 @@
 import { Component } from 'react';
 
+import type { INotifier, IObservable, IObserver } from '@/types/observable';
 import { ObserveableActionType } from '@/types/observable';
-
-export interface IObserver<T> {
-  update(data: T, action: ObserveableActionType): void;
-}
-
-export interface INotifier<T> {
-  notify(data: T, action: ObserveableActionType): void;
-}
-
-export interface IObservable<T> {
-  attach(observer: IObserver<T>): void;
-  detach(observer: IObserver<T>): void;
-}
 
 export default class Observable<T> extends Component implements IObservable<T>, INotifier<T> {
   observers: IObserver<T>[];
@@ -26,7 +14,7 @@ export default class Observable<T> extends Component implements IObservable<T>, 
     this.notify = this.notify.bind(this);
   }
 
-  attach(observer: IObserver<T>): void {
+  attach(observer: IObserver<T>) {
     const isExist = this.observers.includes(observer);
 
     if (!isExist) {
@@ -34,7 +22,7 @@ export default class Observable<T> extends Component implements IObservable<T>, 
     }
   }
 
-  detach(observer: IObserver<T>): void {
+  detach(observer: IObserver<T>) {
     const observerIndex = this.observers.indexOf(observer);
 
     if (observerIndex !== -1) {
@@ -42,7 +30,7 @@ export default class Observable<T> extends Component implements IObservable<T>, 
     }
   }
 
-  notify(data: T, action: ObserveableActionType): void {
+  notify(data: T, action: ObserveableActionType) {
     for (const observer of this.observers) {
       observer.update(data, action);
     }

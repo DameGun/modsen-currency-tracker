@@ -4,7 +4,7 @@ import { fetchCurrencies } from './thunks';
 import LocalStorageManager from '@/services/localStorageManager';
 import { RootState } from '@/store';
 import { CacheNames, CurrenciesCache, CurrenciesCacheFields } from '@/types/cache';
-import { CurrenciesState, CurrencyCodes, ExchangeRatesResponse } from '@/types/currencies';
+import type { CurrenciesState, CurrencyCodes, ExchangeRatesResponse } from '@/types/currencies';
 import { mapCurrenciesResponse } from '@/utils/mappings';
 
 const initialState: CurrenciesState = {

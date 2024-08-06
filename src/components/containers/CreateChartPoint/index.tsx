@@ -5,13 +5,11 @@ import { DateTime } from 'luxon';
 import FormField from '../FormField';
 
 import './styles.scss';
-import Button from '@/components/ui/Button';
-import Input from '@/components/ui/Input';
-import Select from '@/components/ui/Select';
-import { INotifier } from '@/services/observable';
+import { Button, Input, Select } from '@/components/ui';
 import { RootState } from '@/store';
 import { selectCurrenciesCodes } from '@/store/currencies';
-import { FinancialDataPointToAdd, PointValidationErrors } from '@/types/chart';
+import type { FinancialDataPointToAdd, PointValidationErrors } from '@/types/chart';
+import type { INotifier } from '@/types/observable';
 import { ObserveableActionType } from '@/types/observable';
 
 const mapStateToProps = (state: RootState) => ({

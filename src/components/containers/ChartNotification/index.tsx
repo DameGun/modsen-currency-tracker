@@ -2,9 +2,9 @@ import { Component } from 'react';
 
 import './styles.scss';
 import { CloseIcon } from '@/assets/icons';
-import IconButton from '@/components/ui/IconButton';
+import { IconButton } from '@/components/ui';
 import { NOTIFICATION_TIMEOUT } from '@/constants/misc';
-import { IObservable, IObserver } from '@/services/observable';
+import type { IObservable, IObserver } from '@/types/observable';
 import { ObserveableActionType } from '@/types/observable';
 
 interface ChartNotificationProps extends IObservable<string> {}

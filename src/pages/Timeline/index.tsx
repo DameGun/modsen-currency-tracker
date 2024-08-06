@@ -1,16 +1,16 @@
-import { ReactNode } from 'react';
-
-import ChartNotification from '@/components/containers/ChartNotification';
-import CreateChartPoint from '@/components/containers/CreateChartPoint';
-import CurrencyChart from '@/components/containers/CurrencyChart';
-import PointsList from '@/components/containers/PointsList';
+import {
+  ChartNotification,
+  CreateChartPoint,
+  CurrencyChart,
+  PointsList,
+} from '@/components/containers';
 import { CURRENCIES_REQUEST_POLLING_TIME } from '@/constants/cache';
 import Observable from '@/services/observable';
 import { setCurrencies } from '@/store/currencies';
 import { fetchCurrencies } from '@/store/currencies/thunks';
 import { CacheNames, CurrenciesCache } from '@/types/cache';
-import { FinancialDataPointToAdd, FinancialDataPointToRemove } from '@/types/chart';
-import { ExchangeRatesResponse } from '@/types/currencies';
+import type { FinancialDataPointToAdd, FinancialDataPointToRemove } from '@/types/chart';
+import type { ExchangeRatesResponse } from '@/types/currencies';
 import withCache from '@/utils/withCache';
 
 class TimelinePage extends Observable<
@@ -20,14 +20,14 @@ class TimelinePage extends Observable<
     super(props);
   }
 
-  render(): ReactNode {
+  render() {
     return (
-      <div>
+      <>
         <CurrencyChart attach={this.attach} detach={this.detach} />
         <CreateChartPoint notify={this.notify} />
         <PointsList attach={this.attach} detach={this.detach} notify={this.notify} />
         <ChartNotification attach={this.attach} detach={this.detach} />
-      </div>
+      </>
     );
   }
 }

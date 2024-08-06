@@ -4,8 +4,8 @@ import { CandlestickController, CandlestickElement } from 'chartjs-chart-financi
 
 import 'chartjs-adapter-luxon';
 import './styles.scss';
-import type { IObservable, IObserver } from '@/services/observable';
 import type { FinancialDataPointToAdd, FinancialDataPointToRemove } from '@/types/chart';
+import type { IObservable, IObserver } from '@/types/observable';
 import { ObserveableActionType } from '@/types/observable';
 import {
   chartOptions,

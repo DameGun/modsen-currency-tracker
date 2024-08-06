@@ -1,7 +1,8 @@
 import { getIconForCurrency } from './getIconForCurrency';
 
-import { CurrenciesCache } from '@/types/cache';
-import { CryptoCurrencies, CurrencyData, ExchangeRatesResponse } from '@/types/currencies';
+import type { CurrenciesCache } from '@/types/cache';
+import type { CurrencyData, ExchangeRatesResponse } from '@/types/currencies';
+import { CryptoCurrencies } from '@/types/currencies';
 
 export function mapCurrenciesResponse(response: ExchangeRatesResponse): CurrenciesCache {
   const crypto: CurrencyData[] = [];

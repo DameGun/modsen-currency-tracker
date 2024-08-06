@@ -1,8 +1,7 @@
 import { ChangeEvent, useEffect, useState } from 'react';
 
 import './styles.scss';
-import Input from '@/components/ui/Input';
-import Select from '@/components/ui/Select';
+import { Input, Select } from '@/components/ui';
 import { useAppSelector } from '@/hooks/redux';
 import useDebounce from '@/hooks/useDebounce';
 import { selectCurrenciesCodes } from '@/store/currencies';
@@ -32,9 +31,7 @@ export default function Converter({ targetCurrency }: ConverterProps) {
   function handleBaseValueChange(e: ChangeEvent<HTMLInputElement>) {
     const value = e.target.value;
 
-    if (!Number.isNaN(value)) {
-      setInputBaseValue(value);
-    } else if (value === '') {
+    if (!Number.isNaN(value) || value === '') {
       setInputBaseValue(value);
     }
   }
@@ -43,15 +40,14 @@ export default function Converter({ targetCurrency }: ConverterProps) {
     let convertedValue: number = 0;
     const convertValueRateToUSD: number = currenciesCodes[toSelectValue];
 
-    if (convertValueRateToUSD) {
-      if (fromSelectValue === 'USD') {
-        convertedValue = baseValue / convertValueRateToUSD;
-      } else {
-        const baseValueRateToUSD: number = currenciesCodes[fromSelectValue];
-        convertedValue = (baseValue / baseValueRateToUSD) * currenciesCodes[toSelectValue];
-      }
-      setInputConvertValue(Number(convertedValue).toFixed(2));
+    if (fromSelectValue === 'USD') {
+      convertedValue = baseValue / convertValueRateToUSD;
+    } else {
+      const baseValueRateToUSD: number = currenciesCodes[fromSelectValue];
+      convertedValue = (baseValue / baseValueRateToUSD) * convertValueRateToUSD;
     }
+
+    setInputConvertValue(Number(convertedValue).toFixed(2));
   }
 
   useEffect(() => {
