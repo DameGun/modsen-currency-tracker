@@ -1,0 +1,126 @@
+[
+  {
+    "asset_id": "ADA",
+    "url": "https://s3.eu-central-1.amazonaws.com/bbxt-static-icons/type-id/png_512/2701173b1b7740f286939659359e225c.png"
+  },
+  {
+    "asset_id": "ARB",
+    "url": "https://s3.eu-central-1.amazonaws.com/bbxt-static-icons/type-id/png_512/4c6d6d80c0d94c8a98cfcefc5579d1d8.png"
+  },
+  {
+    "asset_id": "AUD",
+    "url": "https://s3.eu-central-1.amazonaws.com/bbxt-static-icons/type-id/png_512/c33d154f14df49b6b7346c4f3034e548.png"
+  },
+  {
+    "asset_id": "BAM",
+    "url": "https://s3.eu-central-1.amazonaws.com/bbxt-static-icons/type-id/png_512/c9a3f2e7b7d249f388518a1e889baadb.png"
+  },
+  {
+    "asset_id": "BRL",
+    "url": "https://s3.eu-central-1.amazonaws.com/bbxt-static-icons/type-id/png_512/e2742ef9cce2458d89d9d19152746997.png"
+  },
+  {
+    "asset_id": "BTC",
+    "url": "https://s3.eu-central-1.amazonaws.com/bbxt-static-icons/type-id/png_512/4caf2b16a0174e26a3482cea69c34cba.png"
+  },
+  {
+    "asset_id": "CAD",
+    "url": "https://s3.eu-central-1.amazonaws.com/bbxt-static-icons/type-id/png_512/2ba6caaf33b9496e8a39dd96a1b1bbe1.png"
+  },
+  {
+    "asset_id": "CZK",
+    "url": "https://s3.eu-central-1.amazonaws.com/bbxt-static-icons/type-id/png_512/a193e218174e4ce8ac2c23d6d9fb6aca.png"
+  },
+  {
+    "asset_id": "DAI",
+    "url": "https://s3.eu-central-1.amazonaws.com/bbxt-static-icons/type-id/png_512/890d62548c714bdfa28ae41761918aa0.png"
+  },
+  {
+    "asset_id": "DKK",
+    "url": "https://s3.eu-central-1.amazonaws.com/bbxt-static-icons/type-id/png_512/d94acf362346462fb776445a984882b8.png"
+  },
+  {
+    "asset_id": "DOT",
+    "url": "https://s3.eu-central-1.amazonaws.com/bbxt-static-icons/type-id/png_512/b9afd327327a435c80448040e8d4a2eb.png"
+  },
+  {
+    "asset_id": "ETB",
+    "url": "https://s3.eu-central-1.amazonaws.com/bbxt-static-icons/type-id/png_512/5a6cf46441ba4b399493a281df107352.png"
+  },
+  {
+    "asset_id": "ETH",
+    "url": "https://s3.eu-central-1.amazonaws.com/bbxt-static-icons/type-id/png_512/604ae4533d9f4ad09a489905cce617c2.png"
+  },
+  {
+    "asset_id": "EUR",
+    "url": "https://s3.eu-central-1.amazonaws.com/bbxt-static-icons/type-id/png_512/688fcf1c92bb4c84ac950971e9bfed2f.png"
+  },
+  {
+    "asset_id": "GBP",
+    "url": "https://s3.eu-central-1.amazonaws.com/bbxt-static-icons/type-id/png_512/6113eae75525442485b593d9e42d18f6.png"
+  },
+  {
+    "asset_id": "IDR",
+    "url": "https://s3.eu-central-1.amazonaws.com/bbxt-static-icons/type-id/png_512/930116f0f1294cc18576c2327236d5f3.png"
+  },
+  {
+    "asset_id": "IMP",
+    "url": "https://s3.eu-central-1.amazonaws.com/bbxt-static-icons/type-id/png_512/e154002e86904f6ebb8b3c8f4e018d30.png"
+  },
+  {
+    "asset_id": "KRW",
+    "url": "https://s3.eu-central-1.amazonaws.com/bbxt-static-icons/type-id/png_512/d264bc64760547998239c9b9b38f1beb.png"
+  },
+  {
+    "asset_id": "LTC",
+    "url": "https://s3.eu-central-1.amazonaws.com/bbxt-static-icons/type-id/png_512/a201762f149941ef9b84e0742cd00e48.png"
+  },
+  {
+    "asset_id": "MXN",
+    "url": "https://s3.eu-central-1.amazonaws.com/bbxt-static-icons/type-id/png_512/eb5998c9b2c44685b01fbd32a8db042d.png"
+  },
+  {
+    "asset_id": "PLN",
+    "url": "https://s3.eu-central-1.amazonaws.com/bbxt-static-icons/type-id/png_512/3f682b5b77ec4d8cb612b8ff3ac748f7.png"
+  },
+  {
+    "asset_id": "RUB",
+    "url": "https://s3.eu-central-1.amazonaws.com/bbxt-static-icons/type-id/png_512/929f34c014dd4a9b90967988671199b2.png"
+  },
+  {
+    "asset_id": "SGD",
+    "url": "https://s3.eu-central-1.amazonaws.com/bbxt-static-icons/type-id/png_512/d56573126b3945d6b0e2340459c1fda1.png"
+  },
+  {
+    "asset_id": "SLL",
+    "url": "https://s3.eu-central-1.amazonaws.com/bbxt-static-icons/type-id/png_512/c16f5692239842d091c6e503878f327a.png"
+  },
+  {
+    "asset_id": "STN",
+    "url": "https://s3.eu-central-1.amazonaws.com/bbxt-static-icons/type-id/png_512/fc9361e624bb453f85bf45bc04bb01ee.png"
+  },
+  {
+    "asset_id": "TOP",
+    "url": "https://s3.eu-central-1.amazonaws.com/bbxt-static-icons/type-id/png_512/20ad35decb324dd39b62fdd78059ee5d.png"
+  },
+  {
+    "asset_id": "UAH",
+    "url": "https://s3.eu-central-1.amazonaws.com/bbxt-static-icons/type-id/png_512/61b133d80617478d93f6feab11428df3.png"
+  },
+  {
+    "asset_id": "USD",
+    "url": "https://s3.eu-central-1.amazonaws.com/bbxt-static-icons/type-id/png_512/0a4185f21a034a7cb866ba7076d8c73b.png"
+  },
+  {
+    "asset_id": "USDT",
+    "url": "https://s3.eu-central-1.amazonaws.com/bbxt-static-icons/type-id/png_512/5ed65416963e4e57998a3c302da8936e.png"
+  },
+  {
+    "asset_id": "XPD",
+    "url": "https://s3.eu-central-1.amazonaws.com/bbxt-static-icons/type-id/png_512/131a8bba35b443dbbd6e75446a7b11e8.png"
+  },
+  {
+    "asset_id": "XRP",
+    "url": "https://s3.eu-central-1.amazonaws.com/bbxt-static-icons/type-id/png_512/ba90bcb0cafb4801ac5dd310f47d6411.png"
+  }
+]

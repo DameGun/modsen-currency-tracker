@@ -1,7 +1,8 @@
 import { ReactNode, useState } from 'react';
+import cn from 'classnames';
 
 import './styles.scss';
-import ArrowDown from '@/assets/icons/arrow-down.svg';
+import { ArrowDown } from '@/assets/icons';
 
 interface DropdownProps {
   className?: string;
@@ -11,7 +12,7 @@ interface DropdownProps {
   children: ReactNode;
 }
 
-export default function Dropdown({
+export default function Collapsible({
   className,
   headerClassName,
   listClassName,
@@ -25,12 +26,12 @@ export default function Dropdown({
   }
 
   return (
-    <div className={className}>
-      <div className={`${headerClassName} collapsible`} onClick={handleCollapse}>
+    <div className={cn('collapsible-container', className)}>
+      <div className={cn('collapsible', headerClassName)} onClick={handleCollapse}>
         <h2>{title}</h2>
-        <ArrowDown className={`arrow-down ${!isCollapsed ? 'rotate' : ''}`} />
+        <ArrowDown className={cn('arrow-down', { rotate: !isCollapsed })} />
       </div>
-      <div className={isCollapsed ? 'collapsed' : ''}>
+      <div className={cn({ collapsed: isCollapsed })}>
         <ul className={listClassName}>{children}</ul>
       </div>
     </div>

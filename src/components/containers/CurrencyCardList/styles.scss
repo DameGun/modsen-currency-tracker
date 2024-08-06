@@ -1,0 +1,47 @@
+@use '@/styles/abstracts/variables' as *;
+@use '@/styles/abstracts/typography' as *;
+@use '@/styles/abstracts/mixins' as *;
+
+.currency-card-list {
+  &__container {
+    margin-bottom: $spacing-lg;
+    grid-template-areas:
+      'label .'
+      'items .';
+  }
+
+  &__container,
+  &__items {
+    display: grid;
+    column-gap: $spacing-xl;
+    row-gap: $spacing-sm;
+    grid-template-columns: repeat(2, 1fr);
+    width: 100%;
+  }
+
+  &__label {
+    grid-area: label;
+    border-bottom: 1px solid var(--primary-color);
+    padding-bottom: $padding-md-mobile;
+
+    text-transform: capitalize;
+
+    font-family: $font-family-primary-light;
+    font-size: $font-size-2lg;
+
+    @include tablet-mobile-breakpoint {
+      font-size: $font-size-3xs;
+      grid-column: span 2;
+    }
+  }
+
+  &__items {
+    grid-area: items;
+    grid-column: span 2;
+    justify-content: space-between;
+
+    @include tablet-mobile-breakpoint {
+      grid-template-columns: 1fr;
+    }
+  }
+}

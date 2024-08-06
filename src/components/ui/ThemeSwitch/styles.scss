@@ -4,7 +4,7 @@
 .theme-switch {
   @include flex-with-options(null, null, center);
   cursor: pointer;
-  z-index: $z-index-xs;
+  z-index: $z-index-md;
   order: 2;
 
   @include mobile-breakpoint {
