@@ -1,8 +1,7 @@
 import { ChangeEvent, useEffect, useState } from 'react';
 
 import './styles.scss';
-import Input from '@/components/ui/Input';
-import Select from '@/components/ui/Select';
+import { Input, Select } from '@/components/ui';
 import { useAppSelector } from '@/hooks/redux';
 import useDebounce from '@/hooks/useDebounce';
 import { selectCurrenciesCodes } from '@/store/currencies';
@@ -32,9 +31,7 @@ export default function Converter({ targetCurrency }: ConverterProps) {
   function handleBaseValueChange(e: ChangeEvent<HTMLInputElement>) {
     const value = e.target.value;
 
-    if (!Number.isNaN(value)) {
-      setInputBaseValue(value);
-    } else if (value === '') {
+    if (!Number.isNaN(value) || value === '') {
       setInputBaseValue(value);
     }
   }
@@ -43,15 +40,14 @@ export default function Converter({ targetCurrency }: ConverterProps) {
     let convertedValue: number = 0;
     const convertValueRateToUSD: number = currenciesCodes[toSelectValue];
 
-    if (convertValueRateToUSD) {
-      if (fromSelectValue === 'USD') {
-        convertedValue = baseValue / convertValueRateToUSD;
-      } else {
-        const baseValueRateToUSD: number = currenciesCodes[fromSelectValue];
-        convertedValue = (baseValue / baseValueRateToUSD) * currenciesCodes[toSelectValue];
-      }
-      setInputConvertValue(Number(convertedValue).toFixed(2));
+    if (fromSelectValue === 'USD') {
+      convertedValue = baseValue / convertValueRateToUSD;
+    } else {
+      const baseValueRateToUSD: number = currenciesCodes[fromSelectValue];
+      convertedValue = (baseValue / baseValueRateToUSD) * convertValueRateToUSD;
     }
+
+    setInputConvertValue(Number(convertedValue).toFixed(2));
   }
 
   useEffect(() => {
@@ -62,29 +58,35 @@ export default function Converter({ targetCurrency }: ConverterProps) {
 
   return (
     <div className='converter'>
-      <div className='converter__row'>
-        <Select
-          label='From'
-          options={Object.keys(currenciesCodes)}
-          onChange={handleFromSelectChange}
-          selected={fromSelectValue}
-        />
-        <Input
-          id='from'
-          name='from'
-          type='number'
-          value={inputBaseValue}
-          onChange={handleBaseValueChange}
-        />
+      <div className='converter__section'>
+        <label className='converter__label'>From</label>
+        <div className='converter__row'>
+          <Select
+            id='from-select'
+            options={Object.keys(currenciesCodes)}
+            onChange={handleFromSelectChange}
+            selected={fromSelectValue}
+          />
+          <Input
+            id='from'
+            name='from'
+            type='number'
+            value={inputBaseValue}
+            onChange={handleBaseValueChange}
+          />
+        </div>
       </div>
-      <div className='converter__row'>
-        <Select
-          label='To'
-          options={Object.keys(currenciesCodes)}
-          onChange={handleToSelectChange}
-          selected={toSelectValue}
-        />
-        <Input id='from' name='from' readOnly type='number' value={inputConvertValue} />
+      <div className='converter__section'>
+        <label className='converter__label'>To</label>
+        <div className='converter__row'>
+          <Select
+            id='to-select'
+            options={Object.keys(currenciesCodes)}
+            onChange={handleToSelectChange}
+            selected={toSelectValue}
+          />
+          <Input id='from' name='from' readOnly type='number' value={inputConvertValue} />
+        </div>
       </div>
     </div>
   );

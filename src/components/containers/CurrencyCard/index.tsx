@@ -1,8 +1,8 @@
 import Converter from '../Converter';
 
 import './styles.scss';
-import { Modal, ModalBody, ModalButton, ModalContent, ModalHeader } from '@/components/ui/Modal';
-import { CurrencyData } from '@/types/currencies';
+import { Modal, ModalBody, ModalButton, ModalContent, ModalHeader } from '@/components/ui';
+import type { CurrencyData } from '@/types/currencies';
 
 interface CurrencyCardProps extends CurrencyData {}
 

@@ -1,7 +1,6 @@
-import Collapsible from '../../ui/Collapsible';
-
 import './styles.scss';
 import { LogoIcon } from '@/assets/icons';
+import { Collapsible } from '@/components/ui';
 
 export default function Footer() {
   return (
