@@ -1,18 +1,19 @@
 import { getIconForCurrency } from './getIconForCurrency';
 
 import type { CurrenciesCache } from '@/types/cache';
-import type { CurrencyData, ExchangeRatesResponse } from '@/types/currencies';
+import type { CurrenciesResponse, CurrencyData } from '@/types/currencies';
 import { CryptoCurrencies } from '@/types/currencies';
 
-export function mapCurrenciesResponse(response: ExchangeRatesResponse): CurrenciesCache {
+export function mapCurrenciesResponse(currenciesResponse: CurrenciesResponse): CurrenciesCache {
+  const { ratesResponse, iconsResponse } = currenciesResponse;
   const crypto: CurrencyData[] = [];
   const fiat: CurrencyData[] = [];
 
-  for (const key in response.data) {
-    const icon = getIconForCurrency(key);
+  for (const key in ratesResponse.data) {
+    const icon = getIconForCurrency(key, iconsResponse);
 
     if (icon) {
-      const currencyWithIcon: CurrencyData = { ...response.data[key], iconUrl: icon.url };
+      const currencyWithIcon: CurrencyData = { ...ratesResponse.data[key], iconUrl: icon.url };
 
       if (Object.keys(CryptoCurrencies).includes(key)) {
         crypto.push(currencyWithIcon);
@@ -22,5 +23,5 @@ export function mapCurrenciesResponse(response: ExchangeRatesResponse): Currenci
     }
   }
 
-  return { fiat, crypto, isEmpty: false, lastUpdatedAt: response.meta.last_updated_at };
+  return { fiat, crypto, isEmpty: false, lastUpdatedAt: ratesResponse.meta.last_updated_at };
 }

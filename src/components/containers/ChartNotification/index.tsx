@@ -3,7 +3,7 @@ import { Component } from 'react';
 import './styles.scss';
 import { CloseIcon } from '@/assets/icons';
 import { IconButton } from '@/components/ui';
-import { NOTIFICATION_TIMEOUT } from '@/constants/misc';
+import { NOTIFICATION_TIMEOUT } from '@/constants/chart';
 import type { IObservable, IObserver } from '@/types/observable';
 import { ObserveableActionType } from '@/types/observable';
 
