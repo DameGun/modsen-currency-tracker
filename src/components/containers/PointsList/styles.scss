@@ -1,6 +1,7 @@
 @use '@/styles/abstracts/variables' as *;
 @use '@/styles/abstracts/mixins' as *;
 @use '@/styles/abstracts/typography' as *;
+@use '@/styles/abstracts/extends' as *;
 
 .points-list {
   &__container {
@@ -38,6 +39,10 @@
       display: flex;
       flex-direction: column;
       gap: $spacing-xs;
+      max-height: $overflow-height-md;
+      overflow-y: auto;
+
+      @extend %custom-scrollbar;
     }
   }
 }
