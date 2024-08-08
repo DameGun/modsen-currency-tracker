@@ -44,22 +44,12 @@
     visibility: hidden;
     position: absolute;
 
-    margin-top: 10px;
-    max-height: 200px;
+    margin-top: $offset-lg;
+    max-height: $overflow-height-sm;
     overflow-y: auto;
     z-index: $z-index-md;
 
-    &::-webkit-scrollbar {
-      width: 7px;
-    }
-
-    &::-webkit-scrollbar-track {
-      background: var(--color-gray-300);
-    }
-
-    &::-webkit-scrollbar-thumb {
-      background: var(--color-gray-200);
-    }
+    @extend %custom-scrollbar;
 
     &__option {
       position: relative;

@@ -10,7 +10,7 @@ import { setCurrencies } from '@/store/currencies';
 import { fetchCurrencies } from '@/store/currencies/thunks';
 import { CacheNames, CurrenciesCache } from '@/types/cache';
 import type { FinancialDataPointToAdd, FinancialDataPointToRemove } from '@/types/chart';
-import type { ExchangeRatesResponse } from '@/types/currencies';
+import type { CurrenciesResponse } from '@/types/currencies';
 import withCache from '@/utils/withCache';
 
 class TimelinePage extends Observable<
@@ -32,17 +32,15 @@ class TimelinePage extends Observable<
   }
 }
 
-export default withCache<
-  object,
-  CurrenciesCache,
-  ExchangeRatesResponse,
-  'currencies/setCurrencies'
->(TimelinePage, {
-  storageManagerOptions: {
-    fetchAction: fetchCurrencies,
-    setStateAction: setCurrencies,
-  },
-  cacheName: CacheNames.currencies,
-  polling: true,
-  requestInterval: CURRENCIES_REQUEST_POLLING_TIME,
-});
+export default withCache<object, CurrenciesCache, CurrenciesResponse, 'currencies/setCurrencies'>(
+  TimelinePage,
+  {
+    storageManagerOptions: {
+      fetchAction: fetchCurrencies,
+      setStateAction: setCurrencies,
+    },
+    cacheName: CacheNames.currencies,
+    polling: true,
+    requestInterval: CURRENCIES_REQUEST_POLLING_TIME,
+  }
+);

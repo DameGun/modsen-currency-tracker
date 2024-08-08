@@ -17,6 +17,11 @@ type ExchangeRatesResponse = {
   };
 };
 
+type CurrenciesResponse = {
+  ratesResponse: ExchangeRatesResponse;
+  iconsResponse: CurrencyIcon[];
+};
+
 type CurrencyIcon = {
   asset_id: string;
   url: string;
@@ -46,6 +51,7 @@ enum CryptoCurrencies {
 export { CryptoCurrencies };
 
 export type {
+  CurrenciesResponse,
   CurrenciesState,
   CurrencyCodes,
   CurrencyData,

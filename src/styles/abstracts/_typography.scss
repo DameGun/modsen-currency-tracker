@@ -21,27 +21,3 @@ $font-family-primary-light: 'Poppins-Light';
 $font-family-primary-regular: 'Poppins-Regular';
 $font-family-primary-semibold: 'Poppins-SemiBold';
 $font-family-secondary-regular: 'Inter-Regular';
-
-@font-face {
-  font-family: $font-family-primary-light;
-  font-weight: $font-weight-light;
-  src: url('@/assets/fonts/Poppins-Light.ttf') format('truetype');
-}
-
-@font-face {
-  font-family: $font-family-primary-regular;
-  font-weight: $font-weight-regular;
-  src: url('@/assets/fonts/Poppins-Regular.ttf') format('truetype');
-}
-
-@font-face {
-  font-family: $font-family-primary-semibold;
-  font-weight: $font-weight-semibold;
-  src: url('@/assets/fonts/Poppins-SemiBold.ttf') format('truetype');
-}
-
-@font-face {
-  font-family: $font-family-secondary-regular;
-  font-weight: $font-weight-regular;
-  src: url('@/assets/fonts/Inter-Regular.ttf') format('truetype');
-}

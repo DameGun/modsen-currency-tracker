@@ -1,0 +1,48 @@
+@use '@/styles/abstracts/variables' as *;
+@use '@/styles/abstracts/mixins' as *;
+@use '@/styles/abstracts/extends' as *;
+@use '@/styles/abstracts/typography' as *;
+
+.elastic-search {
+  position: relative;
+  width: 25%;
+  margin-bottom: $margin-md;
+
+  @include tablet-breakpoint {
+    width: 50%;
+  }
+
+  @include mobile-breakpoint {
+    width: 80%;
+  }
+
+  & > input:focus ~ &__results {
+    visibility: visible;
+  }
+
+  &__results {
+    visibility: hidden;
+    width: 100%;
+    position: absolute;
+    transition: $transition-sm;
+    @extend %interaction-element;
+    @extend %custom-scrollbar;
+
+    margin-top: $spacing-xs;
+    z-index: $z-index-lg;
+    box-shadow: var(--color-black-alpha) 0 $offset-lg $blur-raduis-lg;
+    max-height: $overflow-height-md;
+    overflow-y: auto;
+
+    & > li {
+      padding: $padding-xs-mobile $padding-xs-mobile;
+      cursor: pointer;
+
+      font-size: $font-size-3xs;
+
+      &:hover {
+        background-color: var(--color-gray-400);
+      }
+    }
+  }
+}

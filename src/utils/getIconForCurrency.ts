@@ -1,8 +1,15 @@
-import iconsFile from '@/assets/mock/icons.json';
+import iconsPath from '@/assets/mock/icons.json';
 import type { CurrencyIcon } from '@/types/currencies';
 
-const icons: CurrencyIcon[] = JSON.parse(iconsFile);
+export async function getIcons(): Promise<CurrencyIcon[]> {
+  const response = await fetch(iconsPath);
 
-export function getIconForCurrency(currencyCode: string): CurrencyIcon | undefined {
+  return await response.json();
+}
+
+export function getIconForCurrency(
+  currencyCode: string,
+  icons: CurrencyIcon[]
+): CurrencyIcon | undefined {
   return icons.find((value) => value.asset_id == currencyCode);
 }
