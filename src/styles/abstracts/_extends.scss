@@ -27,3 +27,17 @@
 
   min-height: 40px;
 }
+
+%custom-scrollbar {
+  &::-webkit-scrollbar {
+    width: 7px;
+  }
+
+  &::-webkit-scrollbar-track {
+    background: var(--color-gray-300);
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background: var(--color-gray-200);
+  }
+}

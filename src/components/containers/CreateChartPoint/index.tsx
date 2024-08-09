@@ -164,6 +164,7 @@ class CreateChartPoint extends Component<CreateChartPointProps, CreateChartPoint
               step='.01'
               value={this.state.point.o}
               onChange={this.handlePointValuesChange}
+              min={0}
             />
           </div>
         </FormField>
@@ -182,6 +183,7 @@ class CreateChartPoint extends Component<CreateChartPointProps, CreateChartPoint
               step='.01'
               value={this.state.point.h}
               onChange={this.handlePointValuesChange}
+              min={0}
             />
           </div>
         </FormField>
@@ -200,6 +202,7 @@ class CreateChartPoint extends Component<CreateChartPointProps, CreateChartPoint
               step='.01'
               value={this.state.point.l}
               onChange={this.handlePointValuesChange}
+              min={0}
             />
           </div>
         </FormField>
@@ -218,6 +221,7 @@ class CreateChartPoint extends Component<CreateChartPointProps, CreateChartPoint
               step='.01'
               value={this.state.point.c}
               onChange={this.handlePointValuesChange}
+              min={0}
             />
           </div>
         </FormField>

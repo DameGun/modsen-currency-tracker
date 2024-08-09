@@ -14,7 +14,7 @@ export default {
     filename: '[name].[contenthash].js',
     path: path.resolve(__dirname, 'dist'),
     clean: true,
-    assetModuleFilename: 'assets/[name].[ext]',
+    assetModuleFilename: 'assets/[name][ext]',
   },
   plugins: [
     new HtmlWebpackPlugin({
@@ -39,7 +39,7 @@ export default {
       },
       {
         test: /\.json$/,
-        type: 'asset/source',
+        type: 'asset/resource',
       },
       {
         test: /\.(png|jpg|jpeg|gif)$/,

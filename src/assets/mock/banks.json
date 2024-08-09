@@ -1,0 +1,2754 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Отделение №100/1050",
+        "description": "USD, EUR, RUB, GBP, PLN, IDR"
+      },
+      "geometry": { "coordinates": [23.7619, 52.1017], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": { "title": "Обменный пункт №100/1053", "description": "USD, EUR, RUB, PLN" },
+      "geometry": { "coordinates": [23.7448, 52.0971], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": { "title": "Обменный пункт №100/1054", "description": "USD, EUR, RUB, PLN" },
+      "geometry": { "coordinates": [23.7182, 52.0752], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "ЦБУ №100 Операционная служба",
+        "description": "USD, EUR, RUB, GBP, PLN, IDR, CZK"
+      },
+      "geometry": { "coordinates": [23.7329, 52.0942], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Отделение №100/1029",
+        "description": "USD, EUR, RUB, GBP, PLN, IDR"
+      },
+      "geometry": { "coordinates": [23.7016, 52.0912], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": { "title": "Отделение №100/1009", "description": "USD, EUR, RUB, PLN, IDR" },
+      "geometry": { "coordinates": [23.7299, 52.0597], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": { "title": "Отделение №100/1010", "description": "USD, EUR, RUB, PLN, IDR" },
+      "geometry": { "coordinates": [23.6936, 52.1005], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": { "title": "Отделение №100/1012", "description": "USD, EUR, RUB, PLN" },
+      "geometry": { "coordinates": [23.7411, 52.0783], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": { "title": "Отделение №100/1013", "description": "USD, EUR, RUB, PLN, IDR" },
+      "geometry": { "coordinates": [23.7538, 52.0705], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": { "title": "Отделение №100/1014", "description": "USD, EUR, RUB, PLN, IDR" },
+      "geometry": { "coordinates": [23.7083, 52.0884], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": { "title": "Отделение №100/1015", "description": "USD, EUR, RUB, PLN, IDR" },
+      "geometry": { "coordinates": [23.6953, 52.0914], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": { "title": "Отделение №100/1016", "description": "USD, EUR, RUB, PLN, IDR" },
+      "geometry": { "coordinates": [23.6997, 52.0968], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": { "title": "Отделение №100/1017", "description": "USD, EUR, RUB, PLN, IDR" },
+      "geometry": { "coordinates": [23.7247, 52.1011], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": { "title": "Отделение №100/1020", "description": "USD, EUR, RUB, PLN, IDR" },
+      "geometry": { "coordinates": [23.7742, 52.1089], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Отделение №100/1043",
+        "description": "USD, EUR, RUB, GBP, PLN, IDR"
+      },
+      "geometry": { "coordinates": [23.681, 52.0998], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Отделение №100/1027",
+        "description": "USD, EUR, RUB, GBP, PLN, IDR"
+      },
+      "geometry": { "coordinates": [23.6841, 52.0951], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Отделение №100/1001",
+        "description": "USD, EUR, RUB, GBP, PLN, IDR"
+      },
+      "geometry": { "coordinates": [23.6806, 52.1005], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "ЦБУ №106 Операционная служба",
+        "description": "USD, EUR, RUB, PLN, IDR"
+      },
+      "geometry": { "coordinates": [24.9814, 52.5316], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": { "title": "Отделение №106/1298", "description": "USD, EUR, RUB, PLN, IDR" },
+      "geometry": { "coordinates": [25.1752, 52.4691], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "ЦБУ №107 Операционная служба",
+        "description": "USD, EUR, RUB, PLN, IDR"
+      },
+      "geometry": { "coordinates": [26.4197, 52.7568], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": { "title": "Отделение №107/1248", "description": "USD, EUR, RUB, PLN, IDR" },
+      "geometry": { "coordinates": [26.426, 52.7613], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "ЦБУ №108 Операционная служба",
+        "description": "USD, EUR, RUB, PLN, IDR"
+      },
+      "geometry": { "coordinates": [25.1563, 52.1854], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": { "title": "Отделение №109/1063", "description": "USD, EUR, RUB, PLN, IDR" },
+      "geometry": { "coordinates": [24.0294, 52.1932], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "ЦБУ №109 Операционная служба",
+        "description": "USD, EUR, RUB, PLN, IDR"
+      },
+      "geometry": { "coordinates": [24.0198, 52.1956], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": { "title": "Обменный пункт №111/1271", "description": "USD, EUR, RUB, PLN" },
+      "geometry": { "coordinates": [25.3441, 52.7102], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "ЦБУ №111 Операционная служба",
+        "description": "USD, EUR, RUB, PLN, IDR"
+      },
+      "geometry": { "coordinates": [25.3475, 52.7118], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": { "title": "Обменный пункт №112/1157", "description": "USD, EUR, RUB, PLN" },
+      "geometry": { "coordinates": [25.5439, 52.1468], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "ЦБУ №112 Операционная служба",
+        "description": "USD, EUR, RUB, PLN, IDR"
+      },
+      "geometry": { "coordinates": [25.5365, 52.146], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": { "title": "Отделение №113/1289", "description": "USD, EUR, RUB, PLN, IDR" },
+      "geometry": { "coordinates": [24.3572, 52.2102], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": { "title": "Отделение №113/1290", "description": "USD, EUR, RUB, PLN, IDR" },
+      "geometry": { "coordinates": [24.3433, 52.1954], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": { "title": "Обменный пункт №113/1293", "description": "USD, EUR, RUB, PLN" },
+      "geometry": { "coordinates": [24.355, 52.2108], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "ЦБУ №113 Операционная служба",
+        "description": "USD, EUR, RUB, PLN, IDR"
+      },
+      "geometry": { "coordinates": [24.3554, 52.2082], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": { "title": "Отделение №115/1066", "description": "USD, EUR, RUB, PLN" },
+      "geometry": { "coordinates": [23.797, 52.558], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": { "title": "Отделение №115/1070", "description": "USD, EUR, RUB, PLN, IDR" },
+      "geometry": { "coordinates": [23.376, 52.368], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "ЦБУ №115 Операционная служба",
+        "description": "USD, EUR, RUB, PLN, IDR"
+      },
+      "geometry": { "coordinates": [23.8251, 52.398], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "ЦБУ №117 Операционная служба",
+        "description": "USD, EUR, RUB, PLN, IDR"
+      },
+      "geometry": { "coordinates": [26.2633, 53.0381], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": { "title": "Отделение №119/1174", "description": "USD, EUR, RUB, IDR" },
+      "geometry": { "coordinates": [27.4866, 52.223], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": { "title": "Отделение №119/1177", "description": "USD, EUR, RUB" },
+      "geometry": { "coordinates": [26.8061, 52.2439], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "ЦБУ №119 Операционная служба",
+        "description": "USD, EUR, RUB, PLN, IDR"
+      },
+      "geometry": { "coordinates": [26.7982, 52.2434], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": { "title": "Отделение №120/1091", "description": "USD, EUR, RUB, PLN, IDR" },
+      "geometry": { "coordinates": [24.0748, 51.7905], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "ЦБУ №120 Операционная служба",
+        "description": "USD, EUR, RUB, PLN, IDR"
+      },
+      "geometry": { "coordinates": [24.0841, 51.7913], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "ЦБУ №121 Операционная служба",
+        "description": "USD, EUR, RUB, GBP, PLN, IDR"
+      },
+      "geometry": { "coordinates": [26.1216, 52.1224], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": { "title": "Отделение №121/1105", "description": "USD, EUR, RUB, PLN, IDR" },
+      "geometry": { "coordinates": [26.1133, 52.1249], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "ЦБУ №122 Операционная служба",
+        "description": "USD, EUR, RUB, PLN, IDR"
+      },
+      "geometry": { "coordinates": [24.4741, 52.5645], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": { "title": "Отделение №122/1327", "description": "USD, EUR, RUB, PLN, IDR" },
+      "geometry": { "coordinates": [24.457, 52.5579], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "ЦБУ №124 Операционная служба",
+        "description": "USD, EUR, RUB, PLN, IDR"
+      },
+      "geometry": { "coordinates": [26.8486, 51.8896], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": { "title": "Отделение №124/1189", "description": "USD, EUR, RUB, IDR" },
+      "geometry": { "coordinates": [27.2149, 52.0547], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": { "title": "Отделение №124/1193", "description": "USD, EUR, RUB" },
+      "geometry": { "coordinates": [27.3484, 52.0766], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "ЦБУ №127 Операционная служба",
+        "description": "USD, EUR, RUB, GBP, PLN, IDR"
+      },
+      "geometry": { "coordinates": [26.0158, 53.1305], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Обменный пункт №127/1237",
+        "description": "USD, EUR, RUB, PLN, IDR"
+      },
+      "geometry": { "coordinates": [25.994, 53.1537], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": { "title": "Отделение №127/1229", "description": "USD, EUR, RUB, PLN, IDR" },
+      "geometry": { "coordinates": [26.0244, 53.1176], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": { "title": "Отделение №200/2031", "description": "USD, EUR, RUB, IDR" },
+      "geometry": { "coordinates": [30.2091, 55.1608], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": { "title": "Отделение №200/2032", "description": "USD, EUR, RUB, IDR" },
+      "geometry": { "coordinates": [30.2573, 55.1699], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": { "title": "Отделение №200/2033", "description": "USD, EUR, RUB, IDR" },
+      "geometry": { "coordinates": [30.2644, 55.2005], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": { "title": "Обменный пункт №200/2041", "description": "USD, EUR, RUB" },
+      "geometry": { "coordinates": [30.1676, 55.1601], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": { "title": "Отделение №200/2013", "description": "USD, EUR, RUB, PLN, IDR" },
+      "geometry": { "coordinates": [30.2057, 55.1924], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": { "title": "Отделение №200/2005", "description": "USD, EUR, RUB, IDR" },
+      "geometry": { "coordinates": [30.2399, 55.1981], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": { "title": "Отделение №200/2024", "description": "USD, EUR, RUB, PLN, IDR" },
+      "geometry": { "coordinates": [30.2331, 55.1853], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": { "title": "Отделение №200/2036", "description": "USD, EUR, RUB" },
+      "geometry": { "coordinates": [29.2984, 55.3515], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": { "title": "Отделение №200/2007", "description": "USD, EUR, RUB, IDR" },
+      "geometry": { "coordinates": [30.1796, 55.198], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": { "title": "Отделение №200/2014", "description": "USD, EUR, RUB, IDR" },
+      "geometry": { "coordinates": [30.1931, 55.1943], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": { "title": "Отделение №200/2022", "description": "USD, EUR, RUB, IDR" },
+      "geometry": { "coordinates": [30.3064, 55.2999], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": { "title": "Отделение №200/2030", "description": "USD, EUR, RUB" },
+      "geometry": { "coordinates": [29.9814, 55.8352], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": { "title": "Отделение №200/2029", "description": "USD, EUR, RUB, PLN, IDR" },
+      "geometry": { "coordinates": [30.2374, 55.1762], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": { "title": "Отделение №200/2006", "description": "USD, EUR, RUB, PLN, IDR" },
+      "geometry": { "coordinates": [30.2042, 55.1819], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": { "title": "Отделение №200/2009", "description": "USD, EUR, RUB, IDR" },
+      "geometry": { "coordinates": [30.1496, 55.1737], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": { "title": "Отделение №200/2012", "description": "USD, EUR, RUB, IDR" },
+      "geometry": { "coordinates": [30.21, 55.1679], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": { "title": "Отделение №200/2015", "description": "USD, EUR, RUB, PLN, IDR" },
+      "geometry": { "coordinates": [30.2228, 55.1713], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "ЦБУ №203 Операционная служба",
+        "description": "USD, EUR, RUB, IDR"
+      },
+      "geometry": { "coordinates": [29.457, 55.0447], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": { "title": "Отделение №205/2086", "description": "USD, EUR, RUB" },
+      "geometry": { "coordinates": [27.0399, 55.639], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "ЦБУ №205 Операционная служба",
+        "description": "USD, EUR, RUB, PLN, IDR"
+      },
+      "geometry": { "coordinates": [27.0336, 55.6434], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": { "title": "Обменный пункт №205/2092", "description": "USD, EUR, RUB, PLN" },
+      "geometry": { "coordinates": [27.0348, 55.6472], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": { "title": "Отделение №205/2091", "description": "USD, EUR, RUB, PLN" },
+      "geometry": { "coordinates": [27.0334, 55.6435], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "ЦБУ №206 Операционная служба",
+        "description": "USD, EUR, RUB, PLN, IDR"
+      },
+      "geometry": { "coordinates": [27.941, 55.7646], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": { "title": "Отделение №206/2096", "description": "USD, EUR, RUB, PLN" },
+      "geometry": { "coordinates": [27.6326, 55.8212], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "ЦБУ №207 Операционная служба",
+        "description": "USD, EUR, RUB, IDR"
+      },
+      "geometry": { "coordinates": [29.9845, 55.4604], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "ЦБУ №208 Операционная служба",
+        "description": "USD, EUR, RUB, IDR"
+      },
+      "geometry": { "coordinates": [27.6974, 55.1423], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": { "title": "Обменный пункт №208/2102", "description": "USD, EUR, RUB" },
+      "geometry": { "coordinates": [27.6878, 55.1386], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "ЦБУ №209 Операционная служба",
+        "description": "USD, EUR, RUB, IDR"
+      },
+      "geometry": { "coordinates": [27.7628, 54.8939], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": { "title": "Отделение №209/2103", "description": "USD, EUR, RUB, IDR" },
+      "geometry": { "coordinates": [28.056, 54.7313], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "ЦБУ №210 Операционная служба",
+        "description": "USD, EUR, RUB, IDR"
+      },
+      "geometry": { "coordinates": [30.6877, 54.5726], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "ЦБУ №211 Операционная служба",
+        "description": "USD, EUR, RUB, IDR"
+      },
+      "geometry": { "coordinates": [28.7081, 54.8812], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "ЦБУ №212 Операционная служба",
+        "description": "USD, EUR, RUB, IDR"
+      },
+      "geometry": { "coordinates": [30.796, 55.021], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "ЦБУ №213 Операционная служба",
+        "description": "USD, EUR, RUB, PLN, IDR"
+      },
+      "geometry": { "coordinates": [27.6155, 55.6226], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "ЦБУ №214 Операционная служба",
+        "description": "USD, EUR, RUB, PLN, IDR"
+      },
+      "geometry": { "coordinates": [28.6685, 55.5264], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": { "title": "Отделение №214/2111", "description": "USD, EUR, RUB, PLN, IDR" },
+      "geometry": { "coordinates": [28.6441, 55.5349], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": { "title": "Отделение №214/2116", "description": "USD, EUR, RUB, IDR" },
+      "geometry": { "coordinates": [28.662, 55.5308], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "ЦБУ №215 Операционная служба",
+        "description": "USD, EUR, RUB, PLN, IDR"
+      },
+      "geometry": { "coordinates": [30.4386, 54.5233], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": { "title": "Отделение №215/2044", "description": "USD, EUR, RUB, IDR" },
+      "geometry": { "coordinates": [30.319, 54.4844], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": { "title": "Отделение №215/2045", "description": "USD, EUR, RUB" },
+      "geometry": { "coordinates": [30.2876, 54.4196], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": { "title": "Отделение №215/2046", "description": "USD, EUR, RUB, PLN, IDR" },
+      "geometry": { "coordinates": [30.3749, 54.5181], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": { "title": "Отделение №215/2047", "description": "USD, EUR, RUB" },
+      "geometry": { "coordinates": [30.0675, 54.6019], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": { "title": "Отделение №215/2049", "description": "USD, EUR, RUB" },
+      "geometry": { "coordinates": [30.3066, 54.6265], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": { "title": "Отделение №215/2051", "description": "USD, EUR, RUB, IDR" },
+      "geometry": { "coordinates": [30.4363, 54.5206], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": { "title": "Отделение №215/2052", "description": "USD, EUR, RUB, IDR" },
+      "geometry": { "coordinates": [30.4128, 54.5094], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": { "title": "Отделение №215/2054", "description": "USD, EUR, RUB, PLN, IDR" },
+      "geometry": { "coordinates": [30.43, 54.5116], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": { "title": "Отделение №215/2055", "description": "USD, EUR, RUB, IDR" },
+      "geometry": { "coordinates": [30.4017, 54.4967], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": { "title": "Отделение №215/2057", "description": "USD, EUR, RUB, IDR" },
+      "geometry": { "coordinates": [30.4309, 54.4927], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": { "title": "Отделение №215/2058", "description": "USD, EUR, RUB, IDR" },
+      "geometry": { "coordinates": [30.416, 54.4859], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": { "title": "Отделение №215/2060", "description": "USD, EUR, RUB, PLN, IDR" },
+      "geometry": { "coordinates": [30.3767, 54.5211], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": { "title": "Отделение №215/2062", "description": "USD, EUR, RUB, IDR" },
+      "geometry": { "coordinates": [30.3915, 54.5148], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "ЦБУ №216 Операционная служба",
+        "description": "USD, EUR, RUB, PLN, IDR"
+      },
+      "geometry": { "coordinates": [28.7724, 55.4883], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Обменный пункт №216/2085",
+        "description": "USD, EUR, RUB, PLN, IDR"
+      },
+      "geometry": { "coordinates": [28.7495, 55.4721], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": { "title": "Отделение №216/2070", "description": "USD, EUR, RUB, PLN, IDR" },
+      "geometry": { "coordinates": [28.781, 55.4903], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Обменный пункт №216/2083",
+        "description": "USD, EUR, RUB, PLN, IDR"
+      },
+      "geometry": { "coordinates": [28.7853, 55.4888], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "ЦБУ №217 Операционная служба",
+        "description": "USD, EUR, RUB, IDR"
+      },
+      "geometry": { "coordinates": [28.8153, 55.9031], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "ЦБУ №218 Операционная служба",
+        "description": "USD, EUR, RUB, IDR"
+      },
+      "geometry": { "coordinates": [29.7078, 54.8106], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "ЦБУ №219 Операционная служба",
+        "description": "USD, EUR, RUB, IDR"
+      },
+      "geometry": { "coordinates": [29.6887, 54.4088], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "ЦБУ №221 Операционная служба",
+        "description": "USD, EUR, RUB, IDR"
+      },
+      "geometry": { "coordinates": [28.6153, 55.1765], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "ЦБУ №222 Операционная служба",
+        "description": "USD, EUR, RUB, PLN, IDR"
+      },
+      "geometry": { "coordinates": [29.1605, 54.8611], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": { "title": "Отделение №222/2068", "description": "USD, EUR, RUB, IDR" },
+      "geometry": { "coordinates": [29.1425, 54.6549], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "ЦБУ №224 Операционная служба",
+        "description": "USD, EUR, RUB, IDR"
+      },
+      "geometry": { "coordinates": [27.4646, 55.3658], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "ЦБУ №225 Операционная служба",
+        "description": "USD, EUR, RUB, IDR"
+      },
+      "geometry": { "coordinates": [29.6166, 55.3018], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "ЦБУ №230 Операционная служба",
+        "description": "USD, EUR, RUB, PLN, IDR"
+      },
+      "geometry": { "coordinates": [26.8636, 55.1119], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": { "title": "Отделение №300/3051", "description": "USD, EUR, RUB, IDR" },
+      "geometry": { "coordinates": [30.9582, 52.4469], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "ЦБУ №300 Операционная служба",
+        "description": "USD, EUR, RUB, GBP, PLN, KRW, CHF, IDR"
+      },
+      "geometry": { "coordinates": [31.0023, 52.416], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": { "title": "Отделение №300/3001", "description": "USD, EUR, RUB, IDR" },
+      "geometry": { "coordinates": [31.0013, 52.4405], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": { "title": "Отделение №300/3004", "description": "USD, EUR, RUB, IDR" },
+      "geometry": { "coordinates": [30.9973, 52.4513], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": { "title": "Отделение №300/3005", "description": "USD, EUR, RUB, IDR" },
+      "geometry": { "coordinates": [30.9352, 52.4094], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Отделение №300/3009",
+        "description": "USD, EUR, RUB, GBP, PLN, IDR"
+      },
+      "geometry": { "coordinates": [31.0095, 52.4253], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": { "title": "Отделение №300/3010", "description": "USD, EUR, RUB, IDR" },
+      "geometry": { "coordinates": [31.0103, 52.4244], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": { "title": "Отделение №300/3012", "description": "USD, EUR, RUB, IDR" },
+      "geometry": { "coordinates": [30.9796, 52.4046], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": { "title": "Отделение №300/3013", "description": "USD, EUR, RUB, IDR" },
+      "geometry": { "coordinates": [31.0235, 52.4536], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": { "title": "Отделение №300/3052", "description": "USD, EUR, RUB, IDR" },
+      "geometry": { "coordinates": [30.9627, 52.4571], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": { "title": "Отделение №300/3054", "description": "USD, EUR, RUB, IDR" },
+      "geometry": { "coordinates": [31.002, 52.4355], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": { "title": "Отделение №300/3056", "description": "USD, EUR, RUB, IDR" },
+      "geometry": { "coordinates": [31.0248, 52.4688], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": { "title": "Отделение №300/3058", "description": "USD, EUR, RUB, IDR" },
+      "geometry": { "coordinates": [30.9992, 52.4572], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Отделение №300/3076",
+        "description": "USD, EUR, RUB, GBP, PLN, IDR"
+      },
+      "geometry": { "coordinates": [30.9747, 52.4185], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "ЦБУ №306 Операционная служба",
+        "description": "USD, EUR, RUB, IDR"
+      },
+      "geometry": { "coordinates": [30.2659, 51.7762], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "ЦБУ №307 Операционная служба",
+        "description": "USD, EUR, RUB, IDR"
+      },
+      "geometry": { "coordinates": [30.5713, 52.7171], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "ЦБУ №308 Операционная служба",
+        "description": "USD, EUR, RUB, IDR"
+      },
+      "geometry": { "coordinates": [31.1716, 52.5656], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "ЦБУ №309 Операционная служба",
+        "description": "USD, EUR, RUB, IDR"
+      },
+      "geometry": { "coordinates": [31.3127, 52.4202], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "ЦБУ №310 Операционная служба",
+        "description": "USD, EUR, RUB, IDR"
+      },
+      "geometry": { "coordinates": [29.1559, 51.8059], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "ЦБУ №311 Операционная служба",
+        "description": "USD, EUR, RUB, IDR"
+      },
+      "geometry": { "coordinates": [27.8574, 52.2123], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": { "title": "Отделение №311/3125", "description": "USD, EUR, RUB, IDR" },
+      "geometry": { "coordinates": [27.7279, 52.0695], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": { "title": "Отделение №311/3124", "description": "USD, EUR, RUB, IDR" },
+      "geometry": { "coordinates": [27.8693, 52.2017], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": { "title": "Отделение №312/3092", "description": "USD, EUR, RUB, IDR" },
+      "geometry": { "coordinates": [30.0363, 52.8931], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "ЦБУ №312 Операционная служба",
+        "description": "USD, EUR, RUB, GBP, PLN, IDR"
+      },
+      "geometry": { "coordinates": [30.0373, 52.8912], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": { "title": "Отделение №312/3091", "description": "USD, EUR, RUB, IDR" },
+      "geometry": { "coordinates": [30.0533, 52.9035], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "ЦБУ №313 Операционная служба",
+        "description": "USD, EUR, RUB, IDR"
+      },
+      "geometry": { "coordinates": [29.337, 52.1279], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": { "title": "Отделение №313/3126", "description": "USD, EUR, RUB, IDR" },
+      "geometry": { "coordinates": [29.342, 52.1354], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": { "title": "Отделение №313/3135", "description": "USD, EUR, RUB, IDR" },
+      "geometry": { "coordinates": [29.3099, 52.1249], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "ЦБУ №314 Операционная служба",
+        "description": "USD, EUR, RUB, IDR"
+      },
+      "geometry": { "coordinates": [30.801, 52.13], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "ЦБУ №315 Операционная служба",
+        "description": "USD, EUR, RUB, IDR"
+      },
+      "geometry": { "coordinates": [28.3192, 51.7903], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "ЦБУ №316 Операционная служба",
+        "description": "USD, EUR, RUB, IDR"
+      },
+      "geometry": { "coordinates": [30.8027, 51.9367], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "ЦБУ №317 Операционная служба",
+        "description": "USD, EUR, RUB, GBP, IDR"
+      },
+      "geometry": { "coordinates": [29.2635, 52.0464], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": { "title": "Отделение №317/3113", "description": "USD, EUR, RUB, IDR" },
+      "geometry": { "coordinates": [29.213, 52.0364], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": { "title": "Отделение №317/3114", "description": "USD, EUR, RUB, IDR" },
+      "geometry": { "coordinates": [29.2382, 52.0467], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": { "title": "Отделение №317/3115", "description": "USD, EUR, RUB, IDR" },
+      "geometry": { "coordinates": [29.2441, 52.027], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": { "title": "Отделение №317/3116", "description": "USD, EUR, RUB, IDR" },
+      "geometry": { "coordinates": [29.2229, 52.0322], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "ЦБУ №318 Операционная служба",
+        "description": "USD, EUR, RUB, IDR"
+      },
+      "geometry": { "coordinates": [29.5069, 51.7997], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "ЦБУ №319 Операционная служба",
+        "description": "USD, EUR, RUB, IDR"
+      },
+      "geometry": { "coordinates": [28.8855, 52.6468], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "ЦБУ №320 Операционная служба",
+        "description": "USD, EUR, RUB, IDR"
+      },
+      "geometry": { "coordinates": [28.4805, 52.1227], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": { "title": "Отделение №320/3140", "description": "USD, EUR, RUB, IDR" },
+      "geometry": { "coordinates": [28.4932, 52.1245], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "ЦБУ №322 Операционная служба",
+        "description": "USD, EUR, RUB, GBP, PLN, IDR"
+      },
+      "geometry": { "coordinates": [29.7345, 52.6299], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": { "title": "Отделение №322/3097", "description": "USD, EUR, RUB, IDR" },
+      "geometry": { "coordinates": [29.726, 52.6269], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Отделение №322/3098",
+        "description": "USD, EUR, RUB, GBP, PLN, IDR"
+      },
+      "geometry": { "coordinates": [29.7473, 52.632], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": { "title": "Отделение №323/3046", "description": "USD, EUR, RUB, IDR" },
+      "geometry": { "coordinates": [30.3841, 52.3712], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "ЦБУ №323 Операционная служба",
+        "description": "USD, EUR, RUB, GBP, PLN, IDR"
+      },
+      "geometry": { "coordinates": [30.4006, 52.3662], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "ЦБУ №324 Операционная служба",
+        "description": "USD, EUR, RUB, IDR"
+      },
+      "geometry": { "coordinates": [30.0519, 53.0845], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": { "title": "Отделение №324/3108", "description": "USD, EUR, RUB, IDR" },
+      "geometry": { "coordinates": [30.0664, 53.1025], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "ЦБУ №326 Операционная служба",
+        "description": "USD, EUR, RUB, IDR"
+      },
+      "geometry": { "coordinates": [29.9649, 51.8869], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "ЦБУ №327 Операционная служба",
+        "description": "USD, EUR, RUB, IDR"
+      },
+      "geometry": { "coordinates": [30.9111, 52.9178], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": { "title": "Отделение №400/4037", "description": "USD, EUR, RUB, PLN" },
+      "geometry": { "coordinates": [24.1339, 53.8767], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": { "title": "Отделение №400/4028", "description": "USD, EUR, RUB, PLN" },
+      "geometry": { "coordinates": [23.6528, 53.8236], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": { "title": "Отделение №400/4068", "description": "USD, EUR, RUB, PLN" },
+      "geometry": { "coordinates": [24.2016, 53.5692], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Отделение №400/4017",
+        "description": "USD, EUR, RUB, GBP, PLN, IDR, CZK"
+      },
+      "geometry": { "coordinates": [23.8328, 53.6827], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": { "title": "Отделение №400/4010", "description": "USD, EUR, RUB, PLN, IDR" },
+      "geometry": { "coordinates": [23.8079, 53.671], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": { "title": "Отделение №400/4036", "description": "USD, EUR, RUB, PLN, IDR" },
+      "geometry": { "coordinates": [23.8408, 53.7034], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": { "title": "Отделение №400/4006", "description": "USD, EUR, RUB, PLN, IDR" },
+      "geometry": { "coordinates": [23.8162, 53.7094], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": { "title": "Отделение №400/4070", "description": "USD, EUR, RUB, PLN" },
+      "geometry": { "coordinates": [24.1815, 53.7219], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Обменный пункт №400/4045",
+        "description": "USD, EUR, RUB, GBP, PLN, IDR, CZK"
+      },
+      "geometry": { "coordinates": [23.8487, 53.6866], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "ЦБУ №400 Операционная служба",
+        "description": "USD, EUR, RUB, GBP, PLN, IDR, CZK"
+      },
+      "geometry": { "coordinates": [23.8279, 53.669], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": { "title": "Отделение №400/4173", "description": "USD, EUR, RUB, PLN, IDR" },
+      "geometry": { "coordinates": [24.2348, 53.5906], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": { "title": "Отделение №400/4001", "description": "USD, EUR, RUB, PLN, IDR" },
+      "geometry": { "coordinates": [23.8169, 53.7115], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": { "title": "Отделение №400/4003", "description": "USD, EUR, RUB, PLN, IDR" },
+      "geometry": { "coordinates": [23.8401, 53.6582], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "ЦБУ №401 Операционная служба",
+        "description": "USD, EUR, RUB, PLN, IDR"
+      },
+      "geometry": { "coordinates": [24.0194, 53.1912], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": { "title": "Отделение №402/4152", "description": "USD, EUR, RUB, PLN" },
+      "geometry": { "coordinates": [24.1989, 53.2539], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": { "title": "Отделение №402/4161", "description": "USD, EUR, RUB, PLN" },
+      "geometry": { "coordinates": [24.3631, 52.9366], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": { "title": "Отделение №402/4157", "description": "USD, EUR, RUB, PLN, IDR" },
+      "geometry": { "coordinates": [24.4394, 53.1689], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "ЦБУ №402 Операционная служба",
+        "description": "USD, EUR, RUB, PLN, IDR"
+      },
+      "geometry": { "coordinates": [24.4672, 53.1633], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "ЦБУ №403 Операционная служба",
+        "description": "USD, EUR, RUB, PLN, IDR"
+      },
+      "geometry": { "coordinates": [25.3191, 54.1509], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "ЦБУ №407 Операционная служба",
+        "description": "USD, EUR, RUB, PLN, IDR"
+      },
+      "geometry": { "coordinates": [25.4008, 53.4686], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "ЦБУ №408 Операционная служба",
+        "description": "USD, EUR, RUB, PLN, IDR"
+      },
+      "geometry": { "coordinates": [24.8192, 53.1473], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "ЦБУ №410 Операционная служба",
+        "description": "USD, EUR, RUB, PLN, IDR"
+      },
+      "geometry": { "coordinates": [25.7713, 53.9319], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": { "title": "Отделение №411/4116", "description": "USD, EUR, RUB, PLN, IDR" },
+      "geometry": { "coordinates": [26.4666, 53.4537], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "ЦБУ №411 Операционная служба",
+        "description": "USD, EUR, RUB, PLN, IDR"
+      },
+      "geometry": { "coordinates": [26.14, 53.5706], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": { "title": "Отделение №413/4087", "description": "USD, EUR, RUB, PLN, IDR" },
+      "geometry": { "coordinates": [25.506, 53.717], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": { "title": "Отделение №413/4091", "description": "USD, EUR, RUB, PLN, IDR" },
+      "geometry": { "coordinates": [25.298, 53.8932], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "ЦБУ №413 Операционная служба",
+        "description": "USD, EUR, RUB, PLN, IDR"
+      },
+      "geometry": { "coordinates": [25.3023, 53.8935], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "ЦБУ №415 Операционная служба",
+        "description": "USD, EUR, RUB, PLN, IDR"
+      },
+      "geometry": { "coordinates": [24.5418, 53.4114], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "ЦБУ №416 Операционная служба",
+        "description": "USD, EUR, RUB, PLN, IDR"
+      },
+      "geometry": { "coordinates": [25.8223, 53.5954], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "ЦБУ №417 Операционная служба",
+        "description": "USD, EUR, RUB, PLN, IDR"
+      },
+      "geometry": { "coordinates": [25.9617, 54.6186], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "ЦБУ №418 Операционная служба",
+        "description": "USD, EUR, RUB, PLN, IDR"
+      },
+      "geometry": { "coordinates": [25.9344, 54.4235], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "ЦБУ №419 Операционная служба",
+        "description": "USD, EUR, RUB, PLN, IDR"
+      },
+      "geometry": { "coordinates": [24.0958, 53.0356], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": { "title": "Отделение №422/4169", "description": "USD, EUR, RUB, PLN, IDR" },
+      "geometry": { "coordinates": [25.3007, 53.0851], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": { "title": "Отделение №422/4165", "description": "USD, EUR, RUB, PLN, IDR" },
+      "geometry": { "coordinates": [25.3214, 53.0926], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "ЦБУ №422 Операционная служба",
+        "description": "USD, EUR, RUB, PLN, IDR"
+      },
+      "geometry": { "coordinates": [25.3265, 53.0816], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": { "title": "Отделение №423/4148", "description": "USD, EUR, RUB, PLN, IDR" },
+      "geometry": { "coordinates": [26.4134, 54.4767], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "ЦБУ №423 Операционная служба",
+        "description": "USD, EUR, RUB, PLN, IDR"
+      },
+      "geometry": { "coordinates": [26.4, 54.4809], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": { "title": "Отделение №424/4076", "description": "USD, EUR, RUB, PLN" },
+      "geometry": { "coordinates": [24.5263, 53.7296], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "ЦБУ №424 Операционная служба",
+        "description": "USD, EUR, RUB, PLN, IDR"
+      },
+      "geometry": { "coordinates": [24.7439, 53.6064], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": { "title": "Отделение №500/5089", "description": "USD, EUR, RUB, IDR" },
+      "geometry": { "coordinates": [27.6004, 53.7806], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": { "title": "Отделение №500/5090", "description": "USD, EUR, RUB, IDR" },
+      "geometry": { "coordinates": [27.2905, 54.0038], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": { "title": "Отделение №500/5097", "description": "USD, EUR, RUB, IDR" },
+      "geometry": { "coordinates": [27.6838, 54.0037], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "ЦБУ №500 Операционная служба",
+        "description": "USD, EUR, RUB, GBP, PLN, CHF, IDR"
+      },
+      "geometry": { "coordinates": [27.488, 53.8652], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": { "title": "Отделение №500/5024", "description": "USD, EUR, RUB, IDR" },
+      "geometry": { "coordinates": [27.9793, 53.9005], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": { "title": "Отделение №510/163", "description": "USD, EUR, RUB, IDR" },
+      "geometry": { "coordinates": [27.5532, 53.9235], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": { "title": "Отделение №510/173", "description": "USD, EUR, RUB, IDR" },
+      "geometry": { "coordinates": [27.5564, 53.9255], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": { "title": "Отделение №510/174", "description": "USD, EUR, RUB, IDR" },
+      "geometry": { "coordinates": [27.4348, 53.9108], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": { "title": "Отделение №510/177", "description": "USD, EUR, RUB, IDR" },
+      "geometry": { "coordinates": [27.5061, 53.8991], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": { "title": "Отделение №510/180", "description": "USD, EUR, RUB, IDR" },
+      "geometry": { "coordinates": [27.4953, 53.9186], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": { "title": "Отделение №510/202", "description": "USD, EUR, RUB, IDR" },
+      "geometry": { "coordinates": [27.4796, 53.9207], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": { "title": "Отделение №510/257", "description": "USD, EUR, RUB, IDR" },
+      "geometry": { "coordinates": [27.4739, 53.9088], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": { "title": "Отделение №510/259", "description": "USD, EUR, RUB, IDR" },
+      "geometry": { "coordinates": [27.4889, 53.893], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": { "title": "Отделение №510/264", "description": "USD, EUR, RUB, IDR" },
+      "geometry": { "coordinates": [27.4816, 53.9274], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": { "title": "Отделение №510/274", "description": "USD, EUR, RUB, IDR" },
+      "geometry": { "coordinates": [27.4546, 53.9038], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": { "title": "Отделение №510/277", "description": "USD, EUR, RUB, IDR" },
+      "geometry": { "coordinates": [27.4361, 53.9015], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": { "title": "Отделение №510/284", "description": "USD, EUR, RUB, IDR" },
+      "geometry": { "coordinates": [27.509, 53.9311], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": { "title": "Отделение №510/294", "description": "USD, EUR, RUB, IDR" },
+      "geometry": { "coordinates": [27.4466, 53.907], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": { "title": "Отделение №510/307", "description": "USD, EUR, RUB, IDR" },
+      "geometry": { "coordinates": [27.4388, 53.8847], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": { "title": "Отделение №510/316", "description": "USD, EUR, RUB, IDR" },
+      "geometry": { "coordinates": [27.5315, 53.9088], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": { "title": "Отделение №510/377", "description": "USD, EUR, RUB, IDR" },
+      "geometry": { "coordinates": [27.5376, 53.9593], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": { "title": "Отделение №510/293", "description": "USD, EUR, RUB, IDR" },
+      "geometry": { "coordinates": [27.676, 53.915], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": { "title": "Отделение №510/320", "description": "USD, EUR, RUB, IDR" },
+      "geometry": { "coordinates": [27.5984, 53.9205], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": { "title": "Отделение №510/112", "description": "USD, EUR, RUB, IDR" },
+      "geometry": { "coordinates": [27.609, 53.9236], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": { "title": "Отделение №510/127", "description": "USD, EUR, RUB, IDR" },
+      "geometry": { "coordinates": [27.6266, 53.9281], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": { "title": "Отделение №510/169", "description": "USD, EUR, RUB, IDR" },
+      "geometry": { "coordinates": [27.7064, 53.9441], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": { "title": "Отделение №510/170", "description": "USD, EUR, RUB, IDR" },
+      "geometry": { "coordinates": [27.7366, 53.9608], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": { "title": "Отделение №510/175", "description": "USD, EUR, RUB, IDR" },
+      "geometry": { "coordinates": [27.6295, 53.947], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": { "title": "Отделение №510/190", "description": "USD, EUR, RUB, IDR" },
+      "geometry": { "coordinates": [27.6137, 53.9247], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": { "title": "Отделение №510/193", "description": "USD, EUR, RUB, IDR" },
+      "geometry": { "coordinates": [27.6404, 53.9387], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": { "title": "Отделение №510/207", "description": "USD, EUR, RUB, IDR" },
+      "geometry": { "coordinates": [27.6241, 53.9557], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": { "title": "Отделение №510/245", "description": "USD, EUR, RUB, IDR" },
+      "geometry": { "coordinates": [27.6508, 53.9351], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": { "title": "Отделение №510/285", "description": "USD, EUR, RUB, IDR" },
+      "geometry": { "coordinates": [27.6887, 53.9358], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": { "title": "Отделение №510/292", "description": "USD, EUR, RUB, IDR" },
+      "geometry": { "coordinates": [27.6843, 53.9388], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": { "title": "Отделение №510/305", "description": "USD, EUR, RUB, IDR" },
+      "geometry": { "coordinates": [27.6718, 53.9483], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": { "title": "Отделение №510/321", "description": "USD, EUR, RUB, IDR" },
+      "geometry": { "coordinates": [27.5886, 53.9184], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": { "title": "Отделение №510/350", "description": "USD, EUR, RUB, IDR" },
+      "geometry": { "coordinates": [27.6737, 53.9361], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": { "title": "Отделение №510/367", "description": "USD, EUR, RUB, IDR" },
+      "geometry": { "coordinates": [27.688, 53.9462], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": { "title": "Отделение №510/330", "description": "USD, EUR, RUB, IDR" },
+      "geometry": { "coordinates": [27.6371, 53.9513], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": { "title": "Отделение №510/399", "description": "USD, EUR, RUB, IDR" },
+      "geometry": { "coordinates": [27.4275, 53.9009], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": { "title": "Отделение №510/402", "description": "USD, EUR, RUB, IDR" },
+      "geometry": { "coordinates": [27.4224, 53.8887], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": { "title": "Отделение №510/416", "description": "USD, EUR, RUB, IDR" },
+      "geometry": { "coordinates": [27.4563, 53.8982], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": { "title": "Отделение №510/417", "description": "USD, EUR, RUB, IDR" },
+      "geometry": { "coordinates": [27.4348, 53.9108], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": { "title": "Отделение №510/410", "description": "USD, EUR, RUB, IDR" },
+      "geometry": { "coordinates": [27.5886, 53.9205], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": { "title": "Отделение №510/412", "description": "USD, EUR, RUB, IDR" },
+      "geometry": { "coordinates": [27.4473, 53.9179], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": { "title": "Отделение №510/411", "description": "USD, EUR, RUB, IDR" },
+      "geometry": { "coordinates": [27.4552, 53.918], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": { "title": "Отделение №510/421", "description": "USD, EUR, RUB, IDR" },
+      "geometry": { "coordinates": [27.426, 53.9142], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "ЦБУ №510 Операционная служба",
+        "description": "USD, EUR, RUB, IDR"
+      },
+      "geometry": { "coordinates": [27.5871, 53.917], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": { "title": "Отделение №510/403", "description": "USD, EUR, RUB, IDR" },
+      "geometry": { "coordinates": [27.4313, 53.9221], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": { "title": "Обменный пункт №510/438", "description": "USD, EUR, RUB, IDR" },
+      "geometry": { "coordinates": [27.5786, 53.8922], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": { "title": "Отделение №510/439", "description": "USD, EUR, RUB, IDR" },
+      "geometry": { "coordinates": [27.4778, 53.9346], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": { "title": "Отделение №510/471", "description": "USD, EUR, RUB, IDR" },
+      "geometry": { "coordinates": [27.5688, 53.9123], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Отделение №511/424",
+        "description": "USD, EUR, RUB, GBP, PLN, IDR"
+      },
+      "geometry": { "coordinates": [27.6846, 53.872], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": { "title": "Отделение №511/118", "description": "USD, EUR, RUB, IDR" },
+      "geometry": { "coordinates": [27.627, 53.8697], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": { "title": "Отделение №511/157", "description": "USD, EUR, RUB, IDR" },
+      "geometry": { "coordinates": [27.6688, 53.8684], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": { "title": "Отделение №511/178", "description": "USD, EUR, RUB, IDR" },
+      "geometry": { "coordinates": [27.6434, 53.8458], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": { "title": "Отделение №511/179", "description": "USD, EUR, RUB, IDR" },
+      "geometry": { "coordinates": [27.6534, 53.8672], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": { "title": "Отделение №511/183", "description": "USD, EUR, RUB, IDR" },
+      "geometry": { "coordinates": [27.6187, 53.8395], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": { "title": "Отделение №511/185", "description": "USD, EUR, RUB, IDR" },
+      "geometry": { "coordinates": [27.6435, 53.8456], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Отделение №511/189",
+        "description": "USD, EUR, RUB, GBP, PLN, IDR"
+      },
+      "geometry": { "coordinates": [27.6322, 53.8395], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Отделение №511/208",
+        "description": "USD, EUR, RUB, GBP, PLN, IDR"
+      },
+      "geometry": { "coordinates": [27.6289, 53.8732], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": { "title": "Отделение №511/249", "description": "USD, EUR, RUB, IDR" },
+      "geometry": { "coordinates": [27.6341, 53.8589], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": { "title": "Отделение №511/267", "description": "USD, EUR, RUB, IDR" },
+      "geometry": { "coordinates": [27.765, 53.8258], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Отделение №511/286",
+        "description": "USD, EUR, RUB, GBP, PLN, IDR"
+      },
+      "geometry": { "coordinates": [27.6842, 53.8849], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": { "title": "Отделение №511/290", "description": "USD, EUR, RUB, IDR" },
+      "geometry": { "coordinates": [27.6685, 53.8803], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": { "title": "Отделение №511/122", "description": "USD, EUR, RUB, IDR" },
+      "geometry": { "coordinates": [27.6173, 53.9024], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": { "title": "Отделение №511/166", "description": "USD, EUR, RUB, IDR" },
+      "geometry": { "coordinates": [27.6535, 53.8953], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": { "title": "Отделение №511/176", "description": "USD, EUR, RUB, IDR" },
+      "geometry": { "coordinates": [27.6121, 53.882], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": { "title": "Отделение №511/212", "description": "USD, EUR, RUB, IDR" },
+      "geometry": { "coordinates": [27.6261, 53.908], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": { "title": "Отделение №511/214", "description": "USD, EUR, RUB, IDR" },
+      "geometry": { "coordinates": [27.6017, 53.9011], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": { "title": "Отделение №511/291", "description": "USD, EUR, RUB, IDR" },
+      "geometry": { "coordinates": [27.6066, 53.8861], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Отделение №511/310",
+        "description": "USD, EUR, RUB, GBP, PLN, IDR"
+      },
+      "geometry": { "coordinates": [27.5797, 53.8981], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": { "title": "Отделение №511/325", "description": "USD, EUR, RUB, IDR" },
+      "geometry": { "coordinates": [27.6071, 53.8781], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": { "title": "Отделение №511/315", "description": "USD, EUR, RUB, IDR" },
+      "geometry": { "coordinates": [27.5981, 53.8747], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": { "title": "Отделение №511/45", "description": "USD, EUR, RUB, IDR" },
+      "geometry": { "coordinates": [27.5903, 53.8864], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Отделение №511/198",
+        "description": "USD, EUR, RUB, GBP, PLN, IDR"
+      },
+      "geometry": { "coordinates": [27.6083, 53.8577], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": { "title": "Отделение №511/211", "description": "USD, EUR, RUB, IDR" },
+      "geometry": { "coordinates": [27.594, 53.8837], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": { "title": "Отделение №511/272", "description": "USD, EUR, RUB, IDR" },
+      "geometry": { "coordinates": [27.6086, 53.864], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": { "title": "Отделение №511/273", "description": "USD, EUR, RUB, IDR" },
+      "geometry": { "coordinates": [27.5918, 53.8592], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": { "title": "Отделение №511/378", "description": "USD, EUR, RUB, IDR" },
+      "geometry": { "coordinates": [27.603, 53.8699], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Отделение №511/383",
+        "description": "USD, EUR, RUB, GBP, PLN, IDR"
+      },
+      "geometry": { "coordinates": [27.5737, 53.8366], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": { "title": "Отделение №511/415", "description": "USD, EUR, RUB, IDR" },
+      "geometry": { "coordinates": [27.6969, 53.8434], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": { "title": "Отделение №511/401", "description": "USD, EUR, RUB, IDR" },
+      "geometry": { "coordinates": [27.5695, 53.8439], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Отделение №511/197",
+        "description": "USD, EUR, RUB, GBP, PLN, IDR"
+      },
+      "geometry": { "coordinates": [27.6668, 53.8647], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "ЦБУ №511 Операционная служба",
+        "description": "USD, EUR, RUB, GBP, PLN, IDR"
+      },
+      "geometry": { "coordinates": [27.6007, 53.9034], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": { "title": "Отделение №511/420", "description": "USD, EUR, RUB, IDR" },
+      "geometry": { "coordinates": [27.7032, 53.8379], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": { "title": "Отделение №511/406", "description": "USD, EUR, RUB, IDR" },
+      "geometry": { "coordinates": [27.5635, 53.847], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Отделение №514/329",
+        "description": "USD, EUR, RUB, GBP, PLN, IDR"
+      },
+      "geometry": { "coordinates": [27.6661, 53.9441], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Отделение №514/154",
+        "description": "USD, EUR, RUB, GBP, PLN, KRW, CHF, IDR"
+      },
+      "geometry": { "coordinates": [27.5889, 53.9325], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Отделение №514/164",
+        "description": "USD, EUR, RUB, GBP, PLN, KRW, CHF, IDR"
+      },
+      "geometry": { "coordinates": [27.6055, 53.9405], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Отделение №514/181",
+        "description": "USD, EUR, RUB, GBP, PLN, KRW, CHF, IDR"
+      },
+      "geometry": { "coordinates": [27.6178, 53.9527], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Отделение №514/187",
+        "description": "USD, EUR, RUB, GBP, PLN, KRW, CHF, IDR"
+      },
+      "geometry": { "coordinates": [27.5653, 53.9225], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": { "title": "Отделение №514/200", "description": "USD, EUR, RUB, IDR" },
+      "geometry": { "coordinates": [27.5737, 53.9274], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": { "title": "Отделение №514/210", "description": "USD, EUR, RUB, IDR" },
+      "geometry": { "coordinates": [27.5741, 53.9153], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Отделение №514/246",
+        "description": "USD, EUR, RUB, GBP, PLN, IDR"
+      },
+      "geometry": { "coordinates": [27.5656, 53.9226], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": { "title": "Отделение №514/271", "description": "USD, EUR, RUB, IDR" },
+      "geometry": { "coordinates": [27.6053, 53.9587], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": { "title": "Отделение №514/282", "description": "USD, EUR, RUB, IDR" },
+      "geometry": { "coordinates": [27.5581, 53.9179], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": { "title": "Отделение №514/283", "description": "USD, EUR, RUB, IDR" },
+      "geometry": { "coordinates": [27.6151, 53.9574], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Отделение №514/300",
+        "description": "USD, EUR, RUB, GBP, PLN, KRW, CHF, IDR"
+      },
+      "geometry": { "coordinates": [27.579, 53.9112], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Отделение №514/312",
+        "description": "USD, EUR, RUB, GBP, PLN, IDR"
+      },
+      "geometry": { "coordinates": [27.5791, 53.9234], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Отделение №514/313",
+        "description": "USD, EUR, RUB, GBP, PLN, KRW, CHF, IDR"
+      },
+      "geometry": { "coordinates": [28.0343, 53.8895], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "ЦБУ №514 Операционная служба",
+        "description": "USD, EUR, RUB, GBP, PLN, CHF, IDR"
+      },
+      "geometry": { "coordinates": [27.5866, 53.9278], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Отделение №514/404",
+        "description": "USD, EUR, RUB, GBP, PLN, KRW, CHF, IDR"
+      },
+      "geometry": { "coordinates": [27.5824, 53.9303], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": { "title": "Отделение №527/442", "description": "USD, EUR, RUB, IDR" },
+      "geometry": { "coordinates": [27.484, 53.8676], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": { "title": "Отделение №527/444", "description": "USD, EUR, RUB, IDR" },
+      "geometry": { "coordinates": [27.4609, 53.8632], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": { "title": "Отделение №527/445", "description": "USD, EUR, RUB, IDR" },
+      "geometry": { "coordinates": [27.521, 53.8915], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": { "title": "Отделение №527/446", "description": "USD, EUR, RUB, IDR" },
+      "geometry": { "coordinates": [27.4632, 53.8585], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": { "title": "Отделение №527/447", "description": "USD, EUR, RUB, IDR" },
+      "geometry": { "coordinates": [27.4296, 53.8611], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": { "title": "Отделение №527/448", "description": "USD, EUR, RUB, IDR" },
+      "geometry": { "coordinates": [27.4571, 53.8454], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": { "title": "Отделение №527/449", "description": "USD, EUR, RUB, IDR" },
+      "geometry": { "coordinates": [27.5437, 53.9036], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": { "title": "Отделение №527/450", "description": "USD, EUR, RUB, IDR" },
+      "geometry": { "coordinates": [27.4985, 53.8747], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": { "title": "Отделение №527/451", "description": "USD, EUR, RUB, IDR" },
+      "geometry": { "coordinates": [27.4534, 53.864], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Обменный пункт №527/455",
+        "description": "USD, EUR, RUB, PLN, KRW, BAM, IDR"
+      },
+      "geometry": { "coordinates": [27.5494, 53.8974], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": { "title": "Отделение №527/100", "description": "USD, EUR, RUB, IDR" },
+      "geometry": { "coordinates": [27.5671, 53.8836], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Отделение №527/297",
+        "description": "USD, EUR, RUB, GBP, PLN, IDR"
+      },
+      "geometry": { "coordinates": [27.5547, 53.8965], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": { "title": "Отделение №527/87", "description": "USD, EUR, RUB, IDR" },
+      "geometry": { "coordinates": [27.5429, 53.8895], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": { "title": "Отделение №527/101", "description": "USD, EUR, RUB, IDR" },
+      "geometry": { "coordinates": [27.5499, 53.8823], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": { "title": "Отделение №527/192", "description": "USD, EUR, RUB, IDR" },
+      "geometry": { "coordinates": [27.5325, 53.8441], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": { "title": "Отделение №527/199", "description": "USD, EUR, RUB, IDR" },
+      "geometry": { "coordinates": [27.5026, 53.8448], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": { "title": "Отделение №527/209", "description": "USD, EUR, RUB, IDR" },
+      "geometry": { "coordinates": [27.5456, 53.8508], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": { "title": "Отделение №527/289", "description": "USD, EUR, RUB, IDR" },
+      "geometry": { "coordinates": [27.5371, 53.8815], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Отделение №527/355",
+        "description": "USD, EUR, RUB, GBP, PLN, CHF, IDR"
+      },
+      "geometry": { "coordinates": [27.5519, 53.8919], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": { "title": "Отделение №527/356", "description": "USD, EUR, RUB, IDR" },
+      "geometry": { "coordinates": [27.5214, 53.8555], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Отделение №527/360",
+        "description": "USD, EUR, RUB, GBP, CAD, PLN, KRW, CHF, IDR, CZK"
+      },
+      "geometry": { "coordinates": [27.5501, 53.8911], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Отделение №527/395",
+        "description": "USD, EUR, RUB, GBP, PLN, CHF, IDR"
+      },
+      "geometry": { "coordinates": [27.5488, 53.8962], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Обменный пункт №527/11",
+        "description": "USD, EUR, RUB, GBP, CAD, PLN, KRW, CHF, IDR, CZK"
+      },
+      "geometry": { "coordinates": [27.5505, 53.8906], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Обменный пункт №527/12",
+        "description": "USD, EUR, RUB, GBP, CAD, PLN, KRW, CHF, IDR, CZK"
+      },
+      "geometry": { "coordinates": [27.5507, 53.8906], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Обменный пункт №527/24",
+        "description": "USD, EUR, RUB, GBP, PLN, CHF, IDR, CZK"
+      },
+      "geometry": { "coordinates": [27.5485, 53.8957], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": { "title": "Отделение №527/453", "description": "USD, EUR, RUB, IDR" },
+      "geometry": { "coordinates": [27.4848, 53.8798], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "ЦБУ №527 Операционная служба",
+        "description": "USD, EUR, RUB, GBP, PLN, IDR"
+      },
+      "geometry": { "coordinates": [27.5431, 53.8783], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": { "title": "Отделение №527/418", "description": "USD, EUR, RUB, IDR" },
+      "geometry": { "coordinates": [27.5673, 53.8743], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": { "title": "Отделение №527/419", "description": "USD, EUR, RUB, IDR" },
+      "geometry": { "coordinates": [27.5661, 53.8614], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": { "title": "Отделение №527/452", "description": "USD, EUR, RUB, IDR" },
+      "geometry": { "coordinates": [27.474, 53.8453], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": { "title": "Отделение №527/454", "description": "USD, EUR, RUB, IDR" },
+      "geometry": { "coordinates": [27.4761, 53.8498], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": { "title": "Отделение №601/5127", "description": "USD, EUR, RUB, IDR" },
+      "geometry": { "coordinates": [26.8403, 54.2984], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": { "title": "Отделение №601/5129", "description": "USD, EUR, RUB, IDR" },
+      "geometry": { "coordinates": [26.8777, 54.2967], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "ЦБУ №601 Операционная служба",
+        "description": "USD, EUR, RUB, PLN, IDR"
+      },
+      "geometry": { "coordinates": [26.8385, 54.3108], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "ЦБУ №602 Операционная служба",
+        "description": "USD, EUR, RUB, PLN, IDR"
+      },
+      "geometry": { "coordinates": [28.9959, 53.834], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "ЦБУ №605 Операционная служба",
+        "description": "USD, EUR, RUB, IDR"
+      },
+      "geometry": { "coordinates": [26.5198, 54.0903], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": { "title": "Отделение №606/5034", "description": "USD, EUR, RUB, IDR" },
+      "geometry": { "coordinates": [27.319, 53.7423], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "ЦБУ №606 Операционная служба",
+        "description": "USD, EUR, RUB, IDR"
+      },
+      "geometry": { "coordinates": [27.1382, 53.6801], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "ЦБУ №607 Операционная служба",
+        "description": "USD, EUR, RUB, IDR"
+      },
+      "geometry": { "coordinates": [26.6415, 53.0638], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "ЦБУ №609 Операционная служба",
+        "description": "USD, EUR, RUB, IDR"
+      },
+      "geometry": { "coordinates": [27.0928, 53.1499], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "ЦБУ №610 Операционная служба",
+        "description": "USD, EUR, RUB, PLN, IDR"
+      },
+      "geometry": { "coordinates": [29.1411, 54.3187], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "ЦБУ №611 Операционная служба",
+        "description": "USD, EUR, RUB, PLN, IDR"
+      },
+      "geometry": { "coordinates": [27.8431, 54.2013], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": { "title": "Отделение №612/5163", "description": "USD, EUR, RUB, IDR" },
+      "geometry": { "coordinates": [28.5053, 54.2463], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": { "title": "Отделение №612/5169", "description": "USD, EUR, RUB, PLN, IDR" },
+      "geometry": { "coordinates": [28.516, 54.2236], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "ЦБУ №612 Операционная служба",
+        "description": "USD, EUR, RUB, PLN, IDR"
+      },
+      "geometry": { "coordinates": [28.4931, 54.22], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "ЦБУ №613 Операционная служба",
+        "description": "USD, EUR, RUB, IDR"
+      },
+      "geometry": { "coordinates": [28.0033, 52.7914], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "ЦБУ №615 Операционная служба",
+        "description": "USD, EUR, RUB, GBP, PLN, IDR"
+      },
+      "geometry": { "coordinates": [27.5613, 53.0338], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": { "title": "Отделение №616/5191", "description": "USD, EUR, RUB, IDR" },
+      "geometry": { "coordinates": [28.3595, 54.1084], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": { "title": "Обменный пункт №616/5195", "description": "USD, EUR, RUB, PLN" },
+      "geometry": { "coordinates": [28.3181, 54.1027], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "ЦБУ №616 Операционная служба",
+        "description": "USD, EUR, RUB, IDR"
+      },
+      "geometry": { "coordinates": [28.2992, 54.0906], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": { "title": "Отделение №619/5138", "description": "USD, EUR, RUB, IDR" },
+      "geometry": { "coordinates": [26.7066, 54.9096], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "ЦБУ №619 Операционная служба",
+        "description": "USD, EUR, RUB, PLN, IDR"
+      },
+      "geometry": { "coordinates": [26.9298, 54.8726], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": { "title": "Отделение №620/5266", "description": "USD, EUR, RUB, IDR" },
+      "geometry": { "coordinates": [26.5151, 53.3056], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "ЦБУ №620 Операционная служба",
+        "description": "USD, EUR, RUB, PLN, IDR"
+      },
+      "geometry": { "coordinates": [26.6762, 53.2186], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "ЦБУ №621 Операционная служба",
+        "description": "USD, EUR, RUB, IDR"
+      },
+      "geometry": { "coordinates": [28.092, 54.0296], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "ЦБУ №623 Операционная служба",
+        "description": "USD, EUR, RUB, IDR"
+      },
+      "geometry": { "coordinates": [28.2581, 53.0394], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "ЦБУ №624 Операционная служба",
+        "description": "USD, EUR, RUB, IDR"
+      },
+      "geometry": { "coordinates": [26.7402, 53.4884], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "ЦБУ №625 Операционная служба",
+        "description": "USD, EUR, RUB, IDR"
+      },
+      "geometry": { "coordinates": [27.2145, 53.4679], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": { "title": "Отделение №626/5065", "description": "USD, EUR, RUB, IDR" },
+      "geometry": { "coordinates": [28.1656, 53.5045], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": { "title": "Отделение №626/5067", "description": "USD, EUR, RUB, IDR" },
+      "geometry": { "coordinates": [27.9169, 53.6466], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "ЦБУ №626 Операционная служба",
+        "description": "USD, EUR, RUB, PLN, IDR"
+      },
+      "geometry": { "coordinates": [28.1457, 53.5148], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": { "title": "Отделение №627/5081", "description": "USD, EUR, RUB, IDR" },
+      "geometry": { "coordinates": [28.0113, 53.7526], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "ЦБУ №627 Операционная служба",
+        "description": "USD, EUR, RUB, IDR"
+      },
+      "geometry": { "coordinates": [28.4195, 53.7137], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": { "title": "Отделение №632/5156", "description": "USD, EUR, RUB, IDR" },
+      "geometry": { "coordinates": [26.8936, 54.4808], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "ЦБУ №632 Операционная служба",
+        "description": "USD, EUR, RUB, PLN, IDR"
+      },
+      "geometry": { "coordinates": [26.9147, 54.487], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": { "title": "Отделение №633/5200", "description": "USD, EUR, RUB, IDR" },
+      "geometry": { "coordinates": [27.5337, 52.7932], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Отделение №633/5202",
+        "description": "USD, EUR, RUB, GBP, PLN, IDR"
+      },
+      "geometry": { "coordinates": [27.5308, 52.7833], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": { "title": "Отделение №633/5206", "description": "USD, EUR, RUB, IDR" },
+      "geometry": { "coordinates": [27.5049, 52.7879], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": { "title": "Отделение №633/5211", "description": "USD, EUR, RUB, IDR" },
+      "geometry": { "coordinates": [27.4475, 52.7316], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "ЦБУ №633 Операционная служба",
+        "description": "USD, EUR, RUB, GBP, PLN, IDR"
+      },
+      "geometry": { "coordinates": [27.5469, 52.7844], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": { "title": "Отделение №700/7005", "description": "USD, EUR, RUB, IDR" },
+      "geometry": { "coordinates": [30.336, 53.923], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": { "title": "Отделение №700/7007", "description": "USD, EUR, RUB, IDR" },
+      "geometry": { "coordinates": [30.3609, 53.9499], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": { "title": "Отделение №700/7012", "description": "USD, EUR, RUB, IDR" },
+      "geometry": { "coordinates": [30.3342, 53.8995], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": { "title": "Отделение №700/7018", "description": "USD, EUR, RUB, IDR" },
+      "geometry": { "coordinates": [30.364, 53.9312], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": { "title": "Отделение №700/7022", "description": "USD, EUR, RUB, IDR" },
+      "geometry": { "coordinates": [30.3433, 53.9104], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": { "title": "Отделение №700/7025", "description": "USD, EUR, RUB, IDR" },
+      "geometry": { "coordinates": [30.3382, 53.9027], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": { "title": "Обменный пункт №700/7033", "description": "USD, EUR, RUB, IDR" },
+      "geometry": { "coordinates": [30.339, 53.9259], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": { "title": "Отделение №700/7031", "description": "USD, EUR, RUB, IDR" },
+      "geometry": { "coordinates": [30.3284, 53.8719], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": { "title": "Отделение №700/7016", "description": "USD, EUR, RUB, IDR" },
+      "geometry": { "coordinates": [30.2616, 53.9293], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": { "title": "Отделение №700/7002", "description": "USD, EUR, RUB, IDR" },
+      "geometry": { "coordinates": [30.3478, 53.8719], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": { "title": "Отделение №700/7004", "description": "USD, EUR, RUB, IDR" },
+      "geometry": { "coordinates": [30.4127, 53.8832], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": { "title": "Отделение №700/7006", "description": "USD, EUR, RUB, IDR" },
+      "geometry": { "coordinates": [30.3102, 53.8647], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": { "title": "Отделение №700/7008", "description": "USD, EUR, RUB, IDR" },
+      "geometry": { "coordinates": [30.2735, 53.8841], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": { "title": "Отделение №700/7011", "description": "USD, EUR, RUB, IDR" },
+      "geometry": { "coordinates": [30.3131, 53.9085], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": { "title": "Отделение №700/7013", "description": "USD, EUR, RUB, IDR" },
+      "geometry": { "coordinates": [30.3119, 53.8936], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": { "title": "Отделение №700/7014", "description": "USD, EUR, RUB, IDR" },
+      "geometry": { "coordinates": [30.3198, 53.8738], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": { "title": "Отделение №700/7015", "description": "USD, EUR, RUB, IDR" },
+      "geometry": { "coordinates": [30.362, 53.9078], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": { "title": "Отделение №700/7017", "description": "USD, EUR, RUB, IDR" },
+      "geometry": { "coordinates": [30.3371, 53.8776], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": { "title": "Отделение №700/7023", "description": "USD, EUR, RUB, IDR" },
+      "geometry": { "coordinates": [30.3744, 53.8775], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": { "title": "Отделение №700/7024", "description": "USD, EUR, RUB, IDR" },
+      "geometry": { "coordinates": [30.3741, 53.8723], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "ЦБУ №700 Операционная служба",
+        "description": "USD, EUR, RUB, GBP, PLN, IDR"
+      },
+      "geometry": { "coordinates": [30.3433, 53.9104], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": { "title": "Отделение №700/7032", "description": "USD, EUR, RUB, IDR" },
+      "geometry": { "coordinates": [30.3665, 53.8825], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": { "title": "Отделение №701/7039", "description": "USD, EUR, RUB, IDR" },
+      "geometry": { "coordinates": [29.7136, 53.9887], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "ЦБУ №701 Операционная служба",
+        "description": "USD, EUR, RUB, IDR"
+      },
+      "geometry": { "coordinates": [29.7098, 53.9992], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": { "title": "Отделение №703/7106", "description": "USD, EUR, RUB, IDR" },
+      "geometry": { "coordinates": [29.229, 53.1616], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": { "title": "Отделение №703/7111", "description": "USD, EUR, RUB, IDR" },
+      "geometry": { "coordinates": [29.2343, 53.1227], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": { "title": "Отделение №703/7112", "description": "USD, EUR, RUB, IDR" },
+      "geometry": { "coordinates": [29.1708, 53.1672], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": { "title": "Отделение №703/7113", "description": "USD, EUR, RUB, IDR" },
+      "geometry": { "coordinates": [29.1955, 53.1591], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": { "title": "Отделение №703/7114", "description": "USD, EUR, RUB, IDR" },
+      "geometry": { "coordinates": [29.2273, 53.1422], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": { "title": "Отделение №703/7115", "description": "USD, EUR, RUB, IDR" },
+      "geometry": { "coordinates": [29.2001, 53.1386], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": { "title": "Отделение №703/7116", "description": "USD, EUR, RUB, IDR" },
+      "geometry": { "coordinates": [29.2061, 53.1647], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": { "title": "Отделение №703/7117", "description": "USD, EUR, RUB, IDR" },
+      "geometry": { "coordinates": [29.1911, 53.1695], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": { "title": "Отделение №703/7118", "description": "USD, EUR, RUB, IDR" },
+      "geometry": { "coordinates": [29.2209, 53.1539], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": { "title": "Отделение №703/7120", "description": "USD, EUR, RUB, IDR" },
+      "geometry": { "coordinates": [29.225, 53.1338], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": { "title": "Отделение №703/7121", "description": "USD, EUR, RUB, IDR" },
+      "geometry": { "coordinates": [29.2289, 53.1993], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "ЦБУ №703 Операционная служба",
+        "description": "USD, EUR, RUB, GBP, PLN, IDR"
+      },
+      "geometry": { "coordinates": [29.2322, 53.1434], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": { "title": "Отделение №703/7123", "description": "USD, EUR, RUB, IDR" },
+      "geometry": { "coordinates": [29.1676, 53.1405], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": { "title": "Отделение №703/7124", "description": "USD, EUR, RUB, IDR" },
+      "geometry": { "coordinates": [29.1875, 53.1656], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": { "title": "Отделение №703/7125", "description": "USD, EUR, RUB, IDR" },
+      "geometry": { "coordinates": [29.1942, 53.1842], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": { "title": "Отделение №706/7041", "description": "USD, EUR, RUB, IDR" },
+      "geometry": { "coordinates": [30.2159, 53.5252], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "ЦБУ №706 Операционная служба",
+        "description": "USD, EUR, RUB, IDR"
+      },
+      "geometry": { "coordinates": [30.2381, 53.516], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "ЦБУ №707 Операционная служба",
+        "description": "USD, EUR, RUB, IDR"
+      },
+      "geometry": { "coordinates": [28.6816, 52.8932], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": { "title": "Отделение №708/7080", "description": "USD, EUR, RUB, IDR" },
+      "geometry": { "coordinates": [30.9847, 54.3027], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": { "title": "Отделение №708/7082", "description": "USD, EUR, RUB, IDR" },
+      "geometry": { "coordinates": [30.99, 54.2652], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": { "title": "Отделение №708/7084", "description": "USD, EUR, RUB, IDR" },
+      "geometry": { "coordinates": [30.9912, 54.285], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "ЦБУ №708 Операционная служба",
+        "description": "USD, EUR, RUB, GBP, PLN, IDR"
+      },
+      "geometry": { "coordinates": [30.9826, 54.2875], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": { "title": "Отделение №709/7132", "description": "USD, EUR, RUB, IDR" },
+      "geometry": { "coordinates": [29.4713, 53.2737], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "ЦБУ №709 Операционная служба",
+        "description": "USD, EUR, RUB, IDR"
+      },
+      "geometry": { "coordinates": [29.4732, 53.2713], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "ЦБУ №710 Операционная служба",
+        "description": "USD, EUR, RUB, IDR"
+      },
+      "geometry": { "coordinates": [31.9581, 53.605], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": { "title": "Отделение №710/7089", "description": "USD, EUR, RUB, IDR" },
+      "geometry": { "coordinates": [31.9517, 53.5954], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "ЦБУ №711 Операционная служба",
+        "description": "USD, EUR, RUB, IDR"
+      },
+      "geometry": { "coordinates": [29.339, 53.4931], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": { "title": "Отделение №712/7092", "description": "USD, EUR, RUB, IDR" },
+      "geometry": { "coordinates": [32.0477, 53.3563], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "ЦБУ №712 Операционная служба",
+        "description": "USD, EUR, RUB, IDR"
+      },
+      "geometry": { "coordinates": [32.0582, 53.3532], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "ЦБУ №713 Операционная служба",
+        "description": "USD, EUR, RUB, IDR"
+      },
+      "geometry": { "coordinates": [31.4009, 53.3336], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": { "title": "Отделение №714/7074", "description": "USD, EUR, RUB, IDR" },
+      "geometry": { "coordinates": [31.7091, 53.7384], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": { "title": "Отделение №714/7075", "description": "USD, EUR, RUB, IDR" },
+      "geometry": { "coordinates": [31.7143, 53.7118], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": { "title": "Отделение №714/7077", "description": "USD, EUR, RUB, IDR" },
+      "geometry": { "coordinates": [31.724, 53.7051], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "ЦБУ №714 Операционная служба",
+        "description": "USD, EUR, RUB, IDR"
+      },
+      "geometry": { "coordinates": [31.714, 53.6932], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "ЦБУ №715 Операционная служба",
+        "description": "USD, EUR, RUB, IDR"
+      },
+      "geometry": { "coordinates": [29.7953, 54.2472], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": { "title": "Отделение №721/7096", "description": "USD, EUR, RUB, IDR" },
+      "geometry": { "coordinates": [31.7073, 54.0151], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "ЦБУ №721 Операционная служба",
+        "description": "USD, EUR, RUB, IDR"
+      },
+      "geometry": { "coordinates": [31.7242, 54.0178], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": { "title": "Отделение №722/7137", "description": "USD, EUR, RUB, IDR" },
+      "geometry": { "coordinates": [28.637, 53.2961], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": { "title": "Отделение №722/7142", "description": "USD, EUR, RUB, IDR" },
+      "geometry": { "coordinates": [28.6471, 53.2997], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": { "title": "Отделение №722/7143", "description": "USD, EUR, RUB, IDR" },
+      "geometry": { "coordinates": [28.6445, 53.3205], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "ЦБУ №722 Операционная служба",
+        "description": "USD, EUR, RUB, IDR"
+      },
+      "geometry": { "coordinates": [28.6409, 53.3121], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "ЦБУ №723 Операционная служба",
+        "description": "USD, EUR, RUB, IDR"
+      },
+      "geometry": { "coordinates": [31.0005, 53.4478], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "ЦБУ №724 Операционная служба",
+        "description": "USD, EUR, RUB, IDR"
+      },
+      "geometry": { "coordinates": [32.5793, 53.4088], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "ЦБУ №725 Операционная служба",
+        "description": "USD, EUR, RUB, IDR"
+      },
+      "geometry": { "coordinates": [30.9745, 53.8061], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": { "title": "Отделение №726/7061", "description": "USD, EUR, RUB, IDR" },
+      "geometry": { "coordinates": [30.2895, 54.2092], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": { "title": "Отделение №726/7063", "description": "USD, EUR, RUB, IDR" },
+      "geometry": { "coordinates": [30.2852, 54.3366], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": { "title": "Отделение №726/7064", "description": "USD, EUR, RUB, IDR" },
+      "geometry": { "coordinates": [30.1123, 54.113], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "ЦБУ №726 Операционная служба",
+        "description": "USD, EUR, RUB, IDR"
+      },
+      "geometry": { "coordinates": [30.2979, 54.201], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": { "title": "Обменный пункт №726/7068", "description": "USD, EUR, RUB, IDR" },
+      "geometry": { "coordinates": [30.3021, 54.2059], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "ЦБУ №727 Операционная служба",
+        "description": "USD, EUR, RUB, IDR"
+      },
+      "geometry": { "coordinates": [31.383, 53.5676], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "ЦБУ №728 Операционная служба",
+        "description": "USD, EUR, RUB, IDR"
+      },
+      "geometry": { "coordinates": [31.095, 54.1178], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": { "title": "", "description": "" },
+      "geometry": { "coordinates": [0, 0], "type": "Point" }
+    },
+    {
+      "type": "Feature",
+      "properties": { "title": "Отделение №795/413", "description": "USD, EUR, RUB, IDR" },
+      "geometry": { "coordinates": [27.5425, 53.8981], "type": "Point" }
+    }
+  ]
+}

@@ -3,6 +3,30 @@
 @use './abstracts/variables' as *;
 @use './abstracts/mixins' as *;
 
+@font-face {
+  font-family: $font-family-primary-light;
+  font-weight: $font-weight-light;
+  src: url('@/assets/fonts/Poppins-Light.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: $font-family-primary-regular;
+  font-weight: $font-weight-regular;
+  src: url('@/assets/fonts/Poppins-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: $font-family-primary-semibold;
+  font-weight: $font-weight-semibold;
+  src: url('@/assets/fonts/Poppins-SemiBold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: $font-family-secondary-regular;
+  font-weight: $font-weight-regular;
+  src: url('@/assets/fonts/Inter-Regular.ttf') format('truetype');
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -23,6 +47,7 @@ body {
   max-width: $container-main-width;
   padding: $container-inner-padding;
   color: var(--primary-color);
+  overflow-x: hidden;
 
   @include mobile-breakpoint {
     padding: 0 $padding-xs-mobile 0 $padding-xs-mobile;

@@ -1,0 +1,18 @@
+@use '@/styles/abstracts/variables' as *;
+@use '@/styles/abstracts/typography' as *;
+@use '@/styles/abstracts/mixins' as *;
+
+.banks-map {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: $spacing-sm;
+
+  &__title {
+    font-weight: $font-weight-light;
+
+    @include tablet-mobile-breakpoint {
+      font-size: $font-size-2m;
+    }
+  }
+}

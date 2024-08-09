@@ -4,7 +4,7 @@ import { fetchCurrencies } from './thunks';
 import LocalStorageManager from '@/services/localStorageManager';
 import { RootState } from '@/store';
 import { CacheNames, CurrenciesCache, CurrenciesCacheFields } from '@/types/cache';
-import type { CurrenciesState, CurrencyCodes, ExchangeRatesResponse } from '@/types/currencies';
+import type { CurrenciesState, CurrencyCodes } from '@/types/currencies';
 import { mapCurrenciesResponse } from '@/utils/mappings';
 
 const initialState: CurrenciesState = {
@@ -28,9 +28,10 @@ const currenciesSlice = createSlice({
     builder.addCase(fetchCurrencies.fulfilled, (state, action) => {
       state.isError = false;
 
-      const response: ExchangeRatesResponse = action.payload;
+      const response = action.payload;
+      const responseLastUpdatedAt = response.ratesResponse.meta.last_updated_at;
 
-      if (response.meta.last_updated_at === state.data.lastUpdatedAt) {
+      if (responseLastUpdatedAt === state.data.lastUpdatedAt) {
         if (state.data.isEmpty) {
           const dataFromStorage = LocalStorageManager.retriveCache<CurrenciesCache>(
             CacheNames.currencies

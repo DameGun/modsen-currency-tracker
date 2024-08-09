@@ -13,4 +13,13 @@
   @extend %interaction-element;
 
   color-scheme: #{var(--color-scheme)};
+
+  & + svg {
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: $padding-xs-mobile;
+    height: $size-md;
+    fill: var(--primary-color);
+  }
 }

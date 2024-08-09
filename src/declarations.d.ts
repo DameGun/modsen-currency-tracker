@@ -5,6 +5,11 @@ declare module '*.svg' {
 }
 
 declare module '*.json' {
-  const jsonString: string;
-  export default jsonString;
+  const jsonPath: string;
+  export default jsonPath;
+}
+
+declare module '*.png' {
+  const imagePath: string;
+  export default imagePath;
 }
