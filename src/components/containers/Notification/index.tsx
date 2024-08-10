@@ -7,23 +7,23 @@ import { NOTIFICATION_TIMEOUT } from '@/constants/chart';
 import type { IObservable, IObserver } from '@/types/observable';
 import { ObserveableActionType } from '@/types/observable';
 
-interface ChartNotificationProps extends IObservable<string> {}
+interface NotificationProps extends IObservable<string> {}
 
-interface ChartNotificationState {
+interface NotificationState {
   isVisible: boolean;
   timeoutId?: NodeJS.Timeout;
-  currencyLabel: string;
+  data: string;
 }
 
-export default class ChartNotification
-  extends Component<ChartNotificationProps, ChartNotificationState>
+export default class Notification
+  extends Component<NotificationProps, NotificationState>
   implements IObserver<string>
 {
-  constructor(props: ChartNotificationProps) {
+  constructor(props: NotificationProps) {
     super(props);
     this.state = {
       isVisible: false,
-      currencyLabel: '',
+      data: '',
     };
 
     this.handleClose = this.handleClose.bind(this);
@@ -47,7 +47,7 @@ export default class ChartNotification
   }
 
   update(data: string, action: ObserveableActionType) {
-    if (action === ObserveableActionType.completed) {
+    if (action === ObserveableActionType.notify) {
       const timeoutId = setTimeout(() => {
         this.setState({
           isVisible: false,
@@ -57,7 +57,7 @@ export default class ChartNotification
       this.setState({
         isVisible: true,
         timeoutId,
-        currencyLabel: data,
+        data,
       });
     }
   }
@@ -66,9 +66,7 @@ export default class ChartNotification
     return (
       this.state.isVisible && (
         <div className='chart-notification'>
-          <p>
-            Chart for <b>{this.state.currencyLabel}</b> currency has been created for 30 days!
-          </p>
+          <p>{this.state.data}</p>
           <IconButton
             IconComponent={<CloseIcon className='chart-notification__icon' />}
             onClick={this.handleClose}

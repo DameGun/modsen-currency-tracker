@@ -1,8 +1,7 @@
 import { Component } from 'react';
 import { connect } from 'react-redux';
 
-import './styles.scss';
-import { ElasticSearch, MapBox } from '@/components/containers';
+import { ElasticSearch, MapBox, Section } from '@/components/containers';
 import { AppDispatch } from '@/store';
 import { fetchBanksGeoData } from '@/store/banks/thunks';
 
@@ -23,11 +22,10 @@ class BanksMap extends Component<PropsFromRedux> {
 
   render() {
     return (
-      <div className='banks-map'>
-        <h1 className='banks-map__title'>Search currency in the bank</h1>
+      <Section title='Search currency'>
         <ElasticSearch />
         <MapBox />
-      </div>
+      </Section>
     );
   }
 }

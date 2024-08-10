@@ -1,7 +1,7 @@
 enum ObserveableActionType {
   created = 'created',
   deleted = 'deleted',
-  completed = 'completed',
+  notify = 'notify',
 }
 
 interface IObserver<T> {

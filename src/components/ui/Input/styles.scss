@@ -3,16 +3,10 @@
 @use '@/styles/abstracts/extends' as *;
 
 .custom-input {
-  padding-left: $padding-xs-mobile;
-  padding-right: $padding-xs-mobile;
-  width: calc(100% - $padding-xs-mobile * 2);
-
-  color: var(--primary-color);
-  font-size: $font-size-3xs;
-
   @extend %interaction-element;
+  @extend %interaction-element-calculate-width;
 
-  color-scheme: #{var(--color-scheme)};
+  color-scheme: var(--color-scheme);
 
   & + svg {
     position: absolute;

@@ -51,7 +51,10 @@ export default class PointsList
       this.setState({ data: updatedData });
 
       if (isCompleted) {
-        this.props.notify(data.datasetLabel, ObserveableActionType.completed);
+        this.props.notify(
+          `Chart for ${data.datasetLabel} currency has been created for 30 days!`,
+          ObserveableActionType.notify
+        );
       }
     }
     if (action === ObserveableActionType.deleted && isFinancialDataPointToRemove(data)) {

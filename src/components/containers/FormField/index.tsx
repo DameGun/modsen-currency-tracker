@@ -6,6 +6,7 @@ import './styles.scss';
 interface FormFieldProps {
   className?: string;
   isValidationFailed: boolean;
+  labelText?: string;
   errorText: string;
   children: ReactNode;
 }
@@ -18,6 +19,9 @@ export default class FormField extends Component<FormFieldProps> {
   render() {
     return (
       <div className={cn('form-field', this.props.className)}>
+        {this.props.labelText && (
+          <label className='form-field__label'>{this.props.labelText}</label>
+        )}
         {this.props.children}
         <p
           className={cn('form-field__error-text', {

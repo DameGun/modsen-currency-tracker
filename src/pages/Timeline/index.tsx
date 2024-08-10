@@ -1,9 +1,4 @@
-import {
-  ChartNotification,
-  CreateChartPoint,
-  CurrencyChart,
-  PointsList,
-} from '@/components/containers';
+import { CreateChartPoint, CurrencyChart, Notification, PointsList } from '@/components/containers';
 import { CURRENCIES_REQUEST_POLLING_TIME } from '@/constants/cache';
 import Observable from '@/services/observable';
 import { setCurrencies } from '@/store/currencies';
@@ -26,7 +21,7 @@ class TimelinePage extends Observable<
         <CurrencyChart attach={this.attach} detach={this.detach} />
         <CreateChartPoint notify={this.notify} />
         <PointsList attach={this.attach} detach={this.detach} notify={this.notify} />
-        <ChartNotification attach={this.attach} detach={this.detach} />
+        <Notification attach={this.attach} detach={this.detach} />
       </>
     );
   }
