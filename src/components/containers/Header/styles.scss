@@ -82,6 +82,10 @@ header {
       color: var(--primary-color);
       font-size: $font-size-xs;
 
+      &.active {
+        color: var(--color-green);
+      }
+
       &:hover {
         color: var(--color-gray-100);
       }

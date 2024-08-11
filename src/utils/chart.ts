@@ -4,12 +4,14 @@ import {
   CHART_GRID_LINES_COLOR,
   CHART_TOOLTIP_BG_COLOR,
   CHART_TOOLTIP_MAIN_COLOR,
+  MAX_DATASETS,
   MAX_POINTS_PER_DATASET,
 } from '@/constants/chart';
-import type {
-  FinancialDataPointToAdd,
-  FinancialDataPointToRemove,
-  PointCreationResult,
+import {
+  type FinancialDataPointToAdd,
+  type FinancialDataPointToRemove,
+  type PointCreationResult,
+  PointCreationResultType,
 } from '@/types/chart';
 
 export const chartOptions: ChartOptions<'candlestick'> = {
@@ -66,19 +68,29 @@ export function createPointOrDataset(
   newPoint: FinancialDataPointToAdd
 ): PointCreationResult {
   const searchableDataset = datasets.find((val) => val.label === newPoint.datasetLabel);
-  let isCompleted = false;
+  let status = PointCreationResultType.isCreated;
 
   if (searchableDataset) {
+    const isNotCompleted = searchableDataset.data.length + 1 <= MAX_POINTS_PER_DATASET;
+
+    if (!isNotCompleted)
+      return { updatedData: datasets, status: PointCreationResultType.isAleadyFilled };
+
     const isPointForThisDateExists = searchableDataset.data.find(
       (point) => point.x === newPoint.point.x
     );
-    const isNotCompleted = searchableDataset.data.length + 1 <= MAX_POINTS_PER_DATASET;
-    isCompleted = searchableDataset.data.length + 1 === MAX_POINTS_PER_DATASET;
 
-    if (!isPointForThisDateExists && isNotCompleted) {
-      searchableDataset.data.push(newPoint.point);
-    }
+    if (isPointForThisDateExists)
+      return { updatedData: datasets, status: PointCreationResultType.isPointExists };
+
+    searchableDataset.data.push(newPoint.point);
+
+    if (searchableDataset.data.length === MAX_POINTS_PER_DATASET)
+      status = PointCreationResultType.isFilled;
   } else {
+    if (datasets.length === MAX_DATASETS)
+      return { updatedData: datasets, status: PointCreationResultType.isDatasetLimit };
+
     const newDataset: ChartDataset<'candlestick'> = {
       label: newPoint.datasetLabel,
       data: [newPoint.point],
@@ -86,7 +98,7 @@ export function createPointOrDataset(
     datasets.push(newDataset);
   }
 
-  return { updatedData: datasets, isCompleted };
+  return { updatedData: datasets, status };
 }
 
 export function deletePointOrDataset(

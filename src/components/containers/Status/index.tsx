@@ -15,7 +15,10 @@ export default function Status() {
     <div className='status'>
       {lastUpdatedAt && (
         <>
-          <span className='status__badge' />
+          <div className='status__badge'>
+            <span />
+            <span />
+          </div>
           <h4 className='status__text'>Last updated at {lastUpdatedAtLocal}</h4>
         </>
       )}

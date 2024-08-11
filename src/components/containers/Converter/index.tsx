@@ -5,6 +5,7 @@ import { Input, Select } from '@/components/ui';
 import { useAppSelector } from '@/hooks/redux';
 import useDebounce from '@/hooks/useDebounce';
 import { selectCurrenciesCodes } from '@/store/currencies';
+import { blockInvalidCharacter } from '@/utils/converter';
 
 interface ConverterProps {
   targetCurrency: string;
@@ -47,11 +48,17 @@ export default function Converter({ targetCurrency }: ConverterProps) {
       convertedValue = (baseValue / baseValueRateToUSD) * convertValueRateToUSD;
     }
 
-    setInputConvertValue(Number(convertedValue).toFixed(2));
+    if (convertedValue > Number.MAX_SAFE_INTEGER) {
+      setInputConvertValue(convertedValue.toExponential(10));
+    } else {
+      setInputConvertValue(
+        new Intl.NumberFormat('en-US', { maximumFractionDigits: 2 }).format(convertedValue)
+      );
+    }
   }
 
   useEffect(() => {
-    if (debouncedBaseValue) {
+    if (debouncedBaseValue && toSelectValue) {
       convertCurrency(Number(debouncedBaseValue));
     }
   }, [debouncedBaseValue, fromSelectValue, toSelectValue]);
@@ -73,6 +80,8 @@ export default function Converter({ targetCurrency }: ConverterProps) {
             type='number'
             value={inputBaseValue}
             onChange={handleBaseValueChange}
+            onKeyDown={blockInvalidCharacter}
+            min={0}
           />
         </div>
       </div>
@@ -85,7 +94,7 @@ export default function Converter({ targetCurrency }: ConverterProps) {
             onChange={handleToSelectChange}
             selected={toSelectValue}
           />
-          <Input id='from' name='from' readOnly type='number' value={inputConvertValue} />
+          <Input id='from' name='from' readOnly type='text' value={inputConvertValue} />
         </div>
       </div>
     </div>

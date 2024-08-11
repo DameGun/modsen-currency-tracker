@@ -4,6 +4,15 @@
 @use '@/styles/abstracts/extends' as *;
 
 .points-list {
+  display: flex;
+  flex-direction: column;
+  gap: $spacing-xs;
+
+  &__info {
+    align-self: center;
+    font-family: $font-family-primary-light;
+    font-weight: $font-weight-light;
+  }
   &__container {
     display: grid;
     grid-auto-columns: 1fr;
@@ -41,6 +50,7 @@
       gap: $spacing-xs;
       max-height: $overflow-height-md;
       overflow-y: auto;
+      scrollbar-gutter: stable both-edges;
 
       @extend %custom-scrollbar;
     }

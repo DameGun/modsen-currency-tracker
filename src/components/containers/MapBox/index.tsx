@@ -117,7 +117,11 @@ class MapBox extends Component<MapBoxProps> {
 
   filterMapMarkers(filterTerm: string) {
     if (this.map) {
-      this.map.setFilter('banks', ['in', ['upcase', filterTerm], ['get', 'description']]);
+      this.map.setFilter('banks', [
+        'any',
+        ['in', ['upcase', filterTerm], ['upcase', ['get', 'title']]],
+        ['in', ['upcase', filterTerm], ['get', 'description']],
+      ]);
     }
   }
 
