@@ -1,8 +1,8 @@
 import { ActionCreatorWithPayload, AsyncThunk } from '@reduxjs/toolkit';
 import { AsyncThunkConfig } from '@reduxjs/toolkit/dist/createAsyncThunk';
 
-import { AppDispatch } from '@/store';
-import { CacheMeta, CacheNames } from '@/types/cache';
+import type { AppDispatch } from '@/store';
+import { type CacheMeta, CacheNames } from '@/types/cache';
 import isOneDayPassed from '@/utils/isOneDayPassed';
 
 export interface LocalStorageManagerProps<TData, TResponse, Path extends string> {

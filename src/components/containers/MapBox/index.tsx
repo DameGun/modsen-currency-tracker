@@ -1,6 +1,6 @@
-import { Component, createRef, RefObject } from 'react';
+import { Component, createRef, type RefObject } from 'react';
 import { connect } from 'react-redux';
-import { LngLatLike, Map, Popup } from 'mapbox-gl';
+import { type LngLatLike, Map, Popup } from 'mapbox-gl';
 
 import './styles.scss';
 import customMarker from '@/assets/images/bank-marker.png';

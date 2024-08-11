@@ -1,9 +1,9 @@
 import { Component } from 'react';
 import { ChartDataset } from 'chart.js';
 import { DateTime } from 'luxon';
-import ListPoint from '../ListPoint';
 
 import './styles.scss';
+import { ListPoint } from '@/components/containers';
 import { Collapsible } from '@/components/ui';
 import { MAX_DATASETS, MAX_POINTS_PER_DATASET } from '@/constants/chart';
 import {

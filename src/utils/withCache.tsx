@@ -1,9 +1,9 @@
 import { ComponentType, useEffect, useState } from 'react';
 
-import { Loader } from '@/components/common';
+import { ErrorBoundary, Loader } from '@/components/common';
 import { useAppDispatch } from '@/hooks/redux';
 import LocalStorageManager, { LocalStorageManagerProps } from '@/services/localStorageManager';
-import { CacheMeta, CacheNames } from '@/types/cache';
+import { type CacheMeta, CacheNames } from '@/types/cache';
 
 interface CacheWithPollingProps<TData extends CacheMeta, TResponse, Path extends string> {
   storageManagerOptions: Omit<LocalStorageManagerProps<TData, TResponse, Path>, 'dispatch'>;
@@ -44,9 +44,13 @@ export default function withCache<
     }, []);
 
     return (
-      <Loader isLoading={isLoading}>
-        <WrappedComponent {...props} />
-      </Loader>
+      <ErrorBoundary
+        fallback={<h1>Error happed while trying to make a request. Please try again later</h1>}
+      >
+        <Loader isLoading={isLoading}>
+          <WrappedComponent {...props} />
+        </Loader>
+      </ErrorBoundary>
     );
   };
 

@@ -4,8 +4,7 @@ import './styles.scss';
 import { CloseIcon } from '@/assets/icons';
 import { IconButton } from '@/components/ui';
 import { NOTIFICATION_TIMEOUT } from '@/constants/chart';
-import type { IObservable, IObserver } from '@/types/observable';
-import { ObserveableActionType } from '@/types/observable';
+import { type IObservable, type IObserver, ObserveableActionType } from '@/types/observable';
 
 interface NotificationProps extends IObservable<string> {}
 

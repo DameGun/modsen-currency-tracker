@@ -1,8 +1,8 @@
 import { useContext } from 'react';
 import { ModalContext } from './context';
-import IconButton from '../IconButton';
 
 import { CloseIcon } from '@/assets/icons';
+import { IconButton } from '@/components/ui';
 import { ModalHeaderProps } from '@/types/modal';
 
 export default function ModalHeader({ title }: ModalHeaderProps) {

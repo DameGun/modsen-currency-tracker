@@ -2,8 +2,8 @@ import { createSelector, createSlice, PayloadAction } from '@reduxjs/toolkit';
 import { fetchCurrencies } from './thunks';
 
 import LocalStorageManager from '@/services/localStorageManager';
-import { RootState } from '@/store';
-import { CacheNames, CurrenciesCache, CurrenciesCacheFields } from '@/types/cache';
+import type { RootState } from '@/store';
+import { CacheNames, type CurrenciesCache, CurrenciesCacheFields } from '@/types/cache';
 import type { CurrenciesState, CurrencyCodes } from '@/types/currencies';
 import { mapCurrenciesResponse } from '@/utils/mappings';
 
@@ -13,7 +13,6 @@ const initialState: CurrenciesState = {
     crypto: [],
     isEmpty: true,
   },
-  isError: false,
 };
 
 const currenciesSlice = createSlice({
@@ -26,8 +25,6 @@ const currenciesSlice = createSlice({
   },
   extraReducers: (builder) => {
     builder.addCase(fetchCurrencies.fulfilled, (state, action) => {
-      state.isError = false;
-
       const response = action.payload;
       const responseLastUpdatedAt = response.ratesResponse.meta.last_updated_at;
 
@@ -49,11 +46,7 @@ const currenciesSlice = createSlice({
       const mappedCurrencies = mapCurrenciesResponse(response);
       state.data = mappedCurrencies;
       LocalStorageManager.setCache<CurrenciesCache>(CacheNames.currencies, mappedCurrencies);
-    }),
-      builder.addCase(fetchCurrencies.rejected, (state, action) => {
-        state.isError = true;
-        console.error(action.payload);
-      });
+    });
   },
 });
 

@@ -1,5 +1,5 @@
 import { Component } from 'react';
-import { FinancialDataPoint } from 'chart.js';
+import type { FinancialDataPoint } from 'chart.js';
 import { DateTime } from 'luxon';
 
 import './styles.scss';

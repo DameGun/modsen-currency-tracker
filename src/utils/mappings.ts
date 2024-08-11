@@ -1,8 +1,7 @@
 import { getIconForCurrency } from './getIconForCurrency';
 
 import type { CurrenciesCache } from '@/types/cache';
-import type { CurrenciesResponse, CurrencyData } from '@/types/currencies';
-import { CryptoCurrencies } from '@/types/currencies';
+import { CryptoCurrencies, type CurrenciesResponse, type CurrencyData } from '@/types/currencies';
 
 export function mapCurrenciesResponse(currenciesResponse: CurrenciesResponse): CurrenciesCache {
   const { ratesResponse, iconsResponse } = currenciesResponse;

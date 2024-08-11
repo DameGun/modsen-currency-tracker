@@ -1,4 +1,4 @@
-import { ChartDataset, ChartOptions } from 'chart.js';
+import type { ChartDataset, ChartOptions } from 'chart.js';
 
 import {
   CHART_GRID_LINES_COLOR,

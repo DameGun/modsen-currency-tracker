@@ -1,12 +1,11 @@
-import { ChangeEvent, Component, FormEvent } from 'react';
+import { type ChangeEvent, Component, type FormEvent } from 'react';
 
 import './styles.scss';
 import { FormField } from '@/components/containers';
 import { Button, Input, TextArea } from '@/components/ui';
 import { EMAIL_VALIDATION_PATTERN, TEXT_AREA_MAX_LENGTH } from '@/constants/misc';
 import type { ContactFormErrors, ContactFormValues } from '@/types/contact';
-import type { INotifier } from '@/types/observable';
-import { ObserveableActionType } from '@/types/observable';
+import { type INotifier, ObserveableActionType } from '@/types/observable';
 import { sendEmail } from '@/utils/contact';
 
 interface ContactFormProps extends INotifier<string> {}

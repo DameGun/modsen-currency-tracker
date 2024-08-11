@@ -1,6 +1,5 @@
-import Converter from '../Converter';
-
 import './styles.scss';
+import { Converter } from '@/components/containers';
 import { Modal, ModalBody, ModalButton, ModalContent, ModalHeader } from '@/components/ui';
 import type { CurrencyData } from '@/types/currencies';
 

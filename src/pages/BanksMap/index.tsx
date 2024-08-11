@@ -1,8 +1,9 @@
 import { Component } from 'react';
 import { connect } from 'react-redux';
 
+import { ErrorBoundary } from '@/components/common';
 import { ElasticSearch, MapBox, Section } from '@/components/containers';
-import { AppDispatch } from '@/store';
+import type { AppDispatch } from '@/store';
 import { fetchBanksGeoData } from '@/store/banks/thunks';
 
 const mapDispatchToProps = (dispatch: AppDispatch) => ({
@@ -22,10 +23,14 @@ class BanksMap extends Component<PropsFromRedux> {
 
   render() {
     return (
-      <Section title='Search currency'>
-        <ElasticSearch />
-        <MapBox />
-      </Section>
+      <ErrorBoundary
+        fallback={<h1>Some error happed while trying to create map. Please try again later</h1>}
+      >
+        <Section title='Search currency'>
+          <ElasticSearch />
+          <MapBox />
+        </Section>
+      </ErrorBoundary>
     );
   }
 }

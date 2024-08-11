@@ -1,6 +1,5 @@
-import CurrencyCard from '../CurrencyCard';
-
 import './styles.scss';
+import { CurrencyCard } from '@/components/containers';
 import { CurrenciesCacheFields } from '@/types/cache';
 import type { CurrencyData } from '@/types/currencies';
 

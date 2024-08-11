@@ -2,7 +2,7 @@ import { createSlice, PayloadAction } from '@reduxjs/toolkit';
 import { LngLatLike } from 'mapbox-gl';
 import { fetchBanksGeoData } from './thunks';
 
-import { RootState } from '@/store';
+import type { RootState } from '@/store';
 import type { BanksState } from '@/types/banks';
 
 const initialState: BanksState = {

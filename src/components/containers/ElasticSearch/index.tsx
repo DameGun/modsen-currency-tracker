@@ -1,10 +1,10 @@
-import { ChangeEvent, Component } from 'react';
+import { type ChangeEvent, Component } from 'react';
 import { connect } from 'react-redux';
 
 import './styles.scss';
 import { SearchIcon } from '@/assets/icons';
 import { Input } from '@/components/ui';
-import { AppDispatch, RootState } from '@/store';
+import type { AppDispatch, RootState } from '@/store';
 import { setCurrentFocus, setSearchTerm } from '@/store/banks';
 import type { BanksGeo } from '@/types/mapbox';
 

@@ -1,7 +1,7 @@
 import { send } from '@emailjs/browser';
 
 import { EMAIL_PUBLIC_KEY, EMAIL_SERVICE_ID, EMAIL_TEMPLATE_ID } from '@/constants/environment';
-import { ContactFormValues } from '@/types/contact';
+import type { ContactFormValues } from '@/types/contact';
 
 export async function sendEmail(data: ContactFormValues) {
   const serviceId = EMAIL_SERVICE_ID;

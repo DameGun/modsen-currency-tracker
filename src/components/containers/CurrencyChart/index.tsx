@@ -1,12 +1,11 @@
-import { Component, createRef, RefObject } from 'react';
+import { Component, createRef, type RefObject } from 'react';
 import { Chart, Legend, LinearScale, TimeSeriesScale, Tooltip } from 'chart.js';
 import { CandlestickController, CandlestickElement } from 'chartjs-chart-financial';
 
 import 'chartjs-adapter-luxon';
 import './styles.scss';
 import type { FinancialDataPointToAdd, FinancialDataPointToRemove } from '@/types/chart';
-import type { IObservable, IObserver } from '@/types/observable';
-import { ObserveableActionType } from '@/types/observable';
+import { type IObservable, type IObserver, ObserveableActionType } from '@/types/observable';
 import {
   chartOptions,
   createPointOrDataset,

@@ -29,7 +29,6 @@ type CurrencyIcon = {
 
 type CurrenciesState = {
   data: CurrenciesCache;
-  isError: boolean;
 };
 
 type CurrencyCodes = {

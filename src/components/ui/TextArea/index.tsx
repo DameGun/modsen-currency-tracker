@@ -1,4 +1,4 @@
-import { TextareaHTMLAttributes } from 'react';
+import type { TextareaHTMLAttributes } from 'react';
 import cn from 'classnames';
 
 import './styles.scss';

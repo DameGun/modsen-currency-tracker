@@ -1,7 +1,7 @@
 import { createAsyncThunk } from '@reduxjs/toolkit';
 
 import banksGeoDataPath from '@/assets/mock/banks.json';
-import { BanksGeo } from '@/types/mapbox';
+import type { BanksGeo } from '@/types/mapbox';
 
 export const fetchBanksGeoData = createAsyncThunk<BanksGeo>(
   'banks/fetchBanksGeoData',

@@ -1,4 +1,4 @@
-import { ButtonHTMLAttributes, Component } from 'react';
+import { type ButtonHTMLAttributes, Component } from 'react';
 import cn from 'classnames';
 
 import './styles.scss';
