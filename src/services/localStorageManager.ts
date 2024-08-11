@@ -36,11 +36,11 @@ export default class LocalStorageManager<TData extends CacheMeta, TResponse, Pat
     localStorage.setItem(cacheName, JSON.stringify(cache));
   }
 
-  retriveCache(cacheName: CacheNames): void {
+  async retriveCache(cacheName: CacheNames): Promise<void> {
     const cache = localStorage.getItem(cacheName);
 
     if (cache === null) {
-      this.dispatch(this.fetchAction());
+      await this.dispatch(this.fetchAction());
     } else {
       const mappedCache: TData = JSON.parse(cache);
 
@@ -48,7 +48,7 @@ export default class LocalStorageManager<TData extends CacheMeta, TResponse, Pat
         mappedCache.lastUpdatedAt &&
         isOneDayPassed(new Date(), new Date(mappedCache.lastUpdatedAt))
       ) {
-        this.dispatch(this.fetchAction());
+        await this.dispatch(this.fetchAction());
       } else {
         this.dispatch(this.setStateAction(mappedCache));
       }

@@ -4,7 +4,7 @@ import { Provider } from 'react-redux';
 import { RouterProvider } from 'react-router-dom';
 
 import '@/styles/index.scss';
-import ThemeProvider from '@/components/common/ThemeProvider';
+import { ThemeProvider } from '@/components/common';
 import { store } from '@/store';
 import { router } from '@/utils/router';
 

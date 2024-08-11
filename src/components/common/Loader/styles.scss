@@ -1,0 +1,22 @@
+@use '@/styles/abstracts/variables' as *;
+
+.loader {
+  position: relative;
+  left: 50%;
+
+  border: $border-radius-sm solid var(--color-gray-100);
+  border-top: $border-radius-sm solid var(--color-green);
+  border-radius: 50%;
+  width: $size-xl;
+  height: $size-xl;
+  animation: spin 2s linear infinite;
+
+  @keyframes spin {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+}

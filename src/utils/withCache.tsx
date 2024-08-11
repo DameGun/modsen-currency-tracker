@@ -1,5 +1,6 @@
-import { ComponentType, useEffect } from 'react';
+import { ComponentType, useEffect, useState } from 'react';
 
+import { Loader } from '@/components/common';
 import { useAppDispatch } from '@/hooks/redux';
 import LocalStorageManager, { LocalStorageManagerProps } from '@/services/localStorageManager';
 import { CacheMeta, CacheNames } from '@/types/cache';
@@ -23,9 +24,11 @@ export default function withCache<
       ...cacheOptions.storageManagerOptions,
       dispatch,
     });
+    const [isLoading, setIsLoading] = useState<boolean>(true);
 
-    useEffect(() => {
-      localStorageManager.retriveCache(cacheOptions.cacheName);
+    async function getData() {
+      await localStorageManager.retriveCache(cacheOptions.cacheName);
+      setIsLoading(false);
 
       if (cacheOptions.polling) {
         const intervalId = setInterval(() => {
@@ -34,9 +37,17 @@ export default function withCache<
 
         return () => clearInterval(intervalId);
       }
+    }
+
+    useEffect(() => {
+      getData();
     }, []);
 
-    return <WrappedComponent {...props} />;
+    return (
+      <Loader isLoading={isLoading}>
+        <WrappedComponent {...props} />
+      </Loader>
+    );
   };
 
   return ComponentWithCache;
