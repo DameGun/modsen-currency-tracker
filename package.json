@@ -12,6 +12,7 @@
     "format": "prettier --write .",
     "postinstall": "husky",
     "prepare": "husky install",
+    "test": "yarn test:jest & yarn test:cypress",
     "test:jest": "jest",
     "test:cypress": "cypress run"
   },
