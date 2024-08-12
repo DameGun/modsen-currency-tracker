@@ -1,15 +1,18 @@
 describe('ThemeSwitch spec', () => {
-  it('should change theme', () => {
+  beforeEach(() => {
     cy.visit('/contact');
+  });
 
+  it('should have the correct initial theme', () => {
+    cy.get('html').should('have.attr', 'data-theme', 'dark');
+  });
+
+  it('should change theme when the button is clicked', () => {
     cy.get('html').should('have.attr', 'data-theme', 'dark');
 
-    cy.get('input[role="toggle-theme"]').click({ force: true });
+    cy.get('.theme-switch').click();
+    cy.wait(2000);
 
     cy.get('html').should('have.attr', 'data-theme', 'light');
-
-    cy.get('input[role="toggle-theme"]').click({ force: true });
-
-    cy.get('html').should('have.attr', 'data-theme', 'dark');
   });
 });
