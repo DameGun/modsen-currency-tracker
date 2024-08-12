@@ -104,7 +104,7 @@ export default class ContactForm extends Component<ContactFormProps, ContactForm
 
   render() {
     return (
-      <form className='contact-form' onSubmit={this.handleFormSubmit}>
+      <form className='contact-form' onSubmit={this.handleFormSubmit} data-testid='contact-page'>
         <FormField
           labelText='First Name'
           isValidationFailed={this.state.errors.firstName}

@@ -138,7 +138,9 @@ class MapBox extends Component<MapBoxProps> {
   }
 
   render() {
-    return <div className='map-container' ref={this.mapContainerRef}></div>;
+    return (
+      <div className='map-container' ref={this.mapContainerRef} data-testid='banks-map-page'></div>
+    );
   }
 }
 

@@ -12,7 +12,7 @@ function BaseHomePage() {
 
   return (
     !currencies.isEmpty && (
-      <>
+      <div data-testid='home-page'>
         <CurrencyCardList
           key={CurrenciesCacheFields.crypto}
           label={CurrenciesCacheFields.crypto}
@@ -23,7 +23,7 @@ function BaseHomePage() {
           label={CurrenciesCacheFields.fiat}
           items={currencies.fiat}
         />
-      </>
+      </div>
     )
   );
 }

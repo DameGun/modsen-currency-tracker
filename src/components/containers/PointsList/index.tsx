@@ -111,7 +111,7 @@ export default class PointsList
       <div className='points-list'>
         <h4 className='points-list__info'>Add minimum 2 points per curency</h4>
         <h4 className='points-list__info'>Maximum {MAX_DATASETS} currencies allowed</h4>
-        <div className='points-list__container'>
+        <div className='points-list__container' data-testid='points-list'>
           {this.state.data &&
             this.state.data.map((dataset, datasetId) => (
               <Collapsible

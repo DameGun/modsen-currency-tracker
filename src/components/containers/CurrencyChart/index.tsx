@@ -86,7 +86,7 @@ export default class CurrencyChart
 
   render() {
     return (
-      <div className='chart-container'>
+      <div className='chart-container' data-testid='chart-container'>
         <canvas ref={this.chartRef} />
       </div>
     );

@@ -6,7 +6,7 @@ import { ROUTES } from '@/constants/routes';
 
 export default function NotFoundPage() {
   return (
-    <div className='not-found-container'>
+    <div className='not-found-container' data-testid='not-found-page'>
       <h1 className='not-found-container__title'>404 ERROR</h1>
       <p className='not-found-container__info'>This page not found. Back to home and start again</p>
       <Link to={ROUTES.home}>

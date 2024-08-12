@@ -115,7 +115,11 @@ class CreateChartPoint extends Component<CreateChartPointProps, CreateChartPoint
 
   render() {
     return (
-      <form className='create-chart-point__container' onSubmit={this.handleSubmit}>
+      <form
+        className='create-chart-point__container'
+        data-testid='create-point-form'
+        onSubmit={this.handleSubmit}
+      >
         <FormField
           className='create-chart-point__field'
           isValidationFailed={this.state.errors.currency}

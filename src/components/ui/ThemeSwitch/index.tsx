@@ -16,6 +16,7 @@ export default function ThemeSwitch() {
       <input
         className='theme-switch__button'
         type='checkbox'
+        role='toggle-theme'
         defaultChecked={mode == ColorMode.Light}
         onClick={handleChangeTheme}
       />

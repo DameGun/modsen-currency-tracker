@@ -17,12 +17,12 @@ class TimelinePage extends Observable<
 
   render() {
     return (
-      <>
+      <div data-testid='timeline-page'>
         <CurrencyChart attach={this.attach} detach={this.detach} />
         <CreateChartPoint notify={this.notify} />
         <PointsList attach={this.attach} detach={this.detach} notify={this.notify} />
         <Notification attach={this.attach} detach={this.detach} />
-      </>
+      </div>
     );
   }
 }

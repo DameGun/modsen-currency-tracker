@@ -5,13 +5,13 @@ import { RouterProvider } from 'react-router-dom';
 
 import '@/styles/index.scss';
 import { ThemeProvider } from '@/components/common';
-import { store } from '@/store';
+import { setupStore } from '@/store';
 import { router } from '@/utils/router';
 
 const root = createRoot(document.getElementById('root')!);
 root.render(
   <React.StrictMode>
-    <Provider store={store}>
+    <Provider store={setupStore()}>
       <ThemeProvider>
         <RouterProvider router={router} />
       </ThemeProvider>

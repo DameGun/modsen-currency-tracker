@@ -64,7 +64,7 @@ export default function Converter({ targetCurrency }: ConverterProps) {
   }, [debouncedBaseValue, fromSelectValue, toSelectValue]);
 
   return (
-    <div className='converter'>
+    <div className='converter' data-testid='converter'>
       <div className='converter__section'>
         <label className='converter__label'>From</label>
         <div className='converter__row'>
@@ -94,7 +94,7 @@ export default function Converter({ targetCurrency }: ConverterProps) {
             onChange={handleToSelectChange}
             selected={toSelectValue}
           />
-          <Input id='from' name='from' readOnly type='text' value={inputConvertValue} />
+          <Input id='to' name='to' readOnly type='text' value={inputConvertValue} />
         </div>
       </div>
     </div>
