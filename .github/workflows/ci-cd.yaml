@@ -49,6 +49,10 @@ jobs:
         with:
           start: yarn start
           wait-on: 'http://localhost:9000'
+        env:
+          MAPBOX_TOKEN: ${{ secrets.MAPBOX_TOKEN }}
+          API_KEY: ${{ secrets.API_KEY }}
+          API_BASE_URL: ${{ secrets.API_BASE_URL }}
 
   build_and_lint:
     runs-on: ubuntu-latest
