@@ -36,6 +36,6 @@ describe('Chart spec', () => {
 
     cy.wait(1000);
 
-    cy.get('canvas').toMatchImageSnapshot({ name: 'chart' });
+    cy.get('canvas').toMatchImageSnapshot();
   });
 });
