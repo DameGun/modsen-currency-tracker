@@ -48,7 +48,7 @@ jobs:
         uses: cypress-io/github-action@v6
         with:
           start: yarn start
-          wait-on: 'https://localhost:9000'
+          wait-on: 'http://localhost:9000'
 
   build_and_lint:
     runs-on: ubuntu-latest
