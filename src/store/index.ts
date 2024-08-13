@@ -1,15 +1,21 @@
-import { configureStore } from '@reduxjs/toolkit';
+import { combineReducers, configureStore } from '@reduxjs/toolkit';
 import banksReducer from './banks';
 import currenciesReducer from './currencies';
 import themeReducer from './theme';
 
-export const store = configureStore({
-  reducer: {
-    theme: themeReducer,
-    currencies: currenciesReducer,
-    banks: banksReducer,
-  },
+const rootReducer = combineReducers({
+  theme: themeReducer,
+  currencies: currenciesReducer,
+  banks: banksReducer,
 });
 
-export type RootState = ReturnType<typeof store.getState>;
-export type AppDispatch = typeof store.dispatch;
+export const setupStore = (preloadedState?: Partial<RootState>) => {
+  return configureStore({
+    reducer: rootReducer,
+    preloadedState,
+  });
+};
+
+export type AppStore = ReturnType<typeof setupStore>;
+export type RootState = ReturnType<typeof rootReducer>;
+export type AppDispatch = AppStore['dispatch'];

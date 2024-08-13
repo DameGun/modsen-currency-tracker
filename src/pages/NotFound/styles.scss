@@ -1,0 +1,14 @@
+@use '@/styles/abstracts/variables' as *;
+
+.not-found-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: $spacing-xs;
+  text-align: center;
+
+  &__button {
+    padding: 0 $padding-md;
+  }
+}

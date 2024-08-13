@@ -4,6 +4,10 @@
 
 .currency-card {
   @include flex-with-options(row, null, center);
+  animation-name: appear;
+  animation-duration: 1s;
+
+  animation-fill-mode: backwards;
 
   background-color: var(--color-gray-500);
   border-radius: $border-radius-md;
@@ -17,6 +21,15 @@
 
   &:hover {
     background-color: var(--color-gray-600);
+  }
+
+  @keyframes appear {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
   }
 
   @include tablet-mobile-breakpoint {

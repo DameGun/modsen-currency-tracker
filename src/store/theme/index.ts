@@ -1,7 +1,7 @@
 import { createSlice } from '@reduxjs/toolkit';
 
-import { RootState } from '@/store';
-import { ColorMode, ThemeState } from '@/types/theme';
+import type { RootState } from '@/store';
+import { ColorMode, type ThemeState } from '@/types/theme';
 import { getThemeFromStorage, setThemeToLocalStorage } from '@/utils/themeLocalStorage';
 
 const initialState: ThemeState = {

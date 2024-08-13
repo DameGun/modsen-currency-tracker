@@ -1,6 +1,6 @@
-import { Component, createRef, RefObject } from 'react';
+import { Component, createRef, type RefObject } from 'react';
 import { connect } from 'react-redux';
-import { LngLatLike, Map, Popup } from 'mapbox-gl';
+import { type LngLatLike, Map, Popup } from 'mapbox-gl';
 
 import './styles.scss';
 import customMarker from '@/assets/images/bank-marker.png';
@@ -117,7 +117,11 @@ class MapBox extends Component<MapBoxProps> {
 
   filterMapMarkers(filterTerm: string) {
     if (this.map) {
-      this.map.setFilter('banks', ['in', ['upcase', filterTerm], ['get', 'description']]);
+      this.map.setFilter('banks', [
+        'any',
+        ['in', ['upcase', filterTerm], ['upcase', ['get', 'title']]],
+        ['in', ['upcase', filterTerm], ['get', 'description']],
+      ]);
     }
   }
 
@@ -134,7 +138,9 @@ class MapBox extends Component<MapBoxProps> {
   }
 
   render() {
-    return <div className='map-container' ref={this.mapContainerRef}></div>;
+    return (
+      <div className='map-container' ref={this.mapContainerRef} data-testid='banks-map-page'></div>
+    );
   }
 }
 

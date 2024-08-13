@@ -8,7 +8,7 @@
     grid-template-columns: repeat(7, 1fr);
     column-gap: $padding-md-mobile;
     justify-content: center;
-    margin: $margin-md 0;
+    margin: $margin-sm 0;
 
     @include tablet-mobile-breakpoint {
       grid-template-columns: repeat(4, 1fr);

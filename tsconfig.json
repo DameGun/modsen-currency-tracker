@@ -20,8 +20,9 @@
     "baseUrl": "./src",
     "paths": {
       "@/*": ["*"]
-    }
+    },
+    "types": ["@testing-library/jest-dom", "node"]
   },
-  "include": ["src/**/*"],
+  "include": ["src/**/*", "cypress"],
   "exclude": ["node_modules", "dist"]
 }

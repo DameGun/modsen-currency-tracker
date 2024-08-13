@@ -3,8 +3,7 @@ import { CURRENCIES_REQUEST_POLLING_TIME } from '@/constants/cache';
 import { useAppSelector } from '@/hooks/redux';
 import { selectCurrencies, setCurrencies } from '@/store/currencies';
 import { fetchCurrencies } from '@/store/currencies/thunks';
-import type { CurrenciesCache } from '@/types/cache';
-import { CacheNames, CurrenciesCacheFields } from '@/types/cache';
+import { CacheNames, type CurrenciesCache, CurrenciesCacheFields } from '@/types/cache';
 import type { CurrenciesResponse } from '@/types/currencies';
 import withCache from '@/utils/withCache';
 
@@ -13,7 +12,7 @@ function BaseHomePage() {
 
   return (
     !currencies.isEmpty && (
-      <>
+      <div data-testid='home-page'>
         <CurrencyCardList
           key={CurrenciesCacheFields.crypto}
           label={CurrenciesCacheFields.crypto}
@@ -24,7 +23,7 @@ function BaseHomePage() {
           label={CurrenciesCacheFields.fiat}
           items={currencies.fiat}
         />
-      </>
+      </div>
     )
   );
 }

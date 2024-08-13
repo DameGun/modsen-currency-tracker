@@ -1,10 +1,10 @@
-import { ChangeEvent, Component } from 'react';
+import { type ChangeEvent, Component } from 'react';
 import { connect } from 'react-redux';
 
 import './styles.scss';
 import { SearchIcon } from '@/assets/icons';
 import { Input } from '@/components/ui';
-import { AppDispatch, RootState } from '@/store';
+import type { AppDispatch, RootState } from '@/store';
 import { setCurrentFocus, setSearchTerm } from '@/store/banks';
 import type { BanksGeo } from '@/types/mapbox';
 
@@ -34,6 +34,7 @@ class ElasticSearch extends Component<ElasticSearchProps, ElasticSearchState> {
     };
 
     this.handleChange = this.handleChange.bind(this);
+    this.handleHighlight = this.handleHighlight.bind(this);
   }
 
   static getDerivedStateFromProps(
@@ -53,21 +54,33 @@ class ElasticSearch extends Component<ElasticSearchProps, ElasticSearchState> {
   handleChange(e: ChangeEvent<HTMLInputElement>) {
     const inputValue = e.target.value;
 
-    if (this.state.filteredData) {
-      const filteredBanks = this.state.filteredData.features.filter((bank) =>
-        bank.properties.description.includes(inputValue.toUpperCase())
-      );
+    if (this.props.bankData) {
+      const filteredBanks = this.props.bankData.features.filter((bank) => {
+        const regexp = new RegExp(inputValue, 'gmi');
+        return regexp.test(bank.properties.description) || regexp.test(bank.properties.title);
+      });
 
       this.setState({
-        filteredData: { ...this.state.filteredData, features: [...filteredBanks] },
+        filteredData: { ...this.props.bankData, features: [...filteredBanks] },
       });
     }
 
-    this.props.handleSearchTerm(e.target.value);
+    this.props.handleSearchTerm(inputValue);
   }
 
   handleClick(coordinates: GeoJSON.Position) {
     this.props.handleCurrentFocus(coordinates);
+  }
+
+  handleHighlight(data: string) {
+    const regex = new RegExp(this.props.searchTerm, 'gmi');
+
+    return this.props.searchTerm
+      ? data.replace(
+          regex,
+          (match) => `<mark class="elastic-search__results__highlight">${match}</mark>`
+        )
+      : data;
   }
 
   render() {
@@ -89,7 +102,16 @@ class ElasticSearch extends Component<ElasticSearchProps, ElasticSearchState> {
                   key={bank.properties.title}
                   onClick={this.handleClick.bind(this, bank.geometry.coordinates)}
                 >
-                  {bank.properties.title}
+                  <p
+                    dangerouslySetInnerHTML={{
+                      __html: this.handleHighlight(bank.properties.title),
+                    }}
+                  ></p>
+                  <p
+                    dangerouslySetInnerHTML={{
+                      __html: this.handleHighlight(bank.properties.description),
+                    }}
+                  ></p>
                 </li>
               ))
             ) : (

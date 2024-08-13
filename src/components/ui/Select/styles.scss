@@ -16,10 +16,9 @@
 
   &__button {
     min-width: 90px;
+    gap: $padding-xs-mobile;
 
-    color: var(--primary-color);
-    padding: $padding-sm-mobile $padding-sm-mobile;
-
+    @extend %interaction-element-calculate-width;
     @include flex-with-options(row, space-between, center);
   }
 
@@ -34,7 +33,7 @@
   &__selected {
     &__arrow {
       transition: transform ease-in-out 0.3s;
-      height: 12px;
+      height: $size-sm;
 
       fill: var(--primary-color);
     }

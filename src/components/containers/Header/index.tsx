@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import cn from 'classnames';
 
 import './styles.scss';
@@ -9,6 +9,8 @@ import { ROUTES } from '@/constants/routes';
 
 export default function Header() {
   const [isOpen, setIsOpen] = useState<boolean>(false);
+  const linksClassName = ({ isActive }: { isActive: boolean }) =>
+    cn('navbar__link', { active: isActive });
 
   function handleOpen() {
     setIsOpen(true);
@@ -24,24 +26,24 @@ export default function Header() {
       <nav className={cn('navbar', { isMenu: isOpen }, { 'prevent-overflow': isOpen })}>
         <ul className={cn('navbar__links-list', { isMenu: isOpen })}>
           <li>
-            <Link className='navbar__link' to={ROUTES.home} onClick={handleClose}>
+            <NavLink className={linksClassName} to={ROUTES.home} onClick={handleClose}>
               Home
-            </Link>
+            </NavLink>
           </li>
           <li>
-            <Link className='navbar__link' to={ROUTES.timeline} onClick={handleClose}>
+            <NavLink className={linksClassName} to={ROUTES.timeline} onClick={handleClose}>
               Timeline
-            </Link>
+            </NavLink>
           </li>
           <li>
-            <Link className='navbar__link' to={ROUTES.banksMap} onClick={handleClose}>
+            <NavLink className={linksClassName} to={ROUTES.banksMap} onClick={handleClose}>
               Banks map
-            </Link>
+            </NavLink>
           </li>
           <li>
-            <Link className='navbar__link' to={ROUTES.contact} onClick={handleClose}>
+            <NavLink className={linksClassName} to={ROUTES.contact} onClick={handleClose}>
               Contacts
-            </Link>
+            </NavLink>
           </li>
         </ul>
       </nav>

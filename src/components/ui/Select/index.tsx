@@ -1,4 +1,4 @@
-import { ChangeEvent, useState } from 'react';
+import { type ChangeEvent, useState } from 'react';
 import cn from 'classnames';
 
 import './styles.scss';
@@ -24,7 +24,7 @@ export default function Select({ id, options, onChange, selected }: SelectProps)
   }
 
   return (
-    <div className={cn('select', { active: isOpen })}>
+    <div id={id} className={cn('select', { active: isOpen })}>
       <button
         className='select__button'
         role='combobox'

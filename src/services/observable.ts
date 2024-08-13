@@ -1,7 +1,11 @@
 import { Component } from 'react';
 
-import type { INotifier, IObservable, IObserver } from '@/types/observable';
-import { ObserveableActionType } from '@/types/observable';
+import {
+  type INotifier,
+  type IObservable,
+  type IObserver,
+  ObserveableActionType,
+} from '@/types/observable';
 
 export default class Observable<T> extends Component implements IObservable<T>, INotifier<T> {
   observers: IObserver<T>[];

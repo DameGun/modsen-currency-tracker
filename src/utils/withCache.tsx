@@ -1,8 +1,9 @@
-import { ComponentType, useEffect } from 'react';
+import { ComponentType, useEffect, useState } from 'react';
 
+import { ErrorBoundary, Loader } from '@/components/common';
 import { useAppDispatch } from '@/hooks/redux';
 import LocalStorageManager, { LocalStorageManagerProps } from '@/services/localStorageManager';
-import { CacheMeta, CacheNames } from '@/types/cache';
+import { type CacheMeta, CacheNames } from '@/types/cache';
 
 interface CacheWithPollingProps<TData extends CacheMeta, TResponse, Path extends string> {
   storageManagerOptions: Omit<LocalStorageManagerProps<TData, TResponse, Path>, 'dispatch'>;
@@ -23,9 +24,11 @@ export default function withCache<
       ...cacheOptions.storageManagerOptions,
       dispatch,
     });
+    const [isLoading, setIsLoading] = useState<boolean>(true);
 
-    useEffect(() => {
-      localStorageManager.retriveCache(cacheOptions.cacheName);
+    async function getData() {
+      await localStorageManager.retriveCache(cacheOptions.cacheName);
+      setIsLoading(false);
 
       if (cacheOptions.polling) {
         const intervalId = setInterval(() => {
@@ -34,9 +37,21 @@ export default function withCache<
 
         return () => clearInterval(intervalId);
       }
+    }
+
+    useEffect(() => {
+      getData();
     }, []);
 
-    return <WrappedComponent {...props} />;
+    return (
+      <ErrorBoundary
+        fallback={<h1>Error happed while trying to make a request. Please try again later</h1>}
+      >
+        <Loader isLoading={isLoading}>
+          <WrappedComponent {...props} />
+        </Loader>
+      </ErrorBoundary>
+    );
   };
 
   return ComponentWithCache;

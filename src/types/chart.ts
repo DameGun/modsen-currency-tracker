@@ -16,9 +16,17 @@ type PointValidationErrors = {
   currency: boolean;
 };
 
+enum PointCreationResultType {
+  isCreated = 'isCreated',
+  isFilled = 'isFilled',
+  isPointExists = 'isPointExists',
+  isAleadyFilled = 'isAleadyFilled',
+  isDatasetLimit = 'isDatasetLimit',
+}
+
 type PointCreationResult = {
   updatedData: ChartDataset<'candlestick'>[];
-  isCompleted: boolean;
+  status: PointCreationResultType;
 };
 
 export type {
@@ -27,3 +35,5 @@ export type {
   PointCreationResult,
   PointValidationErrors,
 };
+
+export { PointCreationResultType };

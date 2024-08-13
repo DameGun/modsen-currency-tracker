@@ -18,13 +18,27 @@
   }
 
   &__badge {
-    width: $size-md;
-    height: $size-md;
+    position: relative;
+    width: $size-lg;
+    height: $size-lg;
     background-color: var(--color-green);
     border-radius: 50%;
-    border-width: $border-radius-lg;
-    border-color: var(--color-green-dark);
-    border-style: solid;
+
+    & > span {
+      position: absolute;
+      background-color: var(--color-green-dark);
+      width: 100%;
+      height: 100%;
+      border-radius: inherit;
+      animation: pulse 2s ease-out infinite;
+    }
+
+    @keyframes pulse {
+      100% {
+        opacity: 0;
+        transform: scale(2);
+      }
+    }
 
     @include tablet-mobile-breakpoint {
       width: $size-sm;

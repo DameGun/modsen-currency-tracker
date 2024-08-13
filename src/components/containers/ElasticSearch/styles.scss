@@ -7,6 +7,7 @@
   position: relative;
   width: 25%;
   margin-bottom: $margin-md;
+  align-self: center;
 
   @include tablet-breakpoint {
     width: 50%;
@@ -33,6 +34,10 @@
     box-shadow: var(--color-black-alpha) 0 $offset-lg $blur-raduis-lg;
     max-height: $overflow-height-md;
     overflow-y: auto;
+
+    &__highlight {
+      background-color: var(--color-gray-300);
+    }
 
     & > li {
       padding: $padding-xs-mobile $padding-xs-mobile;

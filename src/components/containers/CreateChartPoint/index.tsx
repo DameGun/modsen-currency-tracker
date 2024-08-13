@@ -1,16 +1,15 @@
-import { ChangeEvent, Component, FormEvent } from 'react';
+import { type ChangeEvent, Component, type FormEvent } from 'react';
 import { connect } from 'react-redux';
 import { FinancialDataPoint } from 'chart.js';
 import { DateTime } from 'luxon';
-import FormField from '../FormField';
 
 import './styles.scss';
+import { FormField } from '@/components/containers';
 import { Button, Input, Select } from '@/components/ui';
 import { RootState } from '@/store';
 import { selectCurrenciesCodes } from '@/store/currencies';
 import type { FinancialDataPointToAdd, PointValidationErrors } from '@/types/chart';
-import type { INotifier } from '@/types/observable';
-import { ObserveableActionType } from '@/types/observable';
+import { type INotifier, ObserveableActionType } from '@/types/observable';
 
 const mapStateToProps = (state: RootState) => ({
   currencyCodes: Object.keys(selectCurrenciesCodes(state)),
@@ -116,7 +115,11 @@ class CreateChartPoint extends Component<CreateChartPointProps, CreateChartPoint
 
   render() {
     return (
-      <form className='create-chart-point__container' onSubmit={this.handleSubmit}>
+      <form
+        className='create-chart-point__container'
+        data-testid='create-point-form'
+        onSubmit={this.handleSubmit}
+      >
         <FormField
           className='create-chart-point__field'
           isValidationFailed={this.state.errors.currency}
